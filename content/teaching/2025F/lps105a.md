@@ -12,6 +12,8 @@ written and revised as we went, with an updated version posted after most
 weeks. Reading through the notes in advance of the week we covered them was
 helpful, especially for the week of your in-class presentation.
 
+[Class notes (PDF, final version of 2 December 2025)](/teaching/2025F/lps105a/set-theory-notes.pdf){: .button }
+
 Weekly written assignments were submitted [on Gradescope](https://www.gradescope.com/courses/1123725).
 
 I encourage you to start learning the LaTeX typesetting system. It is

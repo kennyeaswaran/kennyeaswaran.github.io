@@ -22,7 +22,10 @@ to it. That one-way flow is the whole integration: keep it that way.
 │   └── cv-body.md
 ├── templates/base.html  redirect.html  # shared page chrome
 ├── static/                             # copied verbatim to the site root
-│   ├── style.css  CNAME  easwaran-cv.pdf
+│   ├── style.css  easwaran-cv.pdf
+│   ├── papers/                         # publications (see below)
+│   ├── teaching/                       # course materials (see below)
+│   └── images/                         # home-page photos
 └── public/                             # build output (gitignored)
 ```
 
@@ -61,6 +64,30 @@ relative to the project root. This is how generated CV content reaches
 
 **Redirects.** `site.yaml`'s `redirects` map emits meta-refresh stubs so old
 Google Sites URLs keep working. Add an entry whenever a page moves.
+
+**Where PDFs live.** The split is by kind of thing, not by convenience:
+
+- `static/papers/` — publications only, plus the few items that are
+  structurally the same sort of object: the dissertation, the *Cheerful
+  Introduction to Forcing*, the note revisiting *Why Countable Additivity?*,
+  and the *Cities after COVID* essay. Filenames match the publication `id` in
+  the CV store, which is what `pdf:` fields point at.
+- `static/teaching/` — course materials. Files for a specific course sit beside
+  that course's page (`static/teaching/2025F/lps105a/set-theory-notes.pdf`
+  serves at `/teaching/2025F/lps105a/set-theory-notes.pdf`); material not tied
+  to one course sits at the top (`static/teaching/godels-theorem.pdf`).
+
+`copy_static` merges directories rather than replacing them, which is what lets
+`static/teaching/2025F/…` coexist with the pages `content/teaching/2025F/…`
+generates.
+
+**Course pages** live at `/teaching/<YYYY><term>/<course>/`, where term is
+`W`, `S`, `Su`, or `F`, and course is the department abbreviation plus the
+primary (undergraduate) number, lowercase and unpunctuated: `lps105a`,
+`phil485`, `arlt100g`. Each term directory gets an `index.md` so that trimming
+a URL back to the term doesn't 404. Every migrated page needs a `redirects`
+entry for its old Google Sites path, and a `page:` field on the matching record
+in the CV project's `data/teaching.yaml`.
 
 ## Styling conventions
 

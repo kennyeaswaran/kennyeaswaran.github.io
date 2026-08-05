@@ -123,5 +123,5 @@ expanded: ["At the University of California, Irvine"]
 
 ## Inquiry-based learning notes
 
-- [Gödel's Theorem](/papers/godels-theorem-notes.pdf)
-- [Set Theory and the Axiom of Choice](/papers/set-theory-axiom-of-choice-notes.pdf)
+- [Gödel's Theorem](/teaching/godels-theorem.pdf)
+- [Set Theory and the Axiom of Choice](/teaching/set-theory-axiom-of-choice.pdf)

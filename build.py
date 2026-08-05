@@ -261,13 +261,19 @@ def write_redirects(config, env):
 
 
 def copy_static():
-    """Copy static/ into the site root, so static/style.css lands at /style.css."""
+    """Copy static/ into the site root, so static/style.css lands at /style.css.
+
+    Directories are merged rather than replaced, because static/ deliberately
+    shadows paths that content/ also generates: a course handout lives at
+    static/teaching/2025F/lps105a/notes.pdf and is served next to the page at
+    /teaching/2025F/lps105a/, which build_pages has already created.
+    """
     if not STATIC.exists():
         return
     for item in STATIC.iterdir():
         dest = OUTPUT / item.name
         if item.is_dir():
-            shutil.copytree(item, dest)
+            shutil.copytree(item, dest, dirs_exist_ok=True)
         else:
             shutil.copy2(item, dest)
     print(f"  static/ -> {OUTPUT.name}/")
