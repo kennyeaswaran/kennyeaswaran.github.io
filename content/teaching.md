@@ -3,7 +3,7 @@ title: "Teaching"
 description: "Courses taught at UC Irvine, Texas A&M University, and the University of Southern California."
 updated: "August 2026"
 collapsible: true
-collapsed: ["Texas A&M", "Southern California"]
+expanded: ["At the University of California, Irvine"]
 ---
 
 ## At the University of California, Irvine

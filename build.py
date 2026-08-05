@@ -116,12 +116,17 @@ def expand_includes(text, source, seen=None):
 def make_collapsible(html, meta, source):
     """Wrap each `## ` section in a <details> block so it can be folded away.
 
-    Switched on with `collapsible: true` in a page's front matter. Sections are
-    open by default — collapsed content is still in the page source, so search
-    engines and screen readers see it either way, but a reader arriving at a
-    long page should see the content, not a row of shut drawers. List the
-    headings that *should* start closed under `collapsed:` (substring match),
-    or use `collapsed: all`.
+    Switched on with `collapsible: true` in a page's front matter. Which
+    sections start open is then set either way round:
+
+        expanded: ["Book"]        everything closed except these
+        collapsed: ["Book"]       everything open except these
+
+    Headings are matched in full, case-insensitively — not as substrings, so
+    that `expanded: ["Book"]` opens "Book" without also opening "Book reviews".
+    Write the heading out as it appears on the page. With neither key, all
+    sections start open. Collapsed content is still present in the HTML, so
+    search engines and screen readers see it either way.
 
     This uses the browser's own <details> element: no JavaScript, keyboard
     accessible for free, and it degrades to plain visible text in browsers that
@@ -135,9 +140,26 @@ def make_collapsible(html, meta, source):
     if not meta.get("collapsible"):
         return html
 
-    closed = meta.get("collapsed") or []
-    if isinstance(closed, str):
-        closed = "all" if closed == "all" else [closed]
+    def listify(v):
+        return [v] if isinstance(v, str) else (v or [])
+
+    expanded = listify(meta.get("expanded"))
+    closed = listify(meta.get("collapsed"))
+
+    def matches(name, patterns):
+        return any(p.strip().lower() == name.lower() for p in patterns)
+
+    def starts_shut(name):
+        if expanded:                       # allow-list wins if present
+            return not matches(name, expanded)
+        return matches(name, closed)
+
+    for group in (expanded, closed):       # warn about headings that don't exist
+        for pat in group:
+            if pat.strip().lower() not in {
+                    html_lib.unescape(re.sub(r"<[^>]+>", "", t)).strip().lower()
+                    for t in H2_RE.findall(html)}:
+                print(f"    warning: {source} lists '{pat}' but no such heading")
 
     parts = H2_RE.split(html)          # [preamble, title, body, title, body, ...]
     if len(parts) == 1:
@@ -149,7 +171,7 @@ def make_collapsible(html, meta, source):
         # Unescape entities before matching: a heading like "Texas A&M" reaches
         # us as "Texas A&amp;M", which would never match what's in the yaml.
         plain = html_lib.unescape(re.sub(r"<[^>]+>", "", title)).strip()
-        shut = closed == "all" or any(c.lower() in plain.lower() for c in closed)
+        shut = starts_shut(plain)
         out.append(
             f'<details class="section"{"" if shut else " open"}>\n'
             f"<summary><h2>{title}</h2></summary>\n"
