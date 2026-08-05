@@ -50,8 +50,6 @@ Office: YMCA 422
 
 Office Hours: Wednesday 3:30-5:30, or by appointment.
 
-Important Stuff to Know
-
 Dong An - dong_an AT tamu DOT edu - sections 507, 508, 509
 
 Office: YMCA 315
@@ -173,7 +171,7 @@ Reading: Chapter 1, sections 1-4
 Assignment:
 
 Homework 1: Exercises 1.8 (6 pts) and 1.10 (8 pts), to your TA (by e-mail or
-hard copy) by class time on Monday, Jan. 22.
+hard copy) by class time on Monday, Jan. 22. If you don't have the book yet, the relevant pages are [here](/teaching/phil240/homework-1-pages.pdf).
 
 **Jan. 22, 24**
 
@@ -230,7 +228,7 @@ you errors, then e-mail the file to your TA and explain the problem.
 
 Reading:
 
-Sections 1-4 of the Reading on Inductive Logic and Probability
+Sections 1-4 of the [Reading on Inductive Logic and Probability](/teaching/phil240/inductive-logic-and-probability.pdf)
 
 Brian Skyrms, *Choice and Chance*, Chapter 2
 
@@ -240,15 +238,15 @@ Supplemental reading:
 - [an explanation of Bayes' Theorem](https://betterexplained.com/articles/an-intuitive-and-short-explanation-of-bayes-theorem/), which is a technique we will use later to calculate probabilities
 - [more on Bayes' Theorem](https://plato.stanford.edu/entries/bayes-theorem/index.html) - the first section or two are most helpful, and perhaps the linked appendix with examples worked out
 
-Homework 4.5 - this is the updated version
+[Homework 4.5](/teaching/phil240/homework-4.5.pdf) - this is the updated version
 
 **Feb. 19 - review in class**
 
 **MIDTERM 1: FEBRUARY 21**
 
-*sample 1* and *answers*
+[***sample 1***](/teaching/phil240/midterm-1-sample-1.pdf) [***answers***](/teaching/phil240/midterm-1-sample-1-answers.pdf)
 
-*sample 2* and *answers*
+[***sample 2***](/teaching/phil240/midterm-1-sample-2.pdf) [***answers***](/teaching/phil240/midterm-1-sample-2-answers.pdf)
 
 The SI session on Tuesday, Feb. 20 will be longer - it will be in Harrington
 105, from 8 to 9:40 pm.
@@ -289,7 +287,7 @@ Reading:
 
 Chapter 7, section 1-3
 
-Sections 5 and 6 of the Reading on Inductive Logic and Probability
+Sections 5 and 6 of the [Reading on Inductive Logic and Probability](/teaching/phil240/inductive-logic-and-probability.pdf)
 
 Assignment:
 
@@ -318,9 +316,9 @@ Instead, lab assignments for Chapter 8 will be done on April 5 or 6
 
 **MIDTERM 2: APRIL 4**
 
-*Sample 1* and *answers*
+[***Sample 1***](/teaching/phil240/midterm-2-sample-1.pdf) [***answers***](/teaching/phil240/midterm-2-sample-1-answers.pdf)
 
-*Sample 2* and *answers*
+[***Sample 2***](/teaching/phil240/midterm-2-sample-2.pdf) [***answers***](/teaching/phil240/midterm-2-sample-2-answers.pdf)
 
 *(answers will be posted again as it gets closer)*
 
@@ -360,6 +358,6 @@ from 7-9 pm.**
 
 **Final exam: Thursday, May 3, 7:30 am-9:30 am**
 
-*Sample 1* and *answers*
+[***Sample 1***](/teaching/phil240/final-sample-1.pdf) [***answers***](/teaching/phil240/final-sample-1-answers.pdf)
 
-*Sample 2* and *answers*
+[***Sample 2***](/teaching/phil240/final-sample-2.pdf) [***answers***](/teaching/phil240/final-sample-2-answers.pdf)
