@@ -56,8 +56,8 @@ expanded: ["At the University of California, Irvine"]
     - Phil 663: Seminar in Epistemology — Foundations of Bayesianism
 - <span class="term">2020 Fall</span>
     - Phil 351: Theory of Knowledge
-- <span class="term">2020 Spring</span>
-    - Phil 351: Theory of Knowledge
+- <span class="term">[2020 Spring](/teaching/2020S/)</span>
+    - [Phil 351: Theory of Knowledge](/teaching/2020S/phil351/)
 - <span class="term">2019 Fall</span>
     - Phil 424: Philosophy of Language
 - <span class="term">2019 Spring</span>

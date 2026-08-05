@@ -75,6 +75,51 @@ These use a wrapper so the list gets the right styling:
 `{: .alt }` makes a link small and grey — used for the secondary
 "(journal)" and "(publisher)" links.
 
+## Course pages
+
+Each course gets a page at `/teaching/<year><term>/<course>/`, where term is
+`W`, `S`, `Su`, or `F` and course is the department abbreviation plus the
+undergraduate number — so `content/teaching/2026F/lps105a.md` serves at
+`/teaching/2026F/lps105a/`. Give each term folder an `index.md` too, so that
+someone trimming the URL back to `/teaching/2026F/` doesn't hit a 404.
+
+Files that belong to a course — handouts, slides, notes — go in the matching
+folder under `static/`:
+
+```
+content/teaching/2026F/lps105a.md                     the page
+static/teaching/2026F/lps105a/set-theory-notes.pdf    a file it links to
+```
+
+### Revising notes during a term
+
+**Keep one filename and overwrite it.** Don't post `notes-oct-6.pdf`,
+`notes-oct-20.pdf` and so on the way the old site did — that was a workaround
+for Google Sites having no version history. Git keeps every version you commit,
+so nothing is lost, and students always get the current file from a link that
+never changes.
+
+Put the date in the link text and edit that line when you update:
+
+```markdown
+[Class notes (PDF, updated 6 October 2026)](/teaching/2026F/lps105a/set-theory-notes.pdf){: .button }
+```
+
+(It isn't automatic because git doesn't preserve file modification times, so an
+auto-generated date would show when the site was last deployed, not when you
+last revised the notes.)
+
+After pushing, allow up to ten minutes before the new PDF appears — that's
+GitHub's cache, not a failed deploy.
+
+### Readings by other people
+
+Host your own work; link out for everyone else's. When a syllabus cites a book
+chapter or article that isn't yours, give the citation and no link — don't put
+a scan on the site. A PDF shared privately with a class is one thing; the same
+file served from kennyeaswaran.org is another. Anyone reading an old syllabus
+can find their own copy.
+
 ## Updating the CV
 
 The CV page and the downloadable PDF both come from the CV project in
