@@ -1,7 +1,7 @@
 ---
 title: "Phil 641: Mathematical Logic"
-term: "Spring 2019"
-description: "Mathematical logic at Texas A&M, Spring 2019 — sizes of infinity, soundness and completeness, and the incompleteness of arithmetic."
+term: "Spring 2017"
+description: "Mathematical logic at Texas A&M, Spring 2017 — enumerability, first-order logic, recursive functions, and the first incompleteness theorem."
 collapsible: true
 expanded: ["Mathematical Logic"]
 ---
@@ -16,7 +16,7 @@ Instructor: Kenny Easwaran
 
 YMCA 314
 
-Office Hours: By appointment
+Office Hours:
 
 There are three main skills that I want to develop through this class. The two
 most important ones are the skills of being able to write up a mathematical
@@ -43,10 +43,6 @@ these results years from now, but having worked through the details at least
 once will give you a good basis for revisiting them (or other mathematical
 results) when they might become relevant in your future careers.
 
-The textbook is [Boolos, Burgess, and Jeffrey, *Computability and Logic*](https://books.google.com/books/about/Computability_and_Logic.html?id=kKPA1DF-g44C)
-but it will be supplemented by my own notes. There are many other texts that
-supply relevant material and I can point you to the relevant chapters of each.
-
 ["An Aggie does not lie, cheat or steal, or tolerate those who do."](http://aggiehonor.tamu.edu/)
 
 The Americans with Disabilities Act (ADA) is a federal anti-discrimination
@@ -60,20 +56,71 @@ Cain Hall, Room B118, or call 845-1637. For additional information visit
 
 ## Material
 
-#### Sizes of Infinity
+This course will be taught from Boolos, Burgess, and Jeffrey, *Computability
+and Logic*
 
-Boolos, Burgess, and Jeffrey: Chapters 1 and 2
+The readings and topics we will cover are (in order) the following:
 
-Relevant videos: [Why .9999...=1](https://www.youtube.com/watch?v=TINfzxSnnIE)
+Chapter 1 - enumerability
 
-#### The soundness and completeness of deductive logic
+Chapter 2 - uncountability
 
-Boolos, Burgess, and Jeffrey: Chapters 9 and 10
+Chapter 9 - syntax of first-order logic
 
-[Handout on deductive logic](/teaching/phil641/deduction.pdf)
+Chapter 10 - semantics of first-order logic
 
-#### The essential incompleteness of arithmetic
+[Handout on deduction](/teaching/phil641/deduction.pdf)
 
-Boolos, Burgess, and Jeffrey: Chapters 15, 16, and 17
+Chapter 6 - primitive recursive functions
 
-[Handout on incompleteness](/teaching/godels-theorem.pdf)
+Chapter 7 - recursive functions and relations
+
+Chapter 15 - computability and logic
+
+Chapter 16 - representation of recursive functions in logic
+
+Chapter 17 - the first incompleteness theorem
+
+If you want a second source on any of this material, ask me for other notes.
+
+## Schedule
+
+The class meets on Monday/Wednesday, from 3:00-4:15 pm, in YMCA 401.
+
+I will be out of town the weeks of March 20-23 and April 3-7 - we might
+re-schedule the two missed days each week, or arrange for an alternate
+instructor, or take the time for a review of previously covered material.
+
+Spring break is the week of March 13-17.
+
+There will be no final exam.
+
+## Assignments
+
+due 1/30, Exercise 1.2
+
+due 2/6, Exercise 1.1
+
+2/13
+
+2/20
+
+2/27
+
+3/6
+
+SPRING BREAK
+
+MISSING WEEK
+
+3/27
+
+MISSING WEEK
+
+4/10
+
+4/17
+
+4/24
+
+5/1
