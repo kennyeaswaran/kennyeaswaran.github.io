@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title and current_url != "/" %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+{% if page.description %}<meta name="description" content="{{ page.description }}">
+<meta property="og:description" content="{{ page.description }}">{% endif %}
+<meta property="og:title" content="{% if page.title and current_url != '/' %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ site.base_url }}{{ current_url }}">
+<link rel="canonical" href="{{ site.base_url }}{{ current_url }}">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-name" href="/">{{ site.title }}</a>
+    <nav aria-label="Main">
+      <ul>
+      {% for item in site.nav %}
+        <li><a href="{{ item.url }}"{% if item.url == current_url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+{% if page.title and not page.show_title == false %}
+  <h1>{{ page.title }}</h1>
+{% endif %}
+{{ content }}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <span class="sep">·</span>
+      <a href="https://orcid.org/{{ site.orcid }}">ORCID {{ site.orcid }}</a>
+    </p>
+    {% if page.updated %}<p class="muted">Page updated {{ page.updated }}.</p>{% endif %}
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+# ============================================================================
+# site.yaml — global site configuration
+#
+# Everything here is used by build.py. The `nav` list is the single source of
+# truth for the site's navigation: add an entry here and it appears in the
+# header of every page. No other file needs to change.
+# ============================================================================
+
+title: "Kenny Easwaran"
+tagline: "Professor of Logic and Philosophy of Science, University of California, Irvine"
+author: "Kenny Easwaran"
+base_url: "https://www.kennyeaswaran.org"
+email: "k.easwaran@uci.edu"
+orcid: "0000-0002-2278-6257"
+
+# Header navigation, in display order.
+# `url` must match the page's output path (see build.py's URL rules).
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Teaching"
+    url: "/teaching/"
+  - title: "CV"
+    url: "/cv/"
+
+# Old Google Sites paths that should redirect to their new homes, so existing
+# links and search-engine results keep working. Add to this list if you ever
+# rename a page.
+redirects:
+  "/home": "/"
+  "/research": "/publications/"

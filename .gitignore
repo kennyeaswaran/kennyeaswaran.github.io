@@ -1,0 +1,9 @@
+# Build output — regenerated on every build, and rebuilt by GitHub Actions
+# on deploy, so there is no reason to track it.
+public/
+
+# macOS and Python noise
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
