@@ -67,7 +67,7 @@ expanded: ["At the University of California, Irvine"]
 - <span class="term">[2018 Spring](/teaching/2018S/)</span>
     - [Phil 240: Introduction to Logic](/teaching/2018S/phil240/)
 - <span class="term">[2017 Fall](/teaching/2017F/)</span>
-    - Phil 240: Introduction to Logic
+    - [Phil 240: Introduction to Logic](/teaching/2017F/phil240/)
     - [Phil 351: Theory of Knowledge](/teaching/2017F/phil351/)
 - <span class="term">2017 Spring</span>
     - Phil 240: Introduction to Logic
