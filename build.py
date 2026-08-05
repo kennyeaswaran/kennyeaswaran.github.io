@@ -30,6 +30,7 @@ Dependencies:  pip install pyyaml jinja2 markdown
 
 import argparse
 import hashlib
+import html as html_lib
 import re
 import shutil
 import sys
@@ -54,6 +55,9 @@ OUTPUT = ROOT / "public"
 # An HTML comment is used so that the raw .md file still previews cleanly in
 # any Markdown editor.
 INCLUDE_RE = re.compile(r"^[ \t]*<!--[ \t]*include:[ \t]*(\S+?)[ \t]*-->[ \t]*$", re.MULTILINE)
+
+# Used to split a rendered page into its top-level sections.
+H2_RE = re.compile(r"<h2[^>]*>(.*?)</h2>", re.DOTALL)
 
 MARKDOWN_EXTENSIONS = [
     "attr_list",   # {: .class } annotations on elements
@@ -109,6 +113,51 @@ def expand_includes(text, source, seen=None):
     return INCLUDE_RE.sub(replace, text)
 
 
+def make_collapsible(html, meta, source):
+    """Wrap each `## ` section in a <details> block so it can be folded away.
+
+    Switched on with `collapsible: true` in a page's front matter. Sections are
+    open by default — collapsed content is still in the page source, so search
+    engines and screen readers see it either way, but a reader arriving at a
+    long page should see the content, not a row of shut drawers. List the
+    headings that *should* start closed under `collapsed:` (substring match),
+    or use `collapsed: all`.
+
+    This uses the browser's own <details> element: no JavaScript, keyboard
+    accessible for free, and it degrades to plain visible text in browsers that
+    don't support it.
+
+    Note the structural requirement: sections are split at top-level <h2>, so a
+    page using this must not wrap its headings inside a container <div> — the
+    <details> tags would interleave with it and produce invalid nesting. Pages
+    that need list styling should use `body_class:` instead of a wrapper div.
+    """
+    if not meta.get("collapsible"):
+        return html
+
+    closed = meta.get("collapsed") or []
+    if isinstance(closed, str):
+        closed = "all" if closed == "all" else [closed]
+
+    parts = H2_RE.split(html)          # [preamble, title, body, title, body, ...]
+    if len(parts) == 1:
+        print(f"    note: {source} sets collapsible but has no '## ' sections")
+        return html
+
+    out = [parts[0]]
+    for title, body in zip(parts[1::2], parts[2::2]):
+        # Unescape entities before matching: a heading like "Texas A&M" reaches
+        # us as "Texas A&amp;M", which would never match what's in the yaml.
+        plain = html_lib.unescape(re.sub(r"<[^>]+>", "", title)).strip()
+        shut = closed == "all" or any(c.lower() in plain.lower() for c in closed)
+        out.append(
+            f'<details class="section"{"" if shut else " open"}>\n'
+            f"<summary><h2>{title}</h2></summary>\n"
+            f"{body}</details>\n"
+        )
+    return "".join(out)
+
+
 def output_path_for(md_file):
     """Map a content/ Markdown file to (output file, its URL)."""
     rel = md_file.relative_to(CONTENT).with_suffix("")
@@ -157,7 +206,7 @@ def build():
         body = expand_includes(body, source)
 
         md.reset()
-        html = md.convert(body)
+        html = make_collapsible(md.convert(body), meta, source)
 
         out_file, url = output_path_for(md_file)
         out_file.parent.mkdir(parents=True, exist_ok=True)
