@@ -97,3 +97,20 @@ git push
 
 GitHub Actions builds and deploys automatically — usually live within a minute.
 If something goes wrong, the repository's **Actions** tab shows the error.
+
+## Switching the domain over (not yet done)
+
+Until `kennyeaswaran.org` is pointed at GitHub, the site lives at
+`https://<username>.github.io/<repo>/`.
+
+`CNAME.disabled` in this folder is the file that claims the custom domain. It
+is deliberately *outside* `static/`, so it is not published. Publishing it
+early would make GitHub redirect the github.io address to
+`www.kennyeaswaran.org`, which still points at Google Sites — so the preview
+would appear to show the old site.
+
+When the DNS records are in place, move it into `static/` and push:
+
+```
+mv CNAME.disabled static/CNAME
+```
