@@ -70,10 +70,10 @@ Relevant videos: [Why .9999...=1](https://www.youtube.com/watch?v=TINfzxSnnIE)
 
 Boolos, Burgess, and Jeffrey: Chapters 9 and 10
 
-Handout on deductive logic
+[Handout on deductive logic](/teaching/2019S/phil641/deduction.pdf)
 
 #### The essential incompleteness of arithmetic
 
 Boolos, Burgess, and Jeffrey: Chapters 15, 16, and 17
 
-Handout on incompleteness
+[Handout on incompleteness](/teaching/godels-theorem.pdf)
