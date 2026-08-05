@@ -31,3 +31,12 @@ nav:
 redirects:
   "/home": "/"
   "/research": "/publications/"
+
+  # Course pages migrated from Google Sites, August 2026. The old paths are
+  # what Google indexed and what any syllabus or email links to, so each one
+  # keeps working. Add a pair here whenever a course page moves.
+  "/teaching/2026-winter": "/teaching/2026W/"
+  "/teaching/2026-winter/2026-ai-seminar": "/teaching/2026W/lps221/"
+  "/teaching/2026-ai-seminar": "/teaching/2026W/lps221/"
+  "/teaching/2025-fall": "/teaching/2025F/"
+  "/teaching/2025-fall/lps-105a": "/teaching/2025F/lps105a/"

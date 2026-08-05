@@ -10,12 +10,12 @@ expanded: ["At the University of California, Irvine"]
 
 <div class="terms" markdown="1">
 
-- <span class="term">2026 Winter</span>
+- <span class="term">[2026 Winter](/teaching/2026W/)</span>
     - LPS 31: Probability and Inductive Logic
-    - [LPS 221: Seminar on Knowing How, Knowing That, and AI](/teaching/2026-ai-seminar/)
-- <span class="term">2025 Fall</span>
+    - [LPS 221: Seminar on Knowing How, Knowing That, and AI](/teaching/2026W/lps221/)
+- <span class="term">[2025 Fall](/teaching/2025F/)</span>
     - SocSci 19: AI Literacy
-    - LPS 105A/205A: Set Theory and Mathematical Reasoning
+    - [LPS 105A/205A: Set Theory and Mathematical Reasoning](/teaching/2025F/lps105a/)
 - <span class="term">2025 Summer</span>
     - SocSci 19: AI Literacy
 - <span class="term">2025 Spring</span>

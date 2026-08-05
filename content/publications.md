@@ -4,7 +4,7 @@ description: "Research in formal epistemology, decision theory, and the philosop
 updated: "August 2026"
 body_class: "bib"
 collapsible: true
-expanded: ["Book"]
+expanded: ["Media and public writing", "Book"]
 ---
 
 <!--
