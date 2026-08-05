@@ -5,6 +5,7 @@ description: "Kenny Easwaran is Professor in the Department of Logic and Philoso
 ---
 
 <img class="photo right" src="/images/2026-08-uci-balcony.jpg" alt="Kenny Easwaran in 2026, with red and yellow hair, on a balcony overlooking the UC Irvine campus">
+<img class="photo left" src="/images/2026-05-joshua-tree.jpg" alt="Kenny Easwaran in 2026, with teal hair and sunglasses, in front of a Joshua tree">
 
 I am Professor in the [Department of Logic and Philosophy of Science](https://www.lps.uci.edu/)
 at the [University of California, Irvine](https://www.uci.edu/).
@@ -26,7 +27,8 @@ decision making, with lessons to be drawn in both directions.
 
 ## Before Irvine
 
-<img class="photo left" src="/images/2026-05-joshua-tree.jpg" alt="Kenny Easwaran in 2026, with teal hair and sunglasses, in front of a Joshua tree">
+<img class="photo right" src="/images/2020-princeton-talk.jpg" alt="Kenny Easwaran in 2020, with red hair, holding a handout while giving a talk at Princeton">
+<img class="photo left" src="/images/2018-06-texas-am.jpg" alt="Kenny Easwaran in 2018, with blue hair, on the Texas A&amp;M campus">
 
 I got my PhD from the [Group in Logic and the Methodology of Science](http://logic.berkeley.edu)
 at [UC Berkeley](http://www.berkeley.edu) in 2008.
@@ -45,8 +47,6 @@ and was Academic Coordinator there in the summer of 2010.
 
 ## Students and family
 
-<img class="photo right" src="/images/2023-10-office.jpg" alt="Kenny Easwaran in 2023, with green curly hair and a patterned shirt">
-
 My former PhD students are
 [Justin Dallmann](https://jdallmann.org/about/), who I supervised at USC, and
 [Sean Conte](https://sites.google.com/view/seanrconte/home), who I supervised
@@ -54,12 +54,11 @@ at Texas A&M.
 
 My partner Matthew Sheldon is in the Chemistry department at UC Irvine.
 
-## Earlier
+## Other photos
 
 <div class="photo-row" markdown="1">
 
-![Kenny Easwaran in 2020, with red hair, holding a handout while giving a talk at Princeton](/images/2020-princeton-talk.jpg)
-![Kenny Easwaran in 2018, with blue hair, on the Texas A&M campus](/images/2018-06-texas-am.jpg)
+![Kenny Easwaran in 2023, with green curly hair and a patterned shirt](/images/2023-10-office.jpg)
 ![Kenny Easwaran in 2018, listening during a seminar at Princeton](/images/2018-05-princeton.jpg)
 
 </div>

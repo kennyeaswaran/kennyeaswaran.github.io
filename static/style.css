@@ -254,11 +254,13 @@ main a.alt:hover { color: var(--accent); }
   margin-bottom: 1.75rem;
 }
 
-/* Photos beside a block of text, alternating sides down the page.
-   Use <img class="photo right"> or <img class="photo left">. */
+/* Photos beside a block of text. Use <img class="photo right"> or
+   <img class="photo left">; a section may carry one of each, in which case
+   the text runs down the channel between them. 180px is chosen so that two
+   photos plus their margins still leave a readable column in the middle. */
 
 .photo {
-  width: 200px;
+  width: 180px;
   border-radius: 3px;
   display: block;
 }
@@ -291,6 +293,9 @@ main h2 { clear: both; }
 .photo-row img {
   flex: 1 1 0;
   min-width: 0;
+  /* Capped so that a row of two doesn't balloon to half the page each; the
+     row stays left-aligned and the tiles match the floated photos in scale. */
+  max-width: 210px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center 30%;

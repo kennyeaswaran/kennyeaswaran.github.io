@@ -29,6 +29,7 @@ Dependencies:  pip install pyyaml jinja2 markdown
 """
 
 import argparse
+import hashlib
 import re
 import shutil
 import sys
@@ -122,6 +123,20 @@ def output_path_for(md_file):
 # Building
 # ---------------------------------------------------------------------------
 
+def asset_version(filename):
+    """Short hash of a file in static/, appended to its URL as ?v=...
+
+    Browsers cache stylesheets aggressively, so an edit to style.css can go
+    unnoticed for hours behind a stale copy. Changing the URL whenever the
+    file's contents change sidesteps that entirely: same file, same URL, so
+    caching still works; different file, different URL, so it can't go stale.
+    """
+    path = STATIC / filename
+    if not path.exists():
+        return ""
+    return hashlib.sha256(path.read_bytes()).hexdigest()[:8]
+
+
 def build():
     config = yaml.safe_load((ROOT / "site.yaml").read_text())
     env = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=False)
@@ -152,6 +167,7 @@ def build():
             content=html,
             current_url=url,
             build_year=date.today().year,
+            css_version=asset_version("style.css"),
         ))
         print(f"  {source:40s} -> {url}")
 
