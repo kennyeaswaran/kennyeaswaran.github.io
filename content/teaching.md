@@ -121,5 +121,5 @@ updated: "August 2026"
 
 ## Inquiry-based learning notes
 
-- [Gödel's Theorem](https://www.dropbox.com/s/je8j8m0ohdl3ge6/godel.pdf?raw=1)
-- [Set Theory and the Axiom of Choice](https://www.dropbox.com/s/xmctum000ez6y0e/IBLsettheory.pdf?raw=1)
+- [Gödel's Theorem](/papers/godels-theorem-notes.pdf)
+- [Set Theory and the Axiom of Choice](/papers/set-theory-axiom-of-choice-notes.pdf)

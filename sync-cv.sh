@@ -33,6 +33,7 @@ echo "Generating from $CV_PROJECT ..."
 cd "$CV_PROJECT"
 
 python3 generate_cv.py profiles/web-cv.yaml --no-pdf
+python3 generate_cv.py profiles/web-publications.yaml --no-pdf
 python3 generate_cv.py profiles/complete-cv.yaml
 
 mkdir -p "$SITE/generated" "$SITE/static"
@@ -40,11 +41,14 @@ mkdir -p "$SITE/generated" "$SITE/static"
 # Keep everything from the first "## " heading onward. The generator emits a
 # title block (name, contact line, "Updated ...") above that, which would
 # duplicate the website's own page header.
-awk '/^## /{found=1} found' build/web-cv.md > "$SITE/generated/cv-body.md"
+awk '/^## /{found=1} found' build/web-cv.md          > "$SITE/generated/cv-body.md"
+awk '/^## /{found=1} found' build/web-publications.md > "$SITE/generated/publications-list.md"
 
 cp build/complete-cv.pdf "$SITE/static/easwaran-cv.pdf"
 
 cd "$SITE"
-lines=$(wc -l < generated/cv-body.md | tr -d ' ')
-echo "Wrote generated/cv-body.md ($lines lines) and static/easwaran-cv.pdf"
+for f in generated/cv-body.md generated/publications-list.md; do
+  echo "  $f ($(wc -l < "$f" | tr -d ' ') lines)"
+done
+echo "  static/easwaran-cv.pdf"
 echo "Now run:  python3 build.py --serve   to preview, then commit and push."
