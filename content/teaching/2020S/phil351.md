@@ -115,7 +115,7 @@ Level 1: Complete=C-, Almost=D, Good Effort=D-, Not Much Progress=F
 
 For each assignment, you should write about a new topic, preferably one we
 discussed since the last assignment - you won't be re-writing previous
-assignments. ([Sample papers for levels 1 and 2](/teaching/2020S/phil351/sample-papers.pdf))
+assignments. ([Sample papers for levels 1 and 2](/teaching/sample-papers.pdf))
 The particular assignments are as follows:
 
 **Level 1 Paper: Short expository paper, 150-300 words.**

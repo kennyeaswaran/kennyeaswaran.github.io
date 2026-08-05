@@ -58,10 +58,10 @@ expanded: ["At the University of California, Irvine"]
     - Phil 351: Theory of Knowledge
 - <span class="term">[2020 Spring](/teaching/2020S/)</span>
     - [Phil 351: Theory of Knowledge](/teaching/2020S/phil351/)
-- <span class="term">2019 Fall</span>
-    - Phil 424: Philosophy of Language
-- <span class="term">2019 Spring</span>
-    - Phil 641: Mathematical Logic
+- <span class="term">[2019 Fall](/teaching/2019F/)</span>
+    - [Phil 424: Philosophy of Language](/teaching/2019F/phil424/)
+- <span class="term">[2019 Spring](/teaching/2019S/)</span>
+    - [Phil 641: Mathematical Logic](/teaching/2019S/phil641/)
 - <span class="term">2018 Fall</span>
     - Phil 351: Theory of Knowledge
 - <span class="term">2018 Spring</span>
