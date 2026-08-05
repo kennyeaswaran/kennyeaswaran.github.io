@@ -74,9 +74,9 @@ expanded: ["At the University of California, Irvine"]
     - [Phil 641: Mathematical Logic](/teaching/2017S/phil641/)
 - <span class="term">2016 Fall</span>
     - Phil 240: Introduction to Logic
-- <span class="term">2016 Spring</span>
+- <span class="term">[2016 Spring](/teaching/2016S/)</span>
     - Phil 240: Introduction to Logic
-    - Phil 251: Introduction to Philosophy
+    - [Phil 251: Introduction to Philosophy](/teaching/2016S/phil251/)
 - <span class="term">2015 Fall</span>
     - Phil 424: Philosophy of Language
     - Phil 663: Probability and Decision Theory
