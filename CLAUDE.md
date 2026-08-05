@@ -70,6 +70,16 @@ fonts) are the intended adjustment points. Three content classes matter:
 - `.bib` — bibliography lists with hanging indents (publications, media)
 - `.terms` — term-and-course lists on the Teaching page
 - `.contact` — the small contact block on the home page
+- `.photo right` / `.photo left` — a portrait floated beside a section of
+  text; `main h2 { clear: both }` is what keeps consecutive sections from
+  colliding, so each floated photo belongs to exactly one section
+- `.photo-row` — a flex row of square-cropped photos (used at the foot of the
+  home page). Markdown wraps the images in a `<p>`, which
+  `.photo-row p { display: contents }` neutralises.
+
+Home-page photos live in `static/images/`, named `YYYY-MM-description.jpg` and
+placed newest-first down the page. They are re-encoded on import, which strips
+EXIF (including GPS coordinates from phone photos).
 
 **These must be applied with a wrapper, not a trailing `{: .class }`:**
 

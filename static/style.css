@@ -254,15 +254,59 @@ main a.alt:hover { color: var(--accent); }
   margin-bottom: 1.75rem;
 }
 
-.portrait {
+/* Photos beside a block of text, alternating sides down the page.
+   Use <img class="photo right"> or <img class="photo left">. */
+
+.photo {
+  width: 200px;
+  border-radius: 3px;
+  display: block;
+}
+
+.photo.right {
   float: right;
-  width: 190px;
   margin: 0.35rem 0 1.25rem 1.75rem;
+}
+
+.photo.left {
+  float: left;
+  margin: 0.35rem 1.75rem 1.25rem 0;
+}
+
+/* Each section starts below the previous section's photo, which is what keeps
+   the alternating left/right rhythm from collapsing into a jumble. */
+main h2 { clear: both; }
+
+/* A row of photos, equal widths, cropped square. Wrap the images in
+   <div class="photo-row" markdown="1"> ... </div>. */
+
+.photo-row {
+  display: flex;
+  gap: 0.75rem;
+  margin: 0 0 1.5rem;
+}
+
+.photo-row p { margin: 0; display: contents; }
+
+.photo-row img {
+  flex: 1 1 0;
+  min-width: 0;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center 30%;
   border-radius: 3px;
 }
 
+/* On narrow screens, stop floating: full-width photos read better than
+   200px images squeezed against two words per line. */
 @media (max-width: 34rem) {
-  .portrait { float: none; display: block; margin: 0 0 1.5rem; }
+  .photo {
+    float: none;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto 1.5rem;
+  }
+  .photo-row { gap: 0.5rem; }
 }
 
 /* A small block of contact details under the intro. */
