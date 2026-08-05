@@ -2,19 +2,22 @@
 title: "LPS 105A/205A: Set Theory and Mathematical Reasoning"
 term: "Fall 2025"
 description: "Set theory and mathematical proof, Fall 2025 at UC Irvine. Class schedule and resources on writing proofs."
+collapsible: true
+expanded: ["Goals and assignments"]
 ---
 
 Also PHIL 105A/205A and LSCI 145A. Tuesday and Thursday, 11:00–12:20, SSL 145.
 Office hours by appointment, in SST 759 or online.
 
-Over the course of the term we worked through my class notes, which were
-written and revised as we went, with an updated version posted after most
-weeks. Reading through the notes in advance of the week we covered them was
-helpful, especially for the week of your in-class presentation.
+Over the course of the term we will work through my class notes (which are in
+the process of being written and edited). I'll continually post updated
+versions here as I update them. It will be helpful to read through the notes in
+advance of the week that we go over them - especially for the week of your
+in-class presentation.
 
-[Class notes (PDF, final version of 2 December 2025)](/teaching/2025F/lps105a/set-theory-notes.pdf){: .button }
+[Class notes (PDF, version of 2 December 2025)](/teaching/2025F/lps105a/set-theory-notes.pdf){: .button }
 
-Weekly written assignments were submitted [on Gradescope](https://www.gradescope.com/courses/1123725).
+Submit weekly written assignments [on Gradescope](https://www.gradescope.com/courses/1123725).
 
 I encourage you to start learning the LaTeX typesetting system. It is
 absolutely standard in mathematics, and very commonly used in many areas of
@@ -30,40 +33,48 @@ some of your work in future.
 
 ## Goals and assignments
 
-There were two main goals for this class:
+There are two main goals for this class:
 
-- Develop some skills of mathematical proof, both written and verbal
-- Learn some basic set theory, both informal and formal
+- Develop some skills of mathematical proof (both written and verbal)
+- Learn some basic set theory (both informal and formal)
 
-You learn both of these things by doing them.
+You will learn both of these things by doing them.
 
-Every week, students wrote up the proof of one result we had gone over in
-class. I gave many choices each week of which result to write up, and
-encouraged people to choose one that would provide an appropriate challenge —
-whether that was getting precise on concisely writing up a simple proof, or
-managing the organisation of a more complex one.
+Every week, you will write up the proof of one result we have gone over in
+class, and turn in the written version on Gradescope. I will give many choices
+each week of which result to write up - I encourage you to choose one that will
+provide an appropriate challenge for you, whether that's getting precise on
+concisely writing up a simple proof, or managing the organization of a more
+complex proof.
 
-Roughly half of the class time on every day after the first consisted of
-student presentations of mathematical results. Everyone signed up for one
-presentation in Part I and one in Part II.
+Roughly half of the class time on every day after the first will consist of
+student presentations of mathematical results. Everyone should sign up to do
+one of these presentations in Part I and one of these presentations in Part II.
+I'll be happy to meet with you in the days leading up to your presentations to
+ensure that you've figured out how your result works, and give some feedback on
+effectively presenting it.
+
+Your final grade will primarily be based on completing all of these written and
+in-class proofs, with only slight modifications for quality.
 
 ## Class schedule
 
 #### Part I: Informal set theory
 
-- **Week 0** — Sets as meanings of words
-- **Week 1** — Sets and numbers
-- **Week 2** — Well-orderings, countable vs uncountable infinities
-- **Week 3** — Many countable infinities
-- **Week 4** — The real numbers, and the power set of the natural numbers
-- **Week 5** — The Axiom of Choice, the paradoxes
+- **Week 0** (9/25): Sets as meanings of words
+- **Week 1** (9/30, 10/2): Sets and numbers
+- **Week 2** (10/7, 10/9): Well-orderings, countable vs uncountable infinities
+- **Week 3** (10/14, 10/16): Many countable infinities
+- **Week 4** (10/21, 10/23): The real numbers, and the power set of the natural numbers
+- **Week 5** (10/28, 10/30): The Axiom of Choice, the paradoxes
 
 #### Part II: Formal axiomatic set theory
 
-- **Week 6** — The formal language, and the "small" axioms
-- **Week 8** — Power set, foundation, separation, and replacement
-- **Week 9** — Binary relations, well-orderings, and the axiom of infinity
-- **Week 10** — Recursive and combinatorial definitions for arithmetic
+- **Week 6** (11/4, 11/6): The formal language, and the "small" axioms
+- **Week 7** (11/11, 11/13): NO CLASS (Tuesday is Veteran's Day, Thursday I am traveling for a conference)
+- **Week 8** (11/18, 11/20): Power set, foundation, separation, and replacement
+- **Week 9** (11/25, Thanksgiving): Binary relations, well-orderings, and the axiom of infinity
+- **Week 10** (12/2, 12/4): Recursive and combinatorial definitions for arithmetic
 
 ## Resources on writing proofs
 

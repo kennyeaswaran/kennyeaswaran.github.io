@@ -112,6 +112,18 @@ last revised the notes.)
 After pushing, allow up to ten minutes before the new PDF appears — that's
 GitHub's cache, not a failed deploy.
 
+### Old course pages are records, not rewrites
+
+Pages migrated from the old site keep their original wording — including the
+tense. A syllabus that said "you will write five papers" still says that; it
+isn't rephrased into the past. Institutional boilerplate stays, and so do the
+struck-through mid-term edits, because they're part of what the page was. The
+page should look preserved, not retold.
+
+The only things removed are ones that are unsafe or meaningless rather than
+merely old — live meeting links, which are marked *(Zoom link removed)* where
+they stood so the gap is visible, and student names in schedules.
+
 ### Readings by other people
 
 Host your own work; link out for everyone else's. When a syllabus cites a book

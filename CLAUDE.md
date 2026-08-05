@@ -87,6 +87,18 @@ the link and keep the citation. Someone reading a syllabus from 2011 can find
 their own copy, and a link that was fine as Dropbox sharing with a class is a
 different proposition served from kennyeaswaran.org.
 
+**Migrated course pages are museum records.** Keep the original wording,
+including tense: a syllabus that said "you will write five papers" still says
+that, rather than being rewritten into the past. Keep institutional boilerplate
+(Title IX, disability statements) and the struck-through edits made mid-term —
+they are part of what the page was. The page should read as a preserved
+artefact, not as a summary written years later.
+
+The exceptions are things that are unsafe or useless rather than merely old:
+live meeting links are removed and marked *(Zoom link removed)* in place, so
+the deletion is visible; `google.com/url?q=…` redirect wrappers are decoded to
+the URL underneath; and student names are dropped from schedules.
+
 **Revising course notes mid-term.** Keep one stable filename
 (`set-theory-notes.pdf`) and overwrite it on each revision, rather than adding
 a dated file per version as the Google Sites page did. The link never changes,
