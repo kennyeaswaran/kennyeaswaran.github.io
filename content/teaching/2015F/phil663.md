@@ -8,6 +8,11 @@ expanded: ["Probability and Decision Theory"]
 
 ## Probability and Decision Theory
 
+*The manuscript workshopped in this seminar was published in 2026 as
+[The Philosophical Foundations of Bayesianism: An Opinionated Introduction](https://www.routledge.com/The-Philosophical-Foundations-of-Bayesianism-An-Opinionated-Introduction/Easwaran/p/book/9781138647718)
+(Routledge).*
+{: .note }
+
 **Time:** Monday/Wednesday, 3:30-4:45 pm
 
 **Location:** YMCA 401

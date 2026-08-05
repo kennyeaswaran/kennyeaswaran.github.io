@@ -82,8 +82,8 @@ expanded: ["At the University of California, Irvine"]
     - [Phil 663: Probability and Decision Theory](/teaching/2015F/phil663/)
 - <span class="term">2015 Spring</span>
     - Phil 641: Mathematical Logic
-- <span class="term">2014 Fall</span>
-    - Phil 424/485: Philosophy of Language
+- <span class="term">[2014 Fall](/teaching/2014F/)</span>
+    - [Phil 424/485: Philosophy of Language](/teaching/2014F/phil485/)
 
 </div>
 
