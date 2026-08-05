@@ -52,8 +52,9 @@ and was Academic Coordinator there in the summer of 2010.
 ## Students and family
 
 My former PhD students are
-[Justin Dallmann](https://jdallmann.org/about/), who I supervised at USC and
-who now works as a data scientist, and
+[Justin Dallmann](https://pace.uwinnipegcourses.ca/instructor/justin-dallmann),
+who I supervised at USC and who is now a data scientist with the City of
+Winnipeg, and
 [Sean Conte](https://www.seanconte.net/), who I supervised at Texas A&M and
 who is now Assistant Professor of Philosophy at the Community College of
 Denver.
