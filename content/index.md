@@ -52,11 +52,17 @@ and was Academic Coordinator there in the summer of 2010.
 ## Students and family
 
 My former PhD students are
-[Justin Dallmann](https://jdallmann.org/about/), who I supervised at USC, and
-[Sean Conte](https://sites.google.com/view/seanrconte/home), who I supervised
-at Texas A&M.
+[Justin Dallmann](https://jdallmann.org/about/), who I supervised at USC and
+who now works as a data scientist, and
+[Sean Conte](https://www.seanconte.net/), who I supervised at Texas A&M and
+who is now Assistant Professor of Philosophy at the Community College of
+Denver.
 
-My partner Matthew Sheldon is in the Chemistry department at UC Irvine.
+My partner [Matthew Sheldon](https://sheldongroup.ps.uci.edu/) is in the
+Chemistry department at UC Irvine, where his group works on optical energy
+conversion in nanoscale materials. My brother
+[David Easwaran](https://www.klgates.com/lawyers/David-S-Easwaran) is an
+intellectual property lawyer.
 
 ## Other photos
 
