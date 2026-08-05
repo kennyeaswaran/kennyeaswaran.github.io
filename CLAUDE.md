@@ -81,6 +81,19 @@ Google Sites URLs keep working. Add an entry whenever a page moves.
 `static/teaching/2025F/…` coexist with the pages `content/teaching/2025F/…`
 generates.
 
+**Readings on course pages.** Kenny's own material is hosted here. Scans and
+PDFs of other people's work are *not* — when migrating an old syllabus, drop
+the link and keep the citation. Someone reading a syllabus from 2011 can find
+their own copy, and a link that was fine as Dropbox sharing with a class is a
+different proposition served from kennyeaswaran.org.
+
+**Revising course notes mid-term.** Keep one stable filename
+(`set-theory-notes.pdf`) and overwrite it on each revision, rather than adding
+a dated file per version as the Google Sites page did. The link never changes,
+students always land on the current version, and git holds every prior revision
+if one is ever needed. Put the date in the link *text* so readers can see how
+current it is.
+
 **Course pages** live at `/teaching/<YYYY><term>/<course>/`, where term is
 `W`, `S`, `Su`, or `F`, and course is the department abbreviation plus the
 primary (undergraduate) number, lowercase and unpunctuated: `lps105a`,
