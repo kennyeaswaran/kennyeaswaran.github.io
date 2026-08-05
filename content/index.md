@@ -4,8 +4,10 @@ show_title: false
 description: "Kenny Easwaran is Professor in the Department of Logic and Philosophy of Science at the University of California, Irvine, working in formal epistemology, decision theory, and the philosophy of mathematics."
 ---
 
-<img class="photo right" src="/images/2026-08-uci-balcony.jpg" alt="Kenny Easwaran in 2026, with red and yellow hair, on a balcony overlooking the UC Irvine campus">
-<img class="photo left" src="/images/2026-05-joshua-tree.jpg" alt="Kenny Easwaran in 2026, with teal hair and sunglasses, in front of a Joshua tree">
+<div class="photo-stack right">
+<img src="/images/2026-08-uci-balcony.jpg" alt="Kenny Easwaran in 2026, with red and yellow hair, on a balcony overlooking the UC Irvine campus">
+<img src="/images/2026-05-joshua-tree.jpg" alt="Kenny Easwaran in 2026, with teal hair and sunglasses, in front of a Joshua tree">
+</div>
 
 I am Professor in the [Department of Logic and Philosophy of Science](https://www.lps.uci.edu/)
 at the [University of California, Irvine](https://www.uci.edu/).
@@ -27,8 +29,10 @@ decision making, with lessons to be drawn in both directions.
 
 ## Before Irvine
 
-<img class="photo right" src="/images/2020-princeton-talk.jpg" alt="Kenny Easwaran in 2020, with red hair, holding a handout while giving a talk at Princeton">
-<img class="photo left" src="/images/2018-06-texas-am.jpg" alt="Kenny Easwaran in 2018, with blue hair, on the Texas A&amp;M campus">
+<div class="photo-stack left">
+<img src="/images/2020-princeton-talk.jpg" alt="Kenny Easwaran in 2020, with red hair, holding a handout while giving a talk at Princeton">
+<img src="/images/2018-06-texas-am.jpg" alt="Kenny Easwaran in 2018, with blue hair, on the Texas A&amp;M campus">
+</div>
 
 I got my PhD from the [Group in Logic and the Methodology of Science](http://logic.berkeley.edu)
 at [UC Berkeley](http://www.berkeley.edu) in 2008.
@@ -59,6 +63,7 @@ My partner Matthew Sheldon is in the Chemistry department at UC Irvine.
 <div class="photo-row" markdown="1">
 
 ![Kenny Easwaran in 2023, with green curly hair and a patterned shirt](/images/2023-10-office.jpg)
+![Kenny Easwaran in 2023, in a bicycle-print shirt, outside a building on campus](/images/2023-07-portrait.jpg)
 ![Kenny Easwaran in 2018, listening during a seminar at Princeton](/images/2018-05-princeton.jpg)
 
 </div>

@@ -275,6 +275,34 @@ main a.alt:hover { color: var(--accent); }
   margin: 0.35rem 1.75rem 1.25rem 0;
 }
 
+/* Two or more photos stacked vertically down one side of a section. Wrap them
+   in <div class="photo-stack right"> or <div class="photo-stack left">.
+   The wrapper is what floats — floating the images individually would let
+   them sit side by side whenever the column happened to be wide enough. */
+
+.photo-stack {
+  width: 180px;
+}
+
+.photo-stack.right {
+  float: right;
+  margin: 0.35rem 0 1.25rem 1.75rem;
+}
+
+.photo-stack.left {
+  float: left;
+  margin: 0.35rem 1.75rem 1.25rem 0;
+}
+
+.photo-stack img {
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+  margin-bottom: 0.75rem;
+}
+
+.photo-stack img:last-child { margin-bottom: 0; }
+
 /* Each section starts below the previous section's photo, which is what keeps
    the alternating left/right rhythm from collapsing into a jumble. */
 main h2 { clear: both; }
@@ -311,6 +339,17 @@ main h2 { clear: both; }
     max-width: 320px;
     margin: 0 auto 1.5rem;
   }
+  /* A stack becomes a side-by-side pair rather than one tall column, so a
+     phone reader doesn't have to scroll past two full-width portraits to
+     reach the next paragraph. */
+  .photo-stack {
+    float: none;
+    width: 100%;
+    margin: 0 0 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+  .photo-stack img { margin-bottom: 0; }
   .photo-row { gap: 0.5rem; }
 }
 

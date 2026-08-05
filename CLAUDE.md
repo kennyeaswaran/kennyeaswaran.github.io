@@ -70,9 +70,13 @@ fonts) are the intended adjustment points. Three content classes matter:
 - `.bib` — bibliography lists with hanging indents (publications, media)
 - `.terms` — term-and-course lists on the Teaching page
 - `.contact` — the small contact block on the home page
-- `.photo right` / `.photo left` — a portrait floated beside a section of
-  text; `main h2 { clear: both }` is what keeps consecutive sections from
+- `.photo right` / `.photo left` — a single portrait floated beside a section
+  of text; `main h2 { clear: both }` is what keeps consecutive sections from
   colliding, so each floated photo belongs to exactly one section
+- `.photo-stack right` / `.photo-stack left` — a `<div>` wrapping two or more
+  photos stacked down one side. The *wrapper* floats: floating the images
+  individually would let them sit side by side whenever the column was wide
+  enough. Becomes a side-by-side pair on narrow screens.
 - `.photo-row` — a flex row of square-cropped photos (used at the foot of the
   home page). Markdown wraps the images in a `<p>`, which
   `.photo-row p { display: contents }` neutralises.
