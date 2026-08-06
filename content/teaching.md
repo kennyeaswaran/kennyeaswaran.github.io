@@ -75,7 +75,7 @@ expanded: ["At the University of California, Irvine"]
 - <span class="term">[2016 Fall](/teaching/2016F/)</span>
     - [Phil 240: Introduction to Logic](/teaching/2016F/phil240/)
 - <span class="term">[2016 Spring](/teaching/2016S/)</span>
-    - Phil 240: Introduction to Logic
+    - [Phil 240: Introduction to Logic](/teaching/2016S/phil240/)
     - [Phil 251: Introduction to Philosophy](/teaching/2016S/phil251/)
 - <span class="term">[2015 Fall](/teaching/2015F/)</span>
     - [Phil 424: Philosophy of Language](/teaching/2015F/phil424/)
