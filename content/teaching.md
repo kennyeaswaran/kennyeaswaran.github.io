@@ -103,12 +103,12 @@ expanded: ["At the University of California, Irvine"]
     - [Phil 501: Belief and Degree of Belief](/teaching/2012F/phil501/)
 - <span class="term">[2012 Spring](/teaching/2012S/)</span>
     - [Phil 352: Logic and Language](/teaching/2012S/phil352/)
-- <span class="term">2011 Fall</span>
-    - Phil 450: Intermediate Symbolic Logic
-    - Phil 585: Decision Theory and Rationality
-- <span class="term">2011 Spring</span>
-    - Phil 351: Logic and Reasoning
-    - Phil 385: Science and Rationality
+- <span class="term">[2011 Fall](/teaching/2011F/)</span>
+    - [Phil 450: Intermediate Symbolic Logic](/teaching/2011F/phil450/)
+    - [Phil 585: Decision Theory and Rationality](/teaching/2011F/phil585/)
+- <span class="term">[2011 Spring](/teaching/2011S/)</span>
+    - [Phil 351: Logic and Reasoning](/teaching/2011S/phil351/)
+    - [Phil 385: Science and Rationality](/teaching/2011S/phil385/)
 - <span class="term">2010 Fall</span>
     - Phil 585: Bayesianism in Philosophy of Science
 - <span class="term">2010 Spring</span>
