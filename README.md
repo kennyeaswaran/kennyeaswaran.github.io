@@ -134,15 +134,43 @@ can find their own copy.
 
 ## Updating the CV
 
-The CV page and the downloadable PDF both come from the CV project in
-`../CV and AP-10`. After you change something there:
+**The short version — three commands from this folder:**
 
 ```
 ./sync-cv.sh
+git add -A && git commit -m "Update CV" && git push
 ```
 
-That regenerates `generated/cv-body.md` and `static/easwaran-cv.pdf`. Nothing
-in this repository ever writes back to the CV project.
+That's the whole routine. You never edit the CV page's contents by hand.
+
+**What's actually happening.** The facts live in the CV project
+(`../CV and AP-10/data/*.yaml`) — one file per category, so a new editorship
+goes in `service.yaml`, a new student in `supervision.yaml`, and so on. Edit
+the fact there, then run `./sync-cv.sh` here. It regenerates three things:
+
+| File | What it feeds |
+| --- | --- |
+| `generated/cv-body.md` | the body of the **CV page** |
+| `generated/publications-list.md` | the generated part of the **Publications page** |
+| `static/easwaran-cv.pdf` | the **full CV PDF** the page links to |
+
+Those files are committed to git, which is why GitHub never needs access to the
+CV project. Push, and the site rebuilds itself.
+
+The flow is strictly one-way: nothing here ever writes back into the CV project.
+
+**Changing *which* sections appear.** The CV page is deliberately shorter than
+the PDF — it skips honors, grants, talks, publications and general service, and
+trims editorships to current ones and conference organization to leadership
+roles. All of that is decided by `profiles/web-cv.yaml` in the CV project, which
+is a plain list of sections with filters. To add a section back, uncomment or
+copy one; to narrow one, add a filter such as `current_only: true` or
+`lead_only: true`. No code changes needed — the profile is the control panel.
+
+Note that `./sync-cv.sh` needs `typst` installed to rebuild the PDF. If it
+prints `PDF skipped`, the Markdown still updates correctly but
+`static/easwaran-cv.pdf` will be whatever was last built — so check that file
+isn't accidentally reverted before committing.
 
 ## Publishing
 
@@ -155,19 +183,11 @@ git push
 GitHub Actions builds and deploys automatically — usually live within a minute.
 If something goes wrong, the repository's **Actions** tab shows the error.
 
-## Switching the domain over (not yet done)
+## The custom domain
 
-Until `kennyeaswaran.org` is pointed at GitHub, the site lives at
-`https://<username>.github.io/<repo>/`.
-
-`CNAME.disabled` in this folder is the file that claims the custom domain. It
-is deliberately *outside* `static/`, so it is not published. Publishing it
-early would make GitHub redirect the github.io address to
-`www.kennyeaswaran.org`, which still points at Google Sites — so the preview
-would appear to show the old site.
-
-When the DNS records are in place, move it into `static/` and push:
-
-```
-mv CNAME.disabled static/CNAME
-```
+`www.kennyeaswaran.org` points at GitHub Pages via four `A` records on the apex
+and a `CNAME` on `www` (set at Squarespace Domains, where the domain is
+registered). The domain itself is claimed in the repository's
+**Settings → Pages**, *not* by a file in this repo — because publishing goes
+through a GitHub Actions workflow, GitHub ignores any `CNAME` file in the built
+output. Don't add one to `static/`.
