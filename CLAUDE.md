@@ -42,6 +42,12 @@ Deployment is automatic: pushing to `main` triggers
 `.github/workflows/deploy.yml`, which builds and publishes. Nothing is deployed
 from a local machine.
 
+**The custom domain is set in the repository's Settings → Pages, not in a file.**
+Because publishing goes through a GitHub Actions workflow rather than a branch,
+GitHub ignores any `CNAME` file in the built output — so don't add one to
+`static/`. (A `CNAME.disabled` stub lived at the repo root until August 2026,
+left over from an earlier plan; it was removed once this was confirmed.)
+
 ## How the pieces fit
 
 **Navigation** lives only in `site.yaml`. `templates/base.html` renders it on
