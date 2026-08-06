@@ -31,6 +31,10 @@ nav:
 redirects:
   "/home": "/"
   "/research": "/publications/"
+  "/few-2014": "/few/2014/"
+  "/few-2014/handouts": "/few/2014/handouts/"
+  "/few-2014/poster-session": "/few/2014/poster-session/"
+  "/few-2014/getting-to-campus": "/few/2014/getting-to-campus/"
 
   # Course pages migrated from Google Sites, August 2026. The old paths are
   # what Google indexed and what any syllabus or email links to, so each one
@@ -44,6 +48,11 @@ redirects:
   "/teaching/ai-literacy/meeting-3": "/teaching/2026Su/socsci19/meeting-3/"
   "/teaching/ai-literacy/meeting-4": "/teaching/2026Su/socsci19/meeting-4/"
   "/teaching/ai-literacy/meeting-5": "/teaching/2026Su/socsci19/meeting-5/"
+  "/teaching/ai-literacy/meeting-6": "/teaching/2026Su/socsci19/meeting-6/"
+  "/teaching/ai-literacy/meeting-7": "/teaching/2026Su/socsci19/meeting-7/"
+  "/teaching/ai-literacy/meeting-8": "/teaching/2026Su/socsci19/meeting-8/"
+  "/teaching/ai-literacy/meeting-9": "/teaching/2026Su/socsci19/meeting-9/"
+  "/teaching/ai-literacy/meeting-10": "/teaching/2026Su/socsci19/meeting-10/"
   "/teaching/2026-winter": "/teaching/2026W/"
   "/teaching/2026-winter/2026-ai-seminar": "/teaching/2026W/lps221/"
   "/teaching/2026-ai-seminar": "/teaching/2026W/lps221/"
