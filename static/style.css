@@ -79,6 +79,36 @@ del {
   text-decoration-thickness: 1px;
 }
 
+/* Two survey charts for the same question, one term beside the other. The
+   wrapper is wider than the text measure, since a pair of charts side by side
+   needs the room; it drops to a single column on narrow screens. Markdown puts
+   each image in its own <p>, which `display: contents` neutralises. */
+.chart-pair {
+  display: flex;
+  gap: 1rem;
+  margin: 0.5rem 0 1.75rem;
+  width: min(64rem, 100%);
+  margin-inline-start: calc((var(--measure) - min(64rem, 100%)) / 2);
+}
+
+.chart-pair p { display: contents; }
+
+.chart-pair img {
+  flex: 1 1 0;
+  min-width: 0;
+  height: auto;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+}
+
+@media (max-width: 60rem) {
+  .chart-pair {
+    flex-direction: column;
+    width: 100%;
+    margin-inline-start: 0;
+  }
+}
+
 .skip-link {
   position: absolute;
   left: -9999px;
