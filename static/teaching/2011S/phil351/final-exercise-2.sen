@@ -1,0 +1,6 @@
+6.7macs:Mac OS X10.6.7SntFC1304209148089D1304210050521C1304213511759D1304213999591D1304214149494D1304214151318D1304214292245D1304214320851S2215913/x /y /z /w (Cube(x) & Cube(y) & Cube(z) & Cube(w) & x # y & x # z & x # w & y # z & y # w & z # w)/x /y /z /w (Tet(x) & Tet(y) & Tet(z) & Tet(w) & x # y & x # z & x # w & y # z & y # w & z # w)/x /y /z /w (Dodec(x) & Dodec(y) & Dodec(z) & Dodec(w) & x # y & x # z & x # w & y # z & y # w & z # w)
+; The first three sentences say how many blocks there are of each shape - note that you can only have 12 blocks total@x @y ((Cube(x) & ~Cube(y)) $ FrontOf(x, y))@x (Cube(x)  $  ~/y (x # y & SameRow(x, y)))@x @y ((SameRow(x, y) & x # y) $ ~SameShape(x, y))
+; The next three sentences tell you what each row is like@x @y ((Cube(x) & ~Cube(y)) $ RightOf(x, y))@x (Cube(x)  $  ~/y (x # y & SameCol(x, y)))@x @y ((SameCol(x, y) & x # y) $ ~SameShape(x, y))
+; The next three sentences tell you what each column is like@x (Tet(x) $ /y Adjoins(x, y))/x (Dodec(x) & ~/y Adjoins(x, y))
+;The next two sentences tell you how the Tets and Dodecs are aligned@x ( ~Cube(x) % Medium(x))/x/y (x # y & (Cube(x) & Large(x)) & (Cube(y) & Large(y)))
+; The last two sentences tell you the sizes of all the objects - remember that a Large object can't touch anything else, even diagonallys=210381;

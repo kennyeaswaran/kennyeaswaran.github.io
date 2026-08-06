@@ -40,6 +40,8 @@ from pathlib import Path
 try:
     import yaml
     import markdown
+    from markdown.extensions import Extension
+    from markdown.inlinepatterns import SimpleTagInlineProcessor
     from jinja2 import Environment, FileSystemLoader
 except ImportError as e:
     sys.exit(f"Missing dependency: {e.name}\n  pip install pyyaml jinja2 markdown")
@@ -59,6 +61,22 @@ INCLUDE_RE = re.compile(r"^[ \t]*<!--[ \t]*include:[ \t]*(\S+?)[ \t]*-->[ \t]*$"
 # Used to split a rendered page into its top-level sections.
 H2_RE = re.compile(r"<h2[^>]*>(.*?)</h2>", re.DOTALL)
 
+class Strikethrough(Extension):
+    """`~~text~~` -> `<del>text</del>`.
+
+    Python-Markdown has no strikethrough of its own, and the migrated course
+    pages need it: several of them preserve edits Kenny made mid-term, where
+    the superseded date or room is struck through rather than deleted. Written
+    as a real inline pattern (rather than a pre-conversion regex) so that
+    markup nested inside the strikethrough still renders.
+    """
+
+    def extendMarkdown(self, md):
+        md.inlinePatterns.register(
+            SimpleTagInlineProcessor(r"(~~)(.+?)~~", "del"), "strikethrough", 65
+        )
+
+
 MARKDOWN_EXTENSIONS = [
     "attr_list",   # {: .class } annotations on elements
     "def_list",    # definition lists
@@ -67,6 +85,7 @@ MARKDOWN_EXTENSIONS = [
     "sane_lists",
     "smarty",      # straight quotes -> curly quotes, -- -> en dash
     "tables",
+    Strikethrough(),
 ]
 
 

@@ -79,6 +79,8 @@ Amartya Sen, "Behaviour and the concept of preference"
 Jamie Dreier, "Rational Preference: Decision theory as a theory of practical
 rationality"
 
+(presentation by Aness Webster)
+
 **Oct. 5, What is an action?**
 
 Frank Jackson and Robert Pargetter, "Oughts, Options, and Actualism"
@@ -86,11 +88,15 @@ Frank Jackson and Robert Pargetter, "Oughts, Options, and Actualism"
 Brian Hedden, "Options and the Subjective *Ought*" (version available
 [here](http://web.mit.edu/bhedden/www/))
 
+(presentation by Steve Bero)
+
 **Oct. 12, Representation and belief**
 
 Lyle Zynda, "Representation Theorems and Realism about Degrees of Belief"
 
 Lina Eriksson and Alan Hájek, "What are Degrees of Belief?"
+
+(presentation by Julian Stone-Kronberg)
 
 **Oct. 19, Diachronic norms on belief**
 
@@ -106,16 +112,22 @@ David Gauthier, "Assure and Threaten"
 
 Peter Hinchman, "Trust and Diachronic Agency"
 
+(presentation by Rima Basu)
+
 **Nov. 2, Risk aversion**
 
 Lara Buchak, *Risk and Rationality*, Chapter 1 and 2 (especially sections 2.1
 and 2.4)
+
+(presentation by Michael Pressman)
 
 **Nov. 9, Causal and Evidential Decision Theory**
 
 Huw Price, "Against Causal Decision Theory"
 
 Frank Arntzenius, "No Regrets, or Edith Piaf Revamps Decision Theory"
+
+(presentation by Abelard Podgorski)
 
 **Nov. 16, Paradoxes of infinity: St. Petersburg and Pasadena**
 
@@ -126,6 +138,8 @@ Harris Nover and Alan Hájek, "Vexing Expectations"
 Jeff Barrett and Frank Arntzenius, "Why the Infinite Decision Puzzle is
 Puzzling"
 
+(presentation by John Peloquin)
+
 **Nov. 23, No class (day before Thanksgiving)**
 
 **Nov. 30, Incomparable values**
@@ -133,6 +147,8 @@ Puzzling"
 John Broome, "Incommensurable Values"
 
 Caspare Hare, "Take the Sugar"
+
+(presentation by Jacquelle Amankonah)
 
 ***Final papers due (by e-mail as .pdf) by Sunday, December 11, unless you talk
 to me in advance***

@@ -54,11 +54,13 @@ The first two papers will be shorter (3-4 pages). In each case, there will be
 assignments along the way to help structure the writing process. I will discuss
 these in class as they approach.
 
-The final consists of answering four questions from the final questions, each
-taking about a page.
+The final consists of answering four questions from the
+[final questions](/teaching/2011S/phil385/final-questions.pdf), each taking
+about a page.
 
-The grading will be 40% from the final questions, 20% from each of the shorter
-papers, and 20% from participation in class discussion.
+The grading will be 40% from the
+[final questions](/teaching/2011S/phil385/final-questions.pdf), 20% from each of
+the shorter papers, and 20% from participation in class discussion.
 
 Feel free to discuss your writing assignments with each other (or anyone outside
 the class), and read each other's drafts - this is in fact the most useful way
@@ -195,4 +197,4 @@ Reading: Chapter 15 of T&R
 
 **May 8**
 
-*Final exam questions due (via e-mail) by May 4*
+[*Final exam questions*](/teaching/2011S/phil385/final-questions.pdf) *due (via e-mail) by May 4*

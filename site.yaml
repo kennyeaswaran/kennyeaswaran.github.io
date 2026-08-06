@@ -35,6 +35,12 @@ redirects:
   # Course pages migrated from Google Sites, August 2026. The old paths are
   # what Google indexed and what any syllabus or email links to, so each one
   # keeps working. Add a pair here whenever a course page moves.
+  "/teaching/ai-literacy": "/teaching/2026Su/socsci19/"
+  "/teaching/ai-literacy/pre-meeting": "/teaching/2026Su/socsci19/pre-meeting/"
+  "/teaching/ai-literacy/current": "/teaching/2026Su/socsci19/current/"
+  "/teaching/ai-literacy/meeting-1/ai-use-summary-spring-2026": "/teaching/2026Su/socsci19/meeting-1/ai-use-summary/"
+  "/teaching/ai-literacy/meeting-1": "/teaching/2026Su/socsci19/meeting-1/"
+  "/teaching/ai-literacy/meeting-2": "/teaching/2026Su/socsci19/meeting-2/"
   "/teaching/2026-winter": "/teaching/2026W/"
   "/teaching/2026-winter/2026-ai-seminar": "/teaching/2026W/lps221/"
   "/teaching/2026-ai-seminar": "/teaching/2026W/lps221/"

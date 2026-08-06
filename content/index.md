@@ -53,7 +53,7 @@ and was Academic Coordinator there in the summer of 2010.
 
 Former PhD students:
 
-* [Justin Dallmann](https://pace.uwinnipegcourses.ca/instructor/justin-dallmann) (PhD USC, 2014) is now a data scientist with the City of Winnipeg
+* [Justin Dallmann](https://pace.uwinnipegcourses.ca/instructor/justin-dallmann) (PhD USC, 2015) is now a data scientist with the City of Winnipeg
 * [Sean Conte](https://www.seanconte.net/) (PhD Texas A&M, 2023) is now Assistant Professor of Philosophy at the Community College of Denver.
 
 My partner [Matthew Sheldon](https://sheldongroup.ps.uci.edu/) is in the

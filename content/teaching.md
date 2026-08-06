@@ -8,8 +8,17 @@ expanded: ["At the University of California, Irvine"]
 
 ## At the University of California, Irvine
 
+Courses from 2020 onwards were run mostly through Canvas, so most of them have
+no public page here.
+{: .note }
+
 <div class="terms" markdown="1">
 
+- <span class="term">[2026 Summer](/teaching/2026Su/)</span>
+    - [SocSci 19: AI Literacy](/teaching/2026Su/socsci19/)
+- <span class="term">[2026 Spring](/teaching/2026S/)</span>
+    - [SocSci 19: AI Literacy](/teaching/2026S/socsci19/)
+    - LPS 246: Logic Seminar
 - <span class="term">[2026 Winter](/teaching/2026W/)</span>
     - LPS 31: Probability and Inductive Logic
     - [LPS 221: Seminar on Knowing How, Knowing That, and AI](/teaching/2026W/lps221/)

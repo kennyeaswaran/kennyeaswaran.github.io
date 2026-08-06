@@ -246,7 +246,7 @@ Exercises 13.11, 13.12, 13.13, 13.17, 13.18 due by Monday, May 2
 
 Final homework assignment, due 11:59 pm, Sunday, May 8
 
-Final Exercise 1 - fill in the truth table and say whether or not the argument
+[Final Exercise 1](/teaching/2011S/phil351/final-exercise-1.tt) - fill in the truth table and say whether or not the argument
 is tautologically valid. That is, say whether
 
 U ^ (S v C)
@@ -257,13 +257,13 @@ together entail
 
 (C -> (L -> (A -> ~S))) v ~S
 
-Final Exercise 2 - create a world where all the sentences are true.
+[Final Exercise 2](/teaching/2011S/phil351/final-exercise-2.sen) - create a world where all the sentences are true.
 
 I've given some hints for how to think about the sentences when creating the
 world - it probably makes sense to make the first set work out, then the next
 set, and so on.
 
-Final Exercise 3 - create a proof to show the argument is valid.
+[Final Exercise 3](/teaching/2011S/phil351/final-exercise-3.prf) - create a proof to show the argument is valid.
 
 Some comments about the argument:
 

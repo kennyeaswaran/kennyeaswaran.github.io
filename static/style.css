@@ -71,6 +71,14 @@ a:hover { color: var(--accent-hover); }
 
 .muted { color: var(--ink-muted); }
 
+/* Struck-through text on the archived course pages: an edit Kenny made
+   part-way through the term, kept visible rather than deleted. Muted so it
+   reads as superseded rather than as an error. */
+del {
+  color: var(--ink-muted);
+  text-decoration-thickness: 1px;
+}
+
 .skip-link {
   position: absolute;
   left: -9999px;
