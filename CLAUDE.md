@@ -168,12 +168,18 @@ talk list is better served by the PDF.
 Generated output is committed so that GitHub Actions never needs access to the
 CV project.
 
-**Not yet wired up:** the Publications page is hand-maintained, because
-`data/publications.yaml` stores one `url` per entry (the publisher/DOI link)
-and has no field for the Dropbox preprint PDFs that the page links from every
-title. Generating it from the store would silently drop those. Adding an
-optional `pdf:` field to the store and backfilling it would let the Publications
-page work the same way the CV page does.
+The Publications page is generated the same way, from
+`profiles/web-publications.yaml`. That profile sets `link_titles: true` so each
+title links to the `pdf:` field on its record (a path under `/papers/`), with
+the publisher/DOI `url` as a small trailing "(journal)" link. `sync-cv.sh`
+writes the result to `generated/publications-list.md`, which `content/
+publications.md` includes; the hand-written Media, Work in progress, and
+Dissertation sections live in that page directly.
+
+**Not yet wired up:** the Teaching index is still hand-maintained. Every course
+record in `data/teaching.yaml` that has a migrated page now carries a `page:`
+field, so generating the index is possible — but it needs a `group_by: term`
+feature in `generate_cv.py` to keep the term-grouped layout the page uses.
 
 ## Provenance
 
@@ -181,3 +187,10 @@ Built August 2026, migrating content from the Google Sites version of
 kennyeaswaran.org. Stale facts corrected during migration: the rank at UC
 Irvine (Professor, not Associate Professor), leftover Texas A&M links on the
 home page, and a Texas A&M link for Matthew Sheldon's UCI affiliation.
+
+All 33 course pages that existed on the Google Site were migrated (UCI 2, Texas
+A&M 16, USC 15 including the Phil 285 paper-topics subpage), each with a
+`redirects` entry for its old path. An orphan sweep in August 2026 probed the
+terms that the old Teaching index listed without links (2020 Fall through 2023
+Spring at A&M, the 2024–25 UCI terms, 2013 Spring, 2009 Fall) and found no
+unlinked pages, so the migration is complete.
