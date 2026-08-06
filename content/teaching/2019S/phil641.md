@@ -70,7 +70,7 @@ Relevant videos: [Why .9999...=1](https://www.youtube.com/watch?v=TINfzxSnnIE)
 
 Boolos, Burgess, and Jeffrey: Chapters 9 and 10
 
-[Handout on deductive logic](/teaching/phil641/deduction.pdf)
+[Handout on deductive logic](/teaching/deduction.pdf)
 
 #### The essential incompleteness of arithmetic
 

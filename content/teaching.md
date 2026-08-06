@@ -91,18 +91,18 @@ expanded: ["At the University of California, Irvine"]
 
 <div class="terms" markdown="1">
 
-- <span class="term">2014 Spring</span>
-    - ARLT 100g: Living with Uncertainty
-    - Phil 585: Quantities, Measurement, and Credence
-- <span class="term">2013 Fall</span>
-    - Phil 450: Intermediate Symbolic Logic
+- <span class="term">[2014 Spring](/teaching/2014S/)</span>
+    - [ARLT 100g: Living with Uncertainty](/teaching/2014S/arlt100g/)
+    - [Phil 585: Quantities, Measurement, and Credence](/teaching/2014S/phil585/)
+- <span class="term">[2013 Fall](/teaching/2013F/)</span>
+    - [Phil 450: Intermediate Symbolic Logic](/teaching/2013F/phil450/)
 - <span class="term">2013 Spring</span>
     - On research leave
-- <span class="term">2012 Fall</span>
-    - Phil 450: Intermediate Symbolic Logic
-    - Phil 501: Belief and Degree of Belief
-- <span class="term">2012 Spring</span>
-    - Phil 352: Logic and Language
+- <span class="term">[2012 Fall](/teaching/2012F/)</span>
+    - [Phil 450: Intermediate Symbolic Logic](/teaching/2012F/phil450/)
+    - [Phil 501: Belief and Degree of Belief](/teaching/2012F/phil501/)
+- <span class="term">[2012 Spring](/teaching/2012S/)</span>
+    - [Phil 352: Logic and Language](/teaching/2012S/phil352/)
 - <span class="term">2011 Fall</span>
     - Phil 450: Intermediate Symbolic Logic
     - Phil 585: Decision Theory and Rationality

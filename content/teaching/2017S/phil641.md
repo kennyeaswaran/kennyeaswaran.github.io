@@ -69,7 +69,7 @@ Chapter 9 - syntax of first-order logic
 
 Chapter 10 - semantics of first-order logic
 
-[Handout on deduction](/teaching/phil641/deduction.pdf)
+[Handout on deduction](/teaching/deduction.pdf)
 
 Chapter 6 - primitive recursive functions
 
