@@ -12,7 +12,10 @@ expanded: ["AI Literacy"]
 
 (All meetings: [pre-meeting](/teaching/2026Su/socsci19/pre-meeting/),
 [1](/teaching/2026Su/socsci19/meeting-1/),
-[2](/teaching/2026Su/socsci19/meeting-2/))
+[2](/teaching/2026Su/socsci19/meeting-2/),
+[3](/teaching/2026Su/socsci19/meeting-3/),
+[4](/teaching/2026Su/socsci19/meeting-4/),
+[5](/teaching/2026Su/socsci19/meeting-5/))
 
 Artifacts I've made (with the help of Claude) for the class:
 
