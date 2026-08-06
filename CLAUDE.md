@@ -138,6 +138,9 @@ fonts) are the intended adjustment points. Three content classes matter:
 - `.photo-row` — a flex row of square-cropped photos (used at the foot of the
   home page). Markdown wraps the images in a `<p>`, which
   `.photo-row p { display: contents }` neutralises.
+- `figure.photo-figure` — a full-measure photo with a caption beneath, for
+  pictures whose caption carries information (who, when, where) rather than
+  decoration. Written as literal `<figure>`/`<figcaption>`, not Markdown.
 
 Home-page photos live in `static/images/`, named `YYYY-MM-description.jpg` and
 placed newest-first down the page. They are re-encoded on import, which strips

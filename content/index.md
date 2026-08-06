@@ -56,6 +56,11 @@ Former PhD students:
 * [Justin Dallmann](https://pace.uwinnipegcourses.ca/instructor/justin-dallmann) (PhD USC, 2015) is now a data scientist with the City of Winnipeg
 * [Sean Conte](https://www.seanconte.net/) (PhD Texas A&M, 2023) is now Assistant Professor of Philosophy at the Community College of Denver.
 
+<figure class="photo-figure">
+<img src="/images/2016-06-groningen-generations.jpg" alt="Malcolm Forster, Branden Fitelson, Kenny Easwaran, and Justin Dallmann standing arm in arm outside a building in Groningen">
+<figcaption>Malcolm Forster, Branden Fitelson, Kenny Easwaran, Justin Dallmann — 4 academic generations (June 22, 2016, Groningen, NL)</figcaption>
+</figure>
+
 My partner [Matthew Sheldon](https://sheldongroup.ps.uci.edu/) is in the
 Chemistry department at UC Irvine, where his group works on optical energy
 conversion in nanoscale materials.

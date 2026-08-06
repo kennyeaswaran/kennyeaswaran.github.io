@@ -79,6 +79,30 @@ del {
   text-decoration-thickness: 1px;
 }
 
+/* A photo that runs the full width of the text column, with a caption beneath.
+   Unlike `.photo` and `.photo-stack`, which float decorative portraits beside
+   the text, this is for pictures whose caption carries information — who is in
+   the shot, when, and where. */
+figure.photo-figure {
+  margin: 1.75rem 0;
+  clear: both;
+}
+
+figure.photo-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+figure.photo-figure figcaption {
+  margin-top: 0.5rem;
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--ink-muted);
+}
+
 /* Two survey charts for the same question, one term beside the other. The
    wrapper is wider than the text measure, since a pair of charts side by side
    needs the room; it drops to a single column on narrow screens. Markdown puts
