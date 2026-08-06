@@ -519,6 +519,17 @@ details.section > summary:focus-visible {
 /* A shut section shouldn't leave the next one jammed against it. */
 details.section { margin-bottom: 0.5rem; }
 
+/* Subsection headings inside a collapsible section — e.g. the three kinds of
+   graduate supervision grouped under one "Graduate Supervision" block. The
+   first one sits directly under the summary, so it loses its top margin. */
+details.section h3 {
+  margin-top: 1.4em;
+  font-size: 1.05rem;
+  color: var(--ink-muted);
+}
+
+details.section > h3:first-of-type { margin-top: 0.8em; }
+
 /* --------------------------------------------------------------------------
    Footer
    -------------------------------------------------------------------------- */

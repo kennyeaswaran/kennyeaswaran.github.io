@@ -43,13 +43,15 @@
 - Social Epistemology Network
 - Society for Exact Philosophy
 
-## Dissertation Supervision
+## Graduate Supervision
+
+### Dissertation Supervision
 
 - **Sean Conte** (Texas A&M University, Philosophy) — defense Jun 2023
 - **Saleh Afroogh** (Texas A&M University, Philosophy) [MA] — MA defense May 2019
 - **Justin Dallmann** (University of Southern California, Philosophy) — defense May 2015; qualifying exam Apr 2013; area exam Apr 2012, Epistemology
 
-## Dissertation Committees
+### Dissertation Committees
 
 - **Yunlong Cao** (UC Irvine, Philosophy)
 - **Neil Crawford** (UC Irvine, Logic and Philosophy of Science)
@@ -66,7 +68,7 @@
 - **Indrek Reiland** (University of Southern California, Philosophy)
 - **Brian Blackwell** (University of Southern California, Philosophy)
 
-## Outside Committee Member
+### Outside Committee Member
 
 - **Siddhant Jajodia** (UC Irvine, Math)
 - **Mark Beers** (UC Irvine, Cognitive Science)

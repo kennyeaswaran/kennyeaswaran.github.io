@@ -1,6 +1,6 @@
 ---
 title: "Curriculum Vitae"
-description: "Employment, education, honors, editorships, service, and graduate supervision."
+description: "Employment, education, editorships, conference organization, and graduate supervision."
 collapsible: true
 expanded: ["Areas of Research", "Employment", "Education"]
 ---

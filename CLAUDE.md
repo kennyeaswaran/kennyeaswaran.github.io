@@ -170,9 +170,18 @@ line, since the website supplies its own heading), and writes
 `generated/cv-body.md`. It also copies `build/complete-cv.pdf` to
 `static/easwaran-cv.pdf`.
 
-`profiles/web-cv.yaml` lives in the CV project and deliberately omits
-publications and talks: the website has its own Publications page, and the full
-talk list is better served by the PDF.
+`profiles/web-cv.yaml` lives in the CV project and is deliberately shorter than
+the PDF: it omits publications and talks (both have better homes elsewhere),
+honors, grants, and general service, and narrows editorships to current ones
+(`current_only: true`) and conference organization to leadership roles
+(`lead_only: true`).
+
+A section may also carry `group:`, which emits a shared level-1 heading with
+each grouped section below it as a level-2 subheading. The three supervision
+sections use this, so the website renders them as one collapsible "Graduate
+Supervision" block with three subsections rather than three separate blocks —
+`make_collapsible` splits on `<h2>` only, so `<h3>`s stay inside their
+section.
 
 Generated output is committed so that GitHub Actions never needs access to the
 CV project.
