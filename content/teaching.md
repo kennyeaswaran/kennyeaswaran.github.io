@@ -109,15 +109,15 @@ expanded: ["At the University of California, Irvine"]
 - <span class="term">[2011 Spring](/teaching/2011S/)</span>
     - [Phil 351: Logic and Reasoning](/teaching/2011S/phil351/)
     - [Phil 385: Science and Rationality](/teaching/2011S/phil385/)
-- <span class="term">2010 Fall</span>
-    - Phil 585: Bayesianism in Philosophy of Science
-- <span class="term">2010 Spring</span>
-    - Phil 285: Knowledge, Explanation, and the Cosmos
-    - Phil 570: Epistemology of Mathematics
+- <span class="term">[2010 Fall](/teaching/2010F/)</span>
+    - [Phil 585: Bayesianism in Philosophy of Science](/teaching/2010F/phil585/)
+- <span class="term">[2010 Spring](/teaching/2010S/)</span>
+    - [Phil 285: Knowledge, Explanation, and the Cosmos](/teaching/2010S/phil285/)
+    - [Phil 570: Epistemology of Mathematics](/teaching/2010S/phil570/)
 - <span class="term">2009 Fall</span>
     - On research leave
-- <span class="term">2009 Spring</span>
-    - Phil 570: Probability and Epistemology
+- <span class="term">[2009 Spring](/teaching/2009S/)</span>
+    - [Phil 570: Probability and Epistemology](/teaching/2009S/phil570/)
 
 </div>
 
