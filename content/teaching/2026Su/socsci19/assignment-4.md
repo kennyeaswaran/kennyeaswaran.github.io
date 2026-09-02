@@ -2,6 +2,8 @@
 title: '4. Claude "vibecoding"'
 term: "Summer 2026"
 description: "AI Literacy, Summer 2026 — have Claude vibecode a working game based on your assigned fiction."
+collapsible: true
+collapsed: ["Some ideas for a game based on each fiction"]
 ---
 
 In this assignment you will create a working computer game based on your

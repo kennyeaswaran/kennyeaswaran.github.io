@@ -2,6 +2,7 @@
 title: "5. Deep Research and contextualize"
 term: "Summer 2026"
 description: "AI Literacy, Summer 2026 — commission Deep Research reports on an AI resource, then have Claude contextualize them."
+collapsible: true
 ---
 
 There is a numbered list of resources for AI below. Figure out which one you
@@ -71,19 +72,19 @@ paste).
 
 ## List of resources
 
-- Amount of training data used for LLMs
-- Amount of electricity used for training LLMs
-- Amount of electricity used for running LLMs
-- Amount of computing power used for training LLMs
-- Amount of computing power spent running LLMs
-- Amount of money spent on training LLMs
-- Number of GPU chips (or other specialized chips) for LLMs
-- Amount of storage needed to hold the weights and biases of the largest trained LLM
-- Amount of water used for data centers running LLMs
-- Total amount of computing power available in the world
-- Total amount of cloud storage in the world
-- Total amount of renewable electricity generated worldwide
-- Total number of GPU chips (or other specialized chips) manufactured worldwide
+1. Amount of training data used for LLMs
+2. Amount of electricity used for training LLMs
+3. Amount of electricity used for running LLMs
+4. Amount of computing power used for training LLMs
+5. Amount of computing power spent running LLMs
+6. Amount of money spent on training LLMs
+7. Number of GPU chips (or other specialized chips) for LLMs
+8. Amount of storage needed to hold the weights and biases of the largest trained LLM
+9. Amount of water used for data centers running LLMs
+10. Total amount of computing power available in the world
+11. Total amount of cloud storage in the world
+12. Total amount of renewable electricity generated worldwide
+13. Total number of GPU chips (or other specialized chips) manufactured worldwide
 
 Assignments [1](/teaching/2026Su/socsci19/assignment-1/) [2](/teaching/2026Su/socsci19/assignment-2/) [3](/teaching/2026Su/socsci19/assignment-3/) [4](/teaching/2026Su/socsci19/assignment-4/) 5 [6](/teaching/2026Su/socsci19/assignment-6/) [7](/teaching/2026Su/socsci19/assignment-7/) [8](/teaching/2026Su/socsci19/assignment-8/) [9](/teaching/2026Su/socsci19/assignment-9/) · [Final project](/teaching/2026Su/socsci19/final-project/)
 

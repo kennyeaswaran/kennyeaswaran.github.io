@@ -2,6 +2,7 @@
 title: "6. Generate AI art about your assigned fiction"
 term: "Summer 2026"
 description: "AI Literacy, Summer 2026 — generate ten images across at least three diffusion models, and say what makes them interesting."
+collapsible: true
 ---
 
 Generate some AI art for your assigned fiction using diffusion models. (See

@@ -2,6 +2,7 @@
 title: "7. Use an LLM to help read privacy policies"
 term: "Summer 2026"
 description: "AI Literacy, Summer 2026 — compare the privacy policies of three services with an LLM's help."
+collapsible: true
 ---
 
 There is a numbered list of online services below. Figure out which ones you
@@ -49,23 +50,23 @@ the top of the file.**
 
 ## List of services
 
-- TikTok
-- Instagram/Facebook
-- Snapchat
-- Discord
-- Reddit
-- Canvas
-- X/Twitter
-- ChatGPT
-- Claude
-- Venmo
-- Apple Pay
-- Google Pay
-- Tinder
-- Bumble
-- Uber
-- Spotify
-- Netflix
+1. TikTok
+2. Instagram/Facebook
+3. Snapchat
+4. Discord
+5. Reddit
+6. Canvas
+7. X/Twitter
+8. ChatGPT
+9. Claude
+10. Venmo
+11. Apple Pay
+12. Google Pay
+13. Tinder
+14. Bumble
+15. Uber
+16. Spotify
+17. Netflix
 
 Assignments [1](/teaching/2026Su/socsci19/assignment-1/) [2](/teaching/2026Su/socsci19/assignment-2/) [3](/teaching/2026Su/socsci19/assignment-3/) [4](/teaching/2026Su/socsci19/assignment-4/) [5](/teaching/2026Su/socsci19/assignment-5/) [6](/teaching/2026Su/socsci19/assignment-6/) 7 [8](/teaching/2026Su/socsci19/assignment-8/) [9](/teaching/2026Su/socsci19/assignment-9/) · [Final project](/teaching/2026Su/socsci19/final-project/)
 

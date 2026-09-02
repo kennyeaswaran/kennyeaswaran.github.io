@@ -2,6 +2,7 @@
 title: "9. Brainstorm ways AI might affect economic activity"
 term: "Summer 2026"
 description: "AI Literacy, Summer 2026 — brainstorm with an LLM how AI might transform one area of economic activity."
+collapsible: true
 ---
 
 There is a numbered list of areas of economic activity below (remember that
@@ -63,38 +64,38 @@ Paradox](https://en.wikipedia.org/wiki/Jevons_paradox).)
 
 ## Broad areas of economic activity
 
-- Childcare
-- Elementary eduction
-- University education
-- Religion
-- Live music
-- Theater
-- Recorded music
-- Film and video
-- Lighting (home/office/streets/elsewhere)
-- Competitive sports
-- Recreational sports
-- Fitness
-- Routine healthcare
-- Cancer treatment
-- Therapy
-- Firefighting
-- Mining
-- Energy production and distribution
-- Agriculture
-- Food preparation (at home or restaurants or elsewhere)
-- Clothing design and manufacture
-- Haircare/nail care/tattoos
-- Pets
-- Housing
-- Hotels
-- Intercity/international travel
-- Local transportation for commute or daily life
-- Household cleaning
-- Criminal law
-- Intellectual property law
-- Elections
-- Banking
+1. Childcare
+2. Elementary eduction
+3. University education
+4. Religion
+5. Live music
+6. Theater
+7. Recorded music
+8. Film and video
+9. Lighting (home/office/streets/elsewhere)
+10. Competitive sports
+11. Recreational sports
+12. Fitness
+13. Routine healthcare
+14. Cancer treatment
+15. Therapy
+16. Firefighting
+17. Mining
+18. Energy production and distribution
+19. Agriculture
+20. Food preparation (at home or restaurants or elsewhere)
+21. Clothing design and manufacture
+22. Haircare/nail care/tattoos
+23. Pets
+24. Housing
+25. Hotels
+26. Intercity/international travel
+27. Local transportation for commute or daily life
+28. Household cleaning
+29. Criminal law
+30. Intellectual property law
+31. Elections
+32. Banking
 
 Assignments [1](/teaching/2026Su/socsci19/assignment-1/) [2](/teaching/2026Su/socsci19/assignment-2/) [3](/teaching/2026Su/socsci19/assignment-3/) [4](/teaching/2026Su/socsci19/assignment-4/) [5](/teaching/2026Su/socsci19/assignment-5/) [6](/teaching/2026Su/socsci19/assignment-6/) [7](/teaching/2026Su/socsci19/assignment-7/) [8](/teaching/2026Su/socsci19/assignment-8/) 9 · [Final project](/teaching/2026Su/socsci19/final-project/)
 

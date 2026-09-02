@@ -2,6 +2,7 @@
 title: "8. Plan/outline/draft final project"
 term: "Summer 2026"
 description: "AI Literacy, Summer 2026 — outline the final project and make a first ambitious draft of one creative part."
+collapsible: true
 ---
 
 Look again at the assignment for the [Final

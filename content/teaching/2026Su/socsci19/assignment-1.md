@@ -2,6 +2,7 @@
 title: "1. Catch ChatGPT in mistakes"
 term: "Summer 2026"
 description: "AI Literacy, Summer 2026 — push ChatGPT until it makes mistakes on a topic you know well, and classify them."
+collapsible: true
 ---
 
 Think about a hobby or interest that you have, that you have experience with,
