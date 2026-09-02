@@ -14,7 +14,8 @@ description: "AI Literacy module 6 — diffusion models, AI images and music, an
 
 ## Written assignment - turn in by end of Thursday, July 9, give feedback by meeting on Tuesday, July 14
 
-**6. Generate AI art about your assigned fiction**
+**[6. Generate AI art about your assigned
+fiction](/teaching/2026Su/socsci19/assignment-6/)**
 
 Generate AI art about your assigned fiction. Note that some of the image
 generator services only let you do a few images per day, so you should probably

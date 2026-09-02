@@ -15,7 +15,7 @@ description: "AI Literacy module 4 — expert systems, neural classifiers, and w
 
 ## Written assignment - finish by end of Thursday, July 2, give feedback by meeting on Tuesday, July 7
 
-**4. Claude "vibecoding"**
+**[4. Claude "vibecoding"](/teaching/2026Su/socsci19/assignment-4/)**
 
 Use Claude to "vibecode" a working computer game, inspired by your assigned
 fiction. Note that a free account on Claude only lets you do so much every 5

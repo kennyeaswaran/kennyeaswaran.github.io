@@ -59,18 +59,12 @@ assigned to.
     - [Teatro Real de Madrid](https://www.youtube.com/watch?v=zmzxhI-F2PI), (2018) (47:18-1:26:10) (subtitles in Spanish)
     - [Compañía Nacional de Ópera Mexico](https://www.youtube.com/watch?v=WiZhEpYHPlA), (2021) (34:30-1:10:50) (subtitles in Spanish)
     - There are some delightfully over-the-top performances of the climactic aria
-- Two from the Metropolitan Opera's more recent production, one by [Kathleen
-Kim](https://www.youtube.com/watch?v=9emRjIMZsVk) in 2009, and one by [Erin
-Morley](https://www.youtube.com/watch?v=VXKsOeccz8w) in 2015.
-- [Natalie Dessay](https://www.youtube.com/watch?v=R1zoNGUiGto) at the Vienna
-State Opera in 1993
-- [Elizabeth Futral](https://www.youtube.com/watch?v=ZbxWX5lSNTU) at the
-Florida Grand Opera in 2011
+        - Two from the Metropolitan Opera's more recent production, one by [Kathleen Kim](https://www.youtube.com/watch?v=9emRjIMZsVk) in 2009, and one by [Erin Morley](https://www.youtube.com/watch?v=VXKsOeccz8w) in 2015.
+        - [Natalie Dessay](https://www.youtube.com/watch?v=R1zoNGUiGto) at the Vienna State Opera in 1993
+        - [Elizabeth Futral](https://www.youtube.com/watch?v=ZbxWX5lSNTU) at the Florida Grand Opera in 2011
 - The 2021 film Coppélia, by Maurizio Balagnini and the Dutch National Ballet
     - Film available through the UCI Library on [Kanopy](https://www.kanopy.com/en/uci/watch/video/12522233)
-- (In case you're interested, all three of these are adaptations of the story
-[The Sandman](https://www.ux1.eiu.edu/~rlbeebe/sandman.pdf) (Der Sandmann), by
-E.T.A. Hoffmann (1817))
+        - (In case you're interested, all three of these are adaptations of the story [The Sandman](https://www.ux1.eiu.edu/~rlbeebe/sandman.pdf) (Der Sandmann), by E.T.A. Hoffmann (1817))
 - [Frankenstein](https://www.gutenberg.org/files/84/84-h/84-h.htm), by Mary Shelley (1818) (also many films)
 - The character of the Sorting Hat, in all their appearances throughout the Harry Potter novels (1997-2007)
 - The character of Janet, from throughout the TV show [The Good Place](https://www.imdb.com/title/tt4955642/) (2016-2020)

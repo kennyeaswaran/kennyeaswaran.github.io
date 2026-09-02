@@ -14,7 +14,7 @@ description: "AI Literacy module 1 — symbolic, neural, and embodied AI, and wh
 
 ## Written assignment - do by end of Tuesday, June 23, review three others before meeting on Thursday, June 25
 
-**1. Catch ChatGPT in mistakes**
+**[1. Catch ChatGPT in mistakes](/teaching/2026Su/socsci19/assignment-1/)**
 
 Follow the instructions to have a conversation with ChatGPT about something you
 know well and have strong opinions about. Push it until it starts making big

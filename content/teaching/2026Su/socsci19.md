@@ -34,6 +34,17 @@ expanded: ["AI Literacy"]
 [10](/teaching/2026Su/socsci19/module-10/), and the
 [assigned fictions](/teaching/2026Su/socsci19/assigned-fictions/))
 
+(All assignments: [1](/teaching/2026Su/socsci19/assignment-1/),
+[2](/teaching/2026Su/socsci19/assignment-2/),
+[3](/teaching/2026Su/socsci19/assignment-3/),
+[4](/teaching/2026Su/socsci19/assignment-4/),
+[5](/teaching/2026Su/socsci19/assignment-5/),
+[6](/teaching/2026Su/socsci19/assignment-6/),
+[7](/teaching/2026Su/socsci19/assignment-7/),
+[8](/teaching/2026Su/socsci19/assignment-8/),
+[9](/teaching/2026Su/socsci19/assignment-9/), and the
+[final project](/teaching/2026Su/socsci19/final-project/))
+
 [Syllabus](/teaching/2026Su/socsci19/syllabus/) (as posted in Canvas)
 
 Artifacts I've made (with the help of Claude) for the class:

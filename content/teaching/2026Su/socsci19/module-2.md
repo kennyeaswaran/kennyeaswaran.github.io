@@ -17,7 +17,8 @@ description: "AI Literacy module 2 — the history of AI from automata to machin
 
 - Read/watch your [Assigned Fiction](/teaching/2026Su/socsci19/assigned-fictions/)
 
-**2. Describe the "AI" in your assigned fiction**
+**[2. Describe the "AI" in your assigned
+fiction](/teaching/2026Su/socsci19/assignment-2/)**
 
 You must read or watch your [assigned
 fiction](/teaching/2026Su/socsci19/assigned-fictions/) (see spreadsheet *(link
@@ -36,10 +37,8 @@ it. **Do not use AI for any part of this assignment.**
 - Shaw Talebi - [Multi-agent systems explained in 17 minutes](https://www.youtube.com/watch?v=Mi5wOpAgixw) (Feb. 22, 2026)
 - Historic artifacts:
     - Documentaries about pre-computer automata:
-- [The Jaquet-Droz automata](https://www.youtube.com/watch?v=WofWNcMHcl0), 18
-minutes (Dec. 5, 2011), some amazing 18th century clockwork automata
-- York Automata Museum, [documentary on historical
-automata](https://www.youtube.com/watch?v=buRMXn6iedE), 29 minutes (~1990)
+        - [The Jaquet-Droz automata](https://www.youtube.com/watch?v=WofWNcMHcl0), 18 minutes (Dec. 5, 2011), some amazing 18th century clockwork automata
+        - York Automata Museum, [documentary on historical automata](https://www.youtube.com/watch?v=buRMXn6iedE), 29 minutes (~1990)
     - You can interact with [ELIZA here](https://web.njit.edu/~ronkowit/eliza.html)
     - Here is the [very first website](https://info.cern.ch/hypertext/WWW/TheProject.html)
 

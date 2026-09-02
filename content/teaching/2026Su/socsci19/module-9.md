@@ -14,7 +14,8 @@ description: "AI Literacy module 9 — automation, economic growth, and the futu
 
 ## Written assignment - finish before end of Tuesday, July 21, give feedback by meeting on Thursday, July 23
 
-**9. Brainstorm ways AI might affect economic activity**
+**[9. Brainstorm ways AI might affect economic
+activity](/teaching/2026Su/socsci19/assignment-9/)**
 
 Think about the many dimensions of economic activity, and use AI to brainstorm
 how AI might change it.
@@ -41,9 +42,7 @@ how AI might change it.
     - Our World in Data's post on [what is economic growth](https://ourworldindata.org/what-is-economic-growth), (May 13, 2021) and why we often think that it is about money and forget why it matters
     - Tom Murphy's blog post on [Galactic-Scale Energy](https://dothemath.ucsd.edu/2011/07/galactic-scale-energy/), (July 12, 2011) and how even a few centuries of the kind of growth we have so far will run up against it
     - Holden Karnofsky, [The Most Important Century,](https://www.cold-takes.com/most-important-century/) a series of blog posts (late 2021) arguing that everything is likely to change in unknowable ways in a few decades
-- [Everything Might Change This
-Century](https://www.youtube.com/watch?v=3K25VPdbAjU), 32 minutes (July 24,
-2022) a video explaining Karnofsky's blog posts
+        - [Everything Might Change This Century](https://www.youtube.com/watch?v=3K25VPdbAjU), 32 minutes (July 24, 2022) a video explaining Karnofsky's blog posts
 - General predictions on AI power
     - Stuart Russell, [How will AI Change the World?](https://www.youtube.com/watch?v=RzkD_rTEBYs), 6 minutes (Dec. 6, 2022)
     - Ray Kurzweil, [The Last Six Decades of AI and What Comes Next,](https://www.youtube.com/watch?v=uEztHu4NHrs) 13 minute (June 27, 2024) TED talk from a famous futurist who is always a bit out there

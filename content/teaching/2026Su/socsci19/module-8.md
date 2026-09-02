@@ -14,7 +14,8 @@ description: "AI Literacy module 8 — artificial general intelligence, robots, 
 
 ## Written assignment - finish by end of Thursday, July 16, give feedback by meeting on Tuesday, July 21
 
-**8. Plan/outline/draft Final Presentation**
+**[8. Plan/outline/draft Final
+Presentation](/teaching/2026Su/socsci19/assignment-8/)**
 
 Make some plans for your final project, and make an attempt at one creative
 part of it.
@@ -23,19 +24,14 @@ part of it.
 
 - Robots
     - [Marques Brownlee - The Problem with this Humanoid Robot](https://www.youtube.com/watch?v=j31dmodZ-5c)
-- [Joanna Stern - I Tried the First Humanoid Robot. It Got
-Weird.](https://www.youtube.com/watch?v=f3c4mQty_so) 9 minutes (Oct. 28, 2025)
-- the video he mentions
+        - [Joanna Stern - I Tried the First Humanoid Robot. It Got Weird.](https://www.youtube.com/watch?v=f3c4mQty_so) 9 minutes (Oct. 28, 2025) - the video he mentions
 - AGI (or its impossibility)
     - Eddy Chen, Mikhail Belkin, Leon Bergen and David Danks, in Nature, [Does AI already have human-level intelligence? The evidence is clear](https://www.nature.com/articles/d41586-026-00285-6) (Feb. 2, 2026) - paper claiming that current AI is AGI
     - [The OpenAI Charter](https://openai.com/charter/)
-- [Sparks of AGI](https://arxiv.org/abs/2303.12712) (March 22, 2023) - the
-Microsoft research paper claiming ChatGPT had the beginnings of AGI
+        - [Sparks of AGI](https://arxiv.org/abs/2303.12712) (March 22, 2023) - the Microsoft research paper claiming ChatGPT had the beginnings of AGI
     - Google/DeepMind, [Taking a Responsible Path to AGI](https://deepmind.google/discover/blog/taking-a-responsible-path-to-agi/), (April 2, 2025)
     - Anthropic's [purpose statement](https://www.anthropic.com/company) (note: no mention of AGI)
-- Dario Amodei (Anthropic), [Machines of Loving
-Grace](https://www.darioamodei.com/essay/machines-of-loving-grace), (October,
-2024)
+        - Dario Amodei (Anthropic), [Machines of Loving Grace](https://www.darioamodei.com/essay/machines-of-loving-grace), (October, 2024)
     - Yann LeCun (ex-Meta), [Mathematical Obstacles on the Way to Human Level AI](https://www.youtube.com/watch?v=ETZfkkv6V7Y), 56 minutes (March 21, 2025)
 - Alan Turing, "Computing Machinery and Intelligence" *(scan removed)*, the 1950 paper that started it all ([2 hour video](https://www.youtube.com/watch?v=Xj62KxHfYlY) of me reading and explaining the paper)
 - Arvind Narayanan and Sayash Kapoor, [AI as Normal Technology](https://knightcolumbia.org/content/ai-as-normal-technology), (April 15, 2025) - a long essay about why we shouldn't think of AI in terms of AGI or superintelligence, but "just" as something like electricity or the industrial revolution
@@ -54,8 +50,7 @@ Grace](https://www.darioamodei.com/essay/machines-of-loving-grace), (October,
     - Celia Ford, ["The Most Promising Way to Understand how AI Works is by Understanding the Brain"](https://www.vox.com/future-perfect/362759/ai-interpretability-openai-claude-gemini-neuroscience), (July 26, 2024) in Vox
     - Yoshua Bengio and Vincent Conitzer - [What do LLMs tell us about ourselves?](https://www.oxford-aiethics.ox.ac.uk/blog/what-do-large-language-models-tell-us-about-ourselves), (July 8, 2024)
     - Physical Intelligence (PI zero) - [Our First Generalist Policy](https://www.physicalintelligence.company/blog/pi0), (Oct. 31, 2024) a demonstration of a robot that can fold items of clothing and do a few other physical tasks
-- [Robotics: Why Now?](https://www.youtube.com/watch?v=cGLa8DsOYdk), 18 minutes
-(July 26, 2025) - two of their engineers explaining recent progress
+        - [Robotics: Why Now?](https://www.youtube.com/watch?v=cGLa8DsOYdk), 18 minutes (July 26, 2025) - two of their engineers explaining recent progress
 - Kurzgesagt, [AI - Humanity's Final Invention](https://www.youtube.com/watch?v=fa8k8IQ1_X0), 18 minutes (Aug. 6, 2024) video tying together many class themes
 - [Lex Fridman and Sean Carroll on AGI](https://www.youtube.com/watch?v=ThMh0-3JxNg), 14 minutes (April 22, 2024) excerpts from a podcast ([full podcast](https://www.youtube.com/watch?v=tdv7r2JSokI&t=0s), 2.5 hours long)
 - exurb1a, [How Will We Know When AI Is Conscious?](https://www.youtube.com/watch?v=VQjPKqE39No), 22 minutes (Aug. 20, 2023)

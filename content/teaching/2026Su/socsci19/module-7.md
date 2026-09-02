@@ -15,7 +15,8 @@ description: "AI Literacy module 7 — privacy, intellectual property, and what 
 
 ## Written assignment - submit by end of Tuesday, July 14, give feedback by meeting on Thursday, July 16
 
-**7. Use an LLM to help read a privacy policy**
+**[7. Use an LLM to help read a privacy
+policy](/teaching/2026Su/socsci19/assignment-7/)**
 
 Download the privacy policies of three apps or services. Use an LLM to help
 understand what data is gathered, and what the risks are.

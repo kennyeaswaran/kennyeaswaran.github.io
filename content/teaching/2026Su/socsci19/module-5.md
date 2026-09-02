@@ -15,7 +15,8 @@ description: "AI Literacy module 5 — the data, energy, and hardware that machi
 
 ## Written assignment - submit by end of Tuesday, July 7, give feedback by meeting on Thursday, July 9.
 
-**5. Deep Research and contextualize**
+**[5. Deep Research and
+contextualize](/teaching/2026Su/socsci19/assignment-5/)**
 
 Use ChatGPT and Gemini to make "Deep Research" reports on your assigned topic.
 Use Claude to help understand and contextualize them.

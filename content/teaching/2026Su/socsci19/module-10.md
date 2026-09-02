@@ -15,6 +15,8 @@ description: "AI Literacy module 10 — AI ethics, safety, and existential risk.
 
 ## Final Project - due end of Monday, July 27, comments on others by end of Wednesday, July 29
 
+**[Final project](/teaching/2026Su/socsci19/final-project/)**
+
 A final creative project of approximately ten minutes - could be a lecture
 presentation, or a set of videos, or a game, or anything that will take people
 about 10 minutes to interact with.
