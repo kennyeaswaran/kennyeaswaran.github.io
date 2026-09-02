@@ -6,8 +6,8 @@ description: "AI Literacy module 6 — diffusion models, AI images and music, an
 
 ## Mandatory Watching - videos with quizzes - finish before 11 am, Thursday, July 9
 
-- 6.1 — Lecture: AI Images and Reality, 46 minutes (Apr. 28, 2026) *(UCI video link removed)*
-- 6.2 — Lecture: AI Art and Creativity, 40 minutes (Apr. 29, 2026) *(UCI video link removed)*
+- [6.1 — Lecture: AI Images and Reality](https://www.youtube.com/watch?v=dTj0J5QPm8w), 46 minutes (Apr. 28, 2026)
+- [6.2 — Lecture: AI Art and Creativity](https://www.youtube.com/watch?v=OVxGWFAf1jY), 40 minutes (Apr. 29, 2026)
 - [6.3 — Gonkee: How Stable Diffusion Works](https://www.youtube.com/watch?v=sFztPP9qPRc), 30 minutes (June 26, 2023)
 - [6.4 — Dustin Ballard: Is AI Ruining Music?](https://www.youtube.com/watch?v=ZZ0BOEOtD2U), 11 minutes (August 21, 2025)
 - [6.5 — Hank Green: What is "Slop"?](https://www.youtube.com/watch?v=dT5IJExTUR4), 12 minutes (March 27, 2026)

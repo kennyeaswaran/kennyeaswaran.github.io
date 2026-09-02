@@ -6,8 +6,8 @@ description: "AI Literacy module 3 — how neural nets work, and what large lang
 
 ## Mandatory Watching - videos with quizzes - finish before 11 am, Tuesday, June 30
 
-- 3.1 — Lecture: Neural Nets, 31 minutes (Uploaded March 31, 2026) *(UCI video link removed)*
-- 3.2 — Lecture: Large Language Models, AI Assistants, and Reasoning Models, 52 minutes (Uploaded March 31, 2026) *(UCI video link removed)*
+- [3.1 — Lecture: Neural Nets](https://www.youtube.com/watch?v=uva-YAckwcU), 31 minutes (Uploaded March 31, 2026)
+- [3.2 — Lecture: Large Language Models, AI Assistants, and Reasoning Models](https://www.youtube.com/watch?v=fFtYZljPxhA), 52 minutes (Uploaded March 31, 2026)
 - [3.3 — Art of the Problem - How AI Learns](https://www.youtube.com/watch?v=r1U6fenGTrU), 15 minutes (Uploaded Nov. 14, 2019)
 - [3.4 — Emergent Garden - Why Neural Networks Can Learn (Almost) Anything,](https://www.youtube.com/watch?v=0QczhVg5HaI) 10 minutes (Uploaded March 12, 2022)
 - [3.5 — 3blue1brown - Large Language Models Explained Briefly](https://www.youtube.com/watch?v=LPZh9BOjkQs), 9 minutes (Uploaded Nov. 20, 2024)

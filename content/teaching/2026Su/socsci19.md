@@ -45,6 +45,8 @@ expanded: ["AI Literacy"]
 [9](/teaching/2026Su/socsci19/assignment-9/), and the
 [final project](/teaching/2026Su/socsci19/final-project/))
 
+[Lecture videos](https://www.youtube.com/playlist?list=PLGfW0CJnEphg) on YouTube (all but 10.2, which was out of date within days)
+
 [Syllabus](/teaching/2026Su/socsci19/syllabus/) (as posted in Canvas)
 
 Artifacts I've made (with the help of Claude) for the class:

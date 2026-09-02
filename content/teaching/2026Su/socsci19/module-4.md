@@ -6,8 +6,8 @@ description: "AI Literacy module 4 — expert systems, neural classifiers, and w
 
 ## Mandatory Watching - videos with quizzes - finish before 11 am, Thursday, July 2
 
-- 4.1 — Lecture: Expert Systems, 30 minutes (April 6, 2026) *(UCI video link removed)*
-- 4.2 — Lecture: Neural Classifiers, 37 minutes (April 6, 2026) *(UCI video link removed)*
+- [4.1 — Lecture: Expert Systems](https://www.youtube.com/watch?v=ESDjH05Xk6U), 30 minutes (April 6, 2026)
+- [4.2 — Lecture: Neural Classifiers](https://www.youtube.com/watch?v=j31XeECqW50), 37 minutes (April 6, 2026)
 - [4.3 — Computerphile - Tricking AI Image Classification](https://www.youtube.com/watch?v=gGIiechWEFs), 12 minutes (July 27, 2022)
 - [4.4 — Wall Street Journal - How TikTok's Algorithm Figures You Out](https://www.youtube.com/watch?v=nfczi2cI6Cs), 13 minutes (July 21, 2021)
 - [4.5 — Crash Course AI: Algorithmic Bias](https://www.youtube.com/watch?v=gV0_raKR2UQ), 11 minutes (Dec. 13, 2019)

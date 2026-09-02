@@ -6,8 +6,8 @@ description: "AI Literacy module 10 — AI ethics, safety, and existential risk.
 
 ## Mandatory Watching - videos with quizzes - finish before 11 am on Thursday, July 23
 
-- 10.1 — Lecture: AI Ethics, 51 minutes (June 1, 2026) *(UCI video link removed)*
-- 10.2 — Lecture: AI Safety and Existential Risk, 46 minutes (July 21, 2026) *(UCI video link removed)*
+- [10.1 — Lecture: AI Ethics](https://www.youtube.com/watch?v=4j6XRckzmUw), 51 minutes (June 1, 2026)
+- 10.2 — Lecture: AI Safety and Existential Risk, 46 minutes (July 21, 2026) *(not posted - out of date within days of the class)*
 - [10.3 — Sasha Luccione - AI is Dangerous but Not for the Reasons You Think](https://www.youtube.com/watch?v=eXdVDhOGqoE), 10 minutes (Nov. 6, 2023)
 - [10.4 — Eliezer Yudkowsky - Will Superintelligent AI End the World?](https://www.youtube.com/watch?v=Yd0yQ9yxSYY), 10 minutes (July 11, 2023)
 - [10.5 — Gary Marcus - The Urgent Risks of Runaway AI](https://www.youtube.com/watch?v=JL5OFXeXenA), 14 minutes (May 12, 2023)

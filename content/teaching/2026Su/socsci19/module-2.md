@@ -6,8 +6,8 @@ description: "AI Literacy module 2 — the history of AI from automata to machin
 
 ## Mandatory Watching - videos with quizzes - finish by 11 am, Thursday, June 25
 
-- 2.1 — Lecture: History of AI, 22 minutes (Uploaded March 27, 2026) *(UCI video link removed)*
-- 2.2 — Lecture: Symbolic and Neural Approaches to AI, 48 minutes (Uploaded July 31, 2025) *(UCI video link removed)*
+- [2.1 — Lecture: History of AI](https://www.youtube.com/watch?v=-eg4FA_ftoQ), 22 minutes (Uploaded March 27, 2026)
+- [2.2 — Lecture: Symbolic and Neural Approaches to AI](https://www.youtube.com/watch?v=KlDXqHc9jNY), 48 minutes (Uploaded July 31, 2025)
 - [2.3 — Crash Course AI: Symbolic AI](https://www.youtube.com/watch?v=WHCo4m2VOws), 13 minutes (Uploaded Oct. 18, 2019)
 - [2.4 — IBM Technologies: What is Machine Learning](https://www.youtube.com/watch?v=9gGnTQTYNaE), 8 minutes (Uploaded July 14, 2021)
 - [2.5 — CGP Grey - How AI Learns](https://www.youtube.com/watch?v=R9OHn5ZF4Uo), 8 minutes (Uploaded Dec. 18, 2017)

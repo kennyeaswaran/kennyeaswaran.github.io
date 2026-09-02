@@ -6,8 +6,8 @@ description: "AI Literacy module 5 — the data, energy, and hardware that machi
 
 ## Mandatory Watching - videos with quizzes - finish before 11 am, Tuesday, July 7
 
-- 5.1 — Lecture: "Data is the New Oil", 40 minutes (April 15, 2026) *(UCI video link removed)*
-- 5.2 — Lecture: Physical Needs for Neural Nets, 45 minutes (April 15, 2026) *(UCI video link removed)*
+- [5.1 — Lecture: "Data is the New Oil"](https://www.youtube.com/watch?v=RcTsPgNMPwQ), 40 minutes (April 15, 2026)
+- [5.2 — Lecture: Physical Needs for Neural Nets](https://www.youtube.com/watch?v=Ax7OibdHuQc), 45 minutes (April 15, 2026)
 - [5.3 — Art of the Problem: From Bacteria to Humans](https://www.youtube.com/watch?v=yLAwDEfzqRw), 17 minutes (June 27, 2017)
 - [5.4 — The Bitter Lesson](https://www.youtube.com/watch?v=wEgq6sT1uq8), 9 minutes (April 7, 2019)
 - [5.5 — Crash Course AI: Training Neural Networks](https://www.youtube.com/watch?v=lgKrup5oi_A), 12 minutes (Aug. 30, 2019)

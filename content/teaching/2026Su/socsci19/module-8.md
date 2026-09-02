@@ -6,8 +6,8 @@ description: "AI Literacy module 8 — artificial general intelligence, robots, 
 
 ## Mandatory Watching - videos with quizzes - finish before 11 am, Thursday, July 16
 
-- 8.1 — Lecture: Philosophical Issues for Artificial Intelligence, 43 minutes (May 7, 2026) *(UCI video link removed)*
-- 8.2 — Lecture: Some Opinionated Takes on "Artificial General Intelligence", 45 minutes (May 7, 2026) *(UCI video link removed)*
+- [8.1 — Lecture: Philosophical Issues for Artificial Intelligence](https://www.youtube.com/watch?v=iqhOlD-cPIY), 43 minutes (May 7, 2026)
+- [8.2 — Lecture: Some Opinionated Takes on "Artificial General Intelligence"](https://www.youtube.com/watch?v=77TpZSi2RMc), 45 minutes (May 7, 2026)
 - [8.3 — Wired - Aaron Ames Answers Robot Questions](https://www.youtube.com/watch?v=jZwuCtc2SoU), 22 minutes (April 28, 2026)
 - [8.4 — Chelsea Finn Explains Moravec's Paradox at 5 Levels of Difficulty](https://www.youtube.com/watch?v=raHM3k-uR0E), 19 minutes (Sept. 19, 2022)
 - [8.5 — Emergent Garden - The Chaos of AI Agents](https://www.youtube.com/watch?v=2YYjPs8t8MI), 15 minutes (July 26, 2025)

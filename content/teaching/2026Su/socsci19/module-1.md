@@ -6,8 +6,8 @@ description: "AI Literacy module 1 — symbolic, neural, and embodied AI, and wh
 
 ## Mandatory Watching - videos with quizzes - finish before meeting at 11 am, Tuesday, June 23
 
-- 1.1 — Lecture: Intro to the Class, 23 minutes (uploaded March 26, 2026) *(UCI video link removed)*
-- 1.2 — Lecture: Kinds of AI, 47 minutes (uploaded March 27, 2026) *(UCI video link removed)*
+- [1.1 — Lecture: Intro to the Class](https://www.youtube.com/watch?v=PA16rGD-TcU), 23 minutes (uploaded March 26, 2026)
+- [1.2 — Lecture: Kinds of AI](https://www.youtube.com/watch?v=SCuDgVvAWdE), 47 minutes (uploaded March 27, 2026)
 - [1.3 — Crash Course AI: What is Artificial Intelligence?](https://www.youtube.com/watch?v=a0_lo_GDcFw), 13 minutes (uploaded Aug. 9, 2019)
 - [1.4 — Vox: We're Already Using AI More Than We Realize](https://www.youtube.com/watch?v=YsZ-lx_3eoM), 6 minutes (uploaded Feb. 28, 2024)
 - [1.5 — Fei-Fei Li: With Spatial Intelligence, AI Will Understand the Real World](https://www.youtube.com/watch?v=y8NtMZ7VGmU), 15 minutes (uploaded May 16, 2024)

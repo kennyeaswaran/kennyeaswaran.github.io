@@ -6,8 +6,8 @@ description: "AI Literacy module 7 — privacy, intellectual property, and what 
 
 ## Mandatory Watching - videos with quizzes - finish before 11 am, Tuesday, July 14
 
-- 7.1 — Lecture: Data Security in the Era of AI, 34 minutes (May 5, 2026) *(UCI video link removed)*
-- 7.2 — Lecture: Intellectual Property in the Age of AI, 40 minutes (Feb. 16, 2025) *(UCI video link removed)*
+- [7.1 — Lecture: Data Security in the Era of AI](https://www.youtube.com/watch?v=8XK3xdWI_PA), 34 minutes (May 5, 2026)
+- [7.2 — Lecture: Intellectual Property in the Age of AI](https://www.youtube.com/watch?v=983s5YjOW0Q), 40 minutes (Feb. 16, 2025)
 - [7.3 — Hank Green - Is Google Training AI on YouTube Videos?](https://www.youtube.com/watch?v=JiMXb2NkAxQ), 30 minutes (Aug. 23, 2024)
 - [7.4 — Yuval Noah Hariri: How to Safeguard Your Mind in the Age of Junk Information](https://www.youtube.com/watch?v=K1OvbwY6GPM), 13 minutes (Aug. 11, 2025)
 - [7.5 — Sandra Wachter - Privacy in the Age of Big Data](https://www.youtube.com/watch?v=JvSEw1HuZvc), 5 minutes (May 6, 2019)

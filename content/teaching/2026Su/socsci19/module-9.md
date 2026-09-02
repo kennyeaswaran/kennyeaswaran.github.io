@@ -6,8 +6,8 @@ description: "AI Literacy module 9 — automation, economic growth, and the futu
 
 ## Mandatory Watching - videos with quizzes - finish before 11 am, Tuesday, July 21
 
-- 9.1 — Lecture: The Past - and Future? - of Exponential Economic Growth, 27 minutes (May 11, 2026) *(UCI video link removed)*
-- 9.2 — Lecture: The Impact of Automation on Employment, 47 minutes (May 12, 2026) *(UCI video link removed)*
+- [9.1 — Lecture: The Past - and Future? - of Exponential Economic Growth](https://www.youtube.com/watch?v=l8Re68hvw4Q), 27 minutes (May 11, 2026)
+- [9.2 — Lecture: The Impact of Automation on Employment](https://www.youtube.com/watch?v=Vu6DIhVqocI), 47 minutes (May 12, 2026)
 - [9.3 — Kurzgesagt - Why Automation is Different This Time](https://www.youtube.com/watch?v=WSKi8HfcxEk), 11 minutes (June 8, 2017)
 - [9.4 — Vox - The Debate about the Future of Work, Explained](https://www.youtube.com/watch?v=TUmyygCMMGA), 9 minutes (Nov. 13, 2017)
 - [9.5 — Wendover Productions, The Terrifying Efficiency of Drone Warfare](https://www.youtube.com/watch?v=kFSR6OuWVQ4), 23 minutes (Aug. 8, 2024)
