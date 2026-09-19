@@ -20,7 +20,7 @@ no public page here.
     - [SocSci 19: AI Literacy](/teaching/2026S/socsci19/)
     - LPS 246: Logic Seminar
 - <span class="term">[2026 Winter](/teaching/2026W/)</span>
-    - LPS 31: Probability and Inductive Logic
+    - [LPS 31: Probability and Inductive Logic](/teaching/2026W/lps31/)
     - [LPS 221: Seminar on Knowing How, Knowing That, and AI](/teaching/2026W/lps221/)
 - <span class="term">[2025 Fall](/teaching/2025F/)</span>
     - SocSci 19: AI Literacy
@@ -32,7 +32,7 @@ no public page here.
     - LPS 244: Graduate Seminar on Epistemic Diversity
 - <span class="term">2025 Winter</span>
     - SocSci 19: AI Literacy
-    - LPS 31: Probability and Inductive Logic
+    - [LPS 31: Probability and Inductive Logic](/teaching/2026W/lps31/)
 - <span class="term">2024 Fall</span>
     - LPS 105A/205A: Set Theory and Mathematical Reasoning
 - <span class="term">2024 Summer</span>
