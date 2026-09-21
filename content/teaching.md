@@ -1,7 +1,7 @@
 ---
 title: "Teaching"
 description: "Courses taught at UC Irvine, Texas A&M University, and the University of Southern California."
-updated: "August 2026"
+updated: "September 2026"
 collapsible: true
 expanded: ["At the University of California, Irvine"]
 ---
@@ -14,6 +14,9 @@ no public page here.
 
 <div class="terms" markdown="1">
 
+- <span class="term">[2026 Fall](/teaching/2026F/)</span>
+    - [LPS 31: Probability and Inductive Logic](/teaching/2026F/lps31/)
+    - [LPS 105A/205A: Set Theory and Mathematical Reasoning](/teaching/2026F/lps105a/)
 - <span class="term">[2026 Summer](/teaching/2026Su/)</span>
     - [SocSci 19: AI Literacy](/teaching/2026Su/socsci19/)
 - <span class="term">[2026 Spring](/teaching/2026S/)</span>
