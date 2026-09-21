@@ -9,28 +9,33 @@ expanded: ["Goals and assignments"]
 Also PHIL 105A/205A and LSCI 145A. Tuesday and Thursday, 11:00–12:20, SSPA 1165.
 Office hours by appointment, in SST 759 or online.
 
-Over the course of the term we will work through my class notes (which are in
-the process of being written and edited). I'll continually post updated
-versions here as I update them. It will be helpful to read through the notes in
-advance of the week that we go over them - especially for the week of your
-in-class presentation.
+Each week we will work through one section of the class notes (which I will be editing and updating over the course of the term). I'll make sure the newest version is always available here. It will be helpful to read through the notes in advance of the week that we go over them - especially for the week of your in-class presentation.
+
+Each week, six students will each present one of the exercises from that section at the board during class, and every student will choose one exercise from that section to write up in LaTeX (see below) as a homework assignment (turned in [on Gradescope](https://www.gradescope.com/courses/1406284)). These exercises range in complexity, and I encourage you to choose ones that are the appropriate level of challenge for you.
+
+At the beginning of the term, each student should pick one day from weeks 1-5, and one day from weeks 6-10, to do a presentation. We will meet to talk about which specific exercise you will pick as the dates get closer.
 
 [Class notes (PDF, version of 2 December 2025)](/teaching/2026F/lps105a/set-theory-notes.pdf){: .button }
 
-Submit weekly written assignments
-[on Gradescope](https://www.gradescope.com/courses/1406284).
 
-I encourage you to start learning the LaTeX typesetting system. It is
-absolutely standard in mathematics, and very commonly used in many areas of
-linguistics, philosophy, computer science, and other disciplines as well. The
-easiest way to use it is at [Overleaf](https://www.overleaf.com/). Trefor Bazett
-has [some](https://www.youtube.com/watch?v=Jp0lPj2-DQA)
-[videos](https://www.youtube.com/watch?v=cI0gGcYOkiI) to help get started. You
-can also [download it to install](https://tug.org/begin.html) on your own
-computer for free. Warning: the default package is several gigabytes, because
-it includes files for every extension any mathematician, philosopher, linguist,
-computer scientist, or other has written, some of which might be relevant for
-some of your work in future.
+## Class schedule
+
+#### Part I: Informal set theory
+
+- **Week 0** (9/24): Sets as meanings of words
+- **Week 1** (9/29, 10/1): Sets and numbers
+- **Week 2** (10/6, 10/8): Well-orderings, countable vs uncountable infinities
+- **Week 3** (10/13, 10/15): Many countable infinities
+- **Week 4** (10/20, 10/22): The real numbers, and the power set of the natural numbers
+- **Week 5** (10/27, 10/29): The Axiom of Choice, the paradoxes
+
+#### Part II: Formal axiomatic set theory
+
+- **Week 6** (11/3, 11/5): The formal language, and the "small" axioms
+- **Week 7** (11/10, 11/12): Power set, foundation, separation, and replacement
+- **Week 8** (11/17, 11/19): Binary relations, well-orderings, and the axiom of infinity
+- **Week 9** (11/24, Thanksgiving): Recursive and combinatorial definitions for arithmetic
+- **Week 10** (12/1, 12/3): TBD
 
 ## Goals and assignments
 
@@ -58,24 +63,19 @@ effectively presenting it.
 Your final grade will primarily be based on completing all of these written and
 in-class proofs, with only slight modifications for quality.
 
-## Class schedule
+## LaTeX
 
-#### Part I: Informal set theory
-
-- **Week 0** (9/24): Sets as meanings of words
-- **Week 1** (9/29, 10/1): Sets and numbers
-- **Week 2** (10/6, 10/8): Well-orderings, countable vs uncountable infinities
-- **Week 3** (10/13, 10/15): Many countable infinities
-- **Week 4** (10/20, 10/22): The real numbers, and the power set of the natural numbers
-- **Week 5** (10/27, 10/29): The Axiom of Choice, the paradoxes
-
-#### Part II: Formal axiomatic set theory
-
-- **Week 6** (11/3, 11/5): The formal language, and the "small" axioms
-- **Week 7** (11/10, 11/12): Power set, foundation, separation, and replacement
-- **Week 8** (11/17, 11/19): Binary relations, well-orderings, and the axiom of infinity
-- **Week 9** (11/24, Thanksgiving): Recursive and combinatorial definitions for arithmetic
-- **Week 10** (12/1, 12/3): TBD
+I encourage you to start learning the LaTeX typesetting system. It is
+absolutely standard in mathematics, and very commonly used in many areas of
+linguistics, philosophy, computer science, and other disciplines as well. The
+easiest way to use it is at [Overleaf](https://www.overleaf.com/). Trefor Bazett
+has [some](https://www.youtube.com/watch?v=Jp0lPj2-DQA)
+[videos](https://www.youtube.com/watch?v=cI0gGcYOkiI) to help get started. You
+can also [download it to install](https://tug.org/begin.html) on your own
+computer for free. Warning: the default package is several gigabytes, because
+it includes files for every extension any mathematician, philosopher, linguist,
+computer scientist, or other has written, some of which might be relevant for
+some of your work in future.
 
 ## Resources on writing proofs
 
