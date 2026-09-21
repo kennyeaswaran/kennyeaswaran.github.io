@@ -38,6 +38,14 @@ python3 build.py --serve            # preview at localhost:8000, rebuilds on sav
 ./sync-cv.sh                        # refresh cv-body.md and the CV PDF
 ```
 
+`public/` is gitignored and rebuilt on demand, so it can drift from `content/`
+while you are editing. Two things keep it current: `--serve` rebuilds on every
+save while you have it running, and the git hooks in `.git/hooks`
+(`post-commit`, `post-merge`, `post-checkout`, all thin wrappers around
+`rebuild-site`) rebuild after a commit, a pull, or a branch switch. Hooks are
+not tracked by git, so a fresh clone has to have them copied in again. A failed
+build only prints a line; it never blocks the git operation.
+
 Deployment is automatic: pushing to `main` triggers
 `.github/workflows/deploy.yml`, which builds and publishes. Nothing is deployed
 from a local machine.

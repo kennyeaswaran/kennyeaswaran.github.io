@@ -6,26 +6,39 @@ description: "Probability and inductive logic, Fall 2026 at UC Irvine. Schedule,
 
 Professor: Kenny Easwaran (k.easwaran@uci.edu)
 
-Office Hours: TBD, in SST 759
+Office Hours: Wednesdays, 11-12:30 in SST 759
 {: .note }
 
-TAs: TBD
+TAs: Orestis Dimou Belegratis, Ava Bruckner-Kockel, Chelsea Choi
+
+(section assignments TBA)
 
 ## Class times and locations
 
-Lecture: Tu/Th 2-3:20 pm, room TBD
+Lecture: Tu/Th 2-3:20 pm, EH 1200
 
 (sections do not meet on week 0 or week 1)
 
 | Section | Time | Room |
 |---|---|---|
-| TBD | TBD | TBD |
+| 1 | Monday 9-9:50 am | SSL 145 |
+| 2 | Monday 12-12:50 pm | SSL 145 |
+| 3 | Monday 2-2:50 pm | SST 122 |
+| 5 | Tuesday 1-1:50 pm | PSCB 210 |
+| 6 | Tuesday 5-5:50 pm | SSL 145 |
+| 8 | Wednesday 11-11:50 am | SSL 145 |
+| 9 | Wednesday 4-4:50 pm | SSL 145 |
+| 11 | Thursday 10-10:50 am | SSTR 100 |
+| 12 | Thursday 5-5:50 pm | SSL 145 |
 
-Exams (all in the regular classroom):
+Sections 4, 7, and 10 have been cancelled.
+{: .note }
+
+Exams (all in EH 1200, the regular classroom):
 
 - Midterm 1: Tuesday, Oct. 20, 2-3:20
 - Midterm 2: Thursday, Nov. 12, 2-3:20
-- Final: TBD (finals week, Dec. 5-11)
+- Final: Thursday, Dec. 10, 1:30-3:30 pm
 
 Textbook: Brian Skyrms, *Choice and Chance*, 4th Edition
 
@@ -57,15 +70,16 @@ and the others have other features.)
 | Nov. 17, 19 | Ch. VII | Section 7 | HW7 | |
 | Nov. 24 (no class Thanksgiving) | Ch. VIII | Section 8 | HW8 | |
 | Dec. 1, 3 | Review | Section 9 | (none) | |
-| | | | | Final exam, date TBD |
+| | | | | Thurs., Dec. 10, 1:30-3:30 — Final Exam |
 
 Sample finals: [1](/teaching/2026F/lps31/final-sample-1.pdf)
 ([accessible version](/teaching/2026F/lps31/final-sample-1-accessible.pdf)),
 [2](/teaching/2026F/lps31/final-sample-2.pdf),
 [3](/teaching/2026F/lps31/final-sample-3.pdf)
 
-Section and homework assignments are submitted through Gradescope. Links will be
-added here once the assignments are set up.
+Section and homework assignments are submitted
+[on Gradescope](https://www.gradescope.com/courses/1406274/). Individual
+assignment links will be added to the table above as they are set up.
 {: .note }
 
 Section assignments must be done **in-person** during section, unless you let me

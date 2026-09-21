@@ -8,10 +8,6 @@ expanded: ["At the University of California, Irvine"]
 
 ## At the University of California, Irvine
 
-Courses from 2020 onwards were run mostly through Canvas, so most of them have
-no public page here.
-{: .note }
-
 <div class="terms" markdown="1">
 
 - <span class="term">[2026 Fall](/teaching/2026F/)</span>
@@ -28,6 +24,15 @@ no public page here.
 - <span class="term">[2025 Fall](/teaching/2025F/)</span>
     - SocSci 19: AI Literacy
     - [LPS 105A/205A: Set Theory and Mathematical Reasoning](/teaching/2025F/lps105a/)
+
+</div>
+
+Courses from 2020–2025 were run mostly through Canvas, so most of them have
+no public page here.
+{: .note }
+
+<div class="terms" markdown="1">
+
 - <span class="term">2025 Summer</span>
     - SocSci 19: AI Literacy
 - <span class="term">2025 Spring</span>
@@ -35,7 +40,7 @@ no public page here.
     - LPS 244: Graduate Seminar on Epistemic Diversity
 - <span class="term">2025 Winter</span>
     - SocSci 19: AI Literacy
-    - [LPS 31: Probability and Inductive Logic](/teaching/2026W/lps31/)
+    - LPS 31: Probability and Inductive Logic
 - <span class="term">2024 Fall</span>
     - LPS 105A/205A: Set Theory and Mathematical Reasoning
 - <span class="term">2024 Summer</span>
@@ -68,6 +73,15 @@ no public page here.
     - Phil 663: Seminar in Epistemology — Foundations of Bayesianism
 - <span class="term">2020 Fall</span>
     - Phil 351: Theory of Knowledge
+
+</div>
+
+Courses from 2020–2025 were run mostly through Canvas, so most of them have
+no public page here.
+{: .note }
+
+<div class="terms" markdown="1">
+
 - <span class="term">[2020 Spring](/teaching/2020S/)</span>
     - [Phil 351: Theory of Knowledge](/teaching/2020S/phil351/)
 - <span class="term">[2019 Fall](/teaching/2019F/)</span>

@@ -6,7 +6,7 @@ collapsible: true
 expanded: ["Goals and assignments"]
 ---
 
-Also PHIL 105A/205A and LSCI 145A. Tuesday and Thursday, 11:00–12:20, room TBD.
+Also PHIL 105A/205A and LSCI 145A. Tuesday and Thursday, 11:00–12:20, SSPA 1165.
 Office hours by appointment, in SST 759 or online.
 
 Over the course of the term we will work through my class notes (which are in
@@ -17,7 +17,8 @@ in-class presentation.
 
 [Class notes (PDF, version of 2 December 2025)](/teaching/2026F/lps105a/set-theory-notes.pdf){: .button }
 
-Submit weekly written assignments on Gradescope (link TBD).
+Submit weekly written assignments
+[on Gradescope](https://www.gradescope.com/courses/1406284).
 
 I encourage you to start learning the LaTeX typesetting system. It is
 absolutely standard in mathematics, and very commonly used in many areas of
