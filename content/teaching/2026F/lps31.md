@@ -2,9 +2,13 @@
 title: "LPS/PHIL 31: Inductive Logic"
 term: "Fall 2026"
 description: "Probability and inductive logic, Fall 2026 at UC Irvine. Schedule, sample exams, and the AI study guide."
+collapsible: true
+collapsed: ["Class times and locations", "Schedule"]
 ---
 
 Professor: Kenny Easwaran (k.easwaran@uci.edu)
+
+Lecture: Tu/Th 2-3:20 pm, EH 1200
 
 Office Hours: Wednesdays, 11-12:30 in SST 759
 {: .note }
@@ -13,11 +17,10 @@ TAs: Orestis Dimou Belegratis, Ava Bruckner-Kockel, Chelsea Choi
 
 (section assignments TBA)
 
+Sections do not meet in week 0 or week 1.
+{: .note }
+
 ## Class times and locations
-
-Lecture: Tu/Th 2-3:20 pm, EH 1200
-
-(sections do not meet on week 0 or week 1)
 
 | Section | Time | Room |
 |---|---|---|
@@ -40,21 +43,6 @@ Exams (all in EH 1200, the regular classroom):
 - Midterm 2: Thursday, Nov. 12, 2-3:20
 - Final: Thursday, Dec. 10, 1:30-3:30 pm
 
-Textbook: Brian Skyrms, *Choice and Chance*, 4th Edition
-
-I have made an [AI study guide](/teaching/2026F/lps31/study-guide.pdf). This is
-a document that you can upload to an AI assistant like
-[ChatGPT](https://chatgpt.com/), [Claude](https://claude.ai/), or
-[Gemini](https://gemini.google.com/), so that it can give you targeted help for
-this class. If you have any feedback about how your AI assistant is
-(mis)interpreting things, I may revise it in light of that. (I recommend trying
-out all three of these different AI systems, either by creating accounts with
-them, or using them in the more data-secure way through UCI's private
-[ZotGPT](https://zotgpt.uci.edu/) version. These different AI systems, and
-various others, all have different personalities. ChatGPT tends to optimize more
-for engagement, while Claude optimizes for helping you think philosophically,
-and the others have other features.)
-
 ## Schedule
 
 | Dates | Reading | In-section | Homework | Exams |
@@ -72,14 +60,33 @@ and the others have other features.)
 | Dec. 1, 3 | Review | Section 9 | (none) | |
 | | | | | Thurs., Dec. 10, 1:30-3:30 — Final Exam |
 
+## Textbook and study materials
+
+Textbook: Brian Skyrms, *Choice and Chance*, 4th Edition
+
+I have made an [AI study guide](https://www.kennyeaswaran.org/lps31/), along
+with some other study tools for this class. The study guide is a document that
+you can upload to an AI assistant like [ChatGPT](https://chatgpt.com/),
+[Claude](https://claude.ai/), or [Gemini](https://gemini.google.com/), so that
+it can give you targeted help for this class. If you have any feedback about how
+your AI assistant is (mis)interpreting things, I may revise it in light of that.
+(I recommend trying out all three of these different AI systems, either by
+creating accounts with them, or using them in the more data-secure way through
+UCI's private [ZotGPT](https://zotgpt.uci.edu/) version. These different AI
+systems, and various others, all have different personalities. ChatGPT tends to
+optimize more for engagement, while Claude optimizes for helping you think
+philosophically, and the others have other features.)
+
 Sample finals: [1](/teaching/2026F/lps31/final-sample-1.pdf)
 ([accessible version](/teaching/2026F/lps31/final-sample-1-accessible.pdf)),
 [2](/teaching/2026F/lps31/final-sample-2.pdf),
 [3](/teaching/2026F/lps31/final-sample-3.pdf)
 
+## Assignments and grading
+
 Section and homework assignments are submitted
 [on Gradescope](https://www.gradescope.com/courses/1406274/). Individual
-assignment links will be added to the table above as they are set up.
+assignment links will be added to the schedule as they are set up.
 {: .note }
 
 Section assignments must be done **in-person** during section, unless you let me
