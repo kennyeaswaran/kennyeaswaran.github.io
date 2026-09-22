@@ -60,4 +60,4 @@ best, and submit here.
 
 Modules [1](/teaching/2026Su/socsci19/module-1/) [2](/teaching/2026Su/socsci19/module-2/) 3 [4](/teaching/2026Su/socsci19/module-4/) [5](/teaching/2026Su/socsci19/module-5/) [6](/teaching/2026Su/socsci19/module-6/) [7](/teaching/2026Su/socsci19/module-7/) [8](/teaching/2026Su/socsci19/module-8/) [9](/teaching/2026Su/socsci19/module-9/) [10](/teaching/2026Su/socsci19/module-10/) · [Assigned fictions](/teaching/2026Su/socsci19/assigned-fictions/) · [Syllabus](/teaching/2026Su/socsci19/syllabus/)
 
-[Meeting 3 activity](/teaching/2026Su/socsci19/meeting-3/){: .button } [Back to AI Literacy](/teaching/2026Su/socsci19/){: .button }
+[Meeting 3 activity](/teaching/2026Su/socsci19/meeting-3/){: .button }

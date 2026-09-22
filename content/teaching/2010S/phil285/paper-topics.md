@@ -249,5 +249,3 @@ the semester: Hume's thought that all knowledge that doesn't come directly
 through the senses comes from induction; Popper's thought that for a theory to
 be scientific it must make falsifiable predictions; the causal model of
 explanation.
-
-[Back to Phil 285](/teaching/2010S/phil285/){: .button }

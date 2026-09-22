@@ -297,5 +297,3 @@ Any other non-text-based generative AI systems (Gemini summary):
 - Specific AI Systems Mentioned: Respondents listed Sora, Veo3, Nano Banana, mureka, and Krea (replacing Midjourney) as other systems used.
 - Creative/Editing Software: Some responses mentioned software with AI features, including Adobe Photoshop, the photos app for creating collages (though unsure if it counts as AI), and powtoon (if it counts).
 - Novelty/Limited-Scope Apps: One respondent noted using an app that turns people into dancing elves for Christmas, while another mentioned hearing that Sora is "bad."
-
-[Back to Meeting 1](/teaching/2026Su/socsci19/meeting-1/){: .button }

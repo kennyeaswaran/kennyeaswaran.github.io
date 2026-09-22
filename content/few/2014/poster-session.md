@@ -54,5 +54,3 @@ from the grad school at UNC Chapel Hill.
 
 [Better Posters](http://betterposters.blogspot.com/) - a blog based on detailed
 critiques of submitted posters, and discussions about how to improve them.
-
-[Back to FEW 2014](/few/2014/){: .button }

@@ -103,5 +103,3 @@ assignments.
 
 The final grade will be 25% sections, 25% homework, 25% from the two midterms,
 25% from the final.
-
-[All Winter 2026 courses](/teaching/2026W/){: .button } [All teaching](/teaching/){: .button }

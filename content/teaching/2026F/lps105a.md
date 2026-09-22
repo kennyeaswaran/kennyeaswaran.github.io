@@ -3,7 +3,7 @@ title: "LPS 105A/205A: Set Theory and Mathematical Reasoning"
 term: "Fall 2026"
 description: "Set theory and mathematical proof, Fall 2026 at UC Irvine. Class schedule and resources on writing proofs."
 collapsible: true
-expanded: ["Goals and assignments"]
+expanded: []
 ---
 
 Also PHIL 105A/205A and LSCI 145A. Tuesday and Thursday, 11:00–12:20, SSPA 1165.
@@ -65,7 +65,7 @@ in-class proofs, with only slight modifications for quality.
 
 ## LaTeX
 
-I encourage you to start learning the LaTeX typesetting system. It is
+One additional skill you will learn in this class is the LaTeX typesetting system. It is
 absolutely standard in mathematics, and very commonly used in many areas of
 linguistics, philosophy, computer science, and other disciplines as well. The
 easiest way to use it is at [Overleaf](https://www.overleaf.com/). Trefor Bazett
@@ -107,5 +107,3 @@ some of your work in future.
 - Trefor Bazett's [discrete maths videos](https://www.youtube.com/playlist?list=PLHXZ9OQGMqxersk8fUxiUMSIx0DBqsKZS)
 - Antonio Montalbán's [set theory class videos](https://www.youtube.com/playlist?list=PLjJhPCaCziSQyON7NLc8Ac8ibdm6_iDQf)
 - José Ferreirós, ["The Early Development of Set Theory"](https://plato.stanford.edu/entries/settheory-early/), *Stanford Encyclopedia of Philosophy*
-
-[All Fall 2026 courses](/teaching/2026F/){: .button } [All teaching](/teaching/){: .button }

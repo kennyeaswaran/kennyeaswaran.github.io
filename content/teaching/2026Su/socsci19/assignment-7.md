@@ -70,4 +70,4 @@ the top of the file.**
 
 Assignments [1](/teaching/2026Su/socsci19/assignment-1/) [2](/teaching/2026Su/socsci19/assignment-2/) [3](/teaching/2026Su/socsci19/assignment-3/) [4](/teaching/2026Su/socsci19/assignment-4/) [5](/teaching/2026Su/socsci19/assignment-5/) [6](/teaching/2026Su/socsci19/assignment-6/) 7 [8](/teaching/2026Su/socsci19/assignment-8/) [9](/teaching/2026Su/socsci19/assignment-9/) · [Final project](/teaching/2026Su/socsci19/final-project/)
 
-[Module 7](/teaching/2026Su/socsci19/module-7/){: .button } [Back to AI Literacy](/teaching/2026Su/socsci19/){: .button }
+[Module 7](/teaching/2026Su/socsci19/module-7/){: .button }

@@ -186,5 +186,3 @@ any you already looked at that some of the other people in your group might want
 to check out?
 
 Previous meetings: [1](/teaching/2026Su/socsci19/meeting-1/)
-
-[Back to AI Literacy](/teaching/2026Su/socsci19/){: .button }

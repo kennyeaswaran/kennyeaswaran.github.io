@@ -38,6 +38,11 @@
 
 <footer class="site-footer">
   <div class="wrap">
+    {%- if trail %}
+    <nav class="up-trail" aria-label="Up one level">
+      {% for item in trail %}<a class="button" href="{{ item.url }}">{{ item.title }}</a>{% endfor %}
+    </nav>
+    {%- endif %}
     <p>
       <a href="mailto:{{ site.email }}">{{ site.email }}</a>
       <span class="sep">·</span>

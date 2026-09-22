@@ -21,5 +21,3 @@ me through e-mail.
 
 Remember to also fill out the survey on Assigned Fictions *(form link removed)*,
 and the survey on AI use *(form link removed)*!
-
-[Back to AI Literacy](/teaching/2026Su/socsci19/){: .button }

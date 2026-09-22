@@ -52,5 +52,3 @@ Previous meetings: [1](/teaching/2026Su/socsci19/meeting-1/)
 [5](/teaching/2026Su/socsci19/meeting-5/)
 [6](/teaching/2026Su/socsci19/meeting-6/)
 [7](/teaching/2026Su/socsci19/meeting-7/)
-
-[Back to AI Literacy](/teaching/2026Su/socsci19/){: .button }

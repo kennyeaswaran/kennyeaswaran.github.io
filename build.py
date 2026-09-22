@@ -227,6 +227,32 @@ def asset_version(filename):
     return hashlib.sha256(path.read_bytes()).hexdigest()[:8]
 
 
+def trail_for(url, titles):
+    """The chain of ancestor pages above `url`, nearest first.
+
+    Course pages used to end with a hand-written row of "back" buttons — "All
+    Fall 2026 courses", "All teaching", "Back to AI Literacy". They said
+    nothing the URL did not already say, drifted in wording over the years
+    (fifty of them across eight phrasings), and on a `collapsible: true` page
+    they were swallowed into the last <details> section, so a reader who folded
+    that section away lost the way back. The footer derives them instead, which
+    means they are always there and always right.
+
+    A label is the ancestor page's own title, cut at the first colon: a page
+    titled "Phil 285: Knowledge, Explanation, and the Cosmos" becomes
+    "Phil 285", which is what fits on a button. The home page is included, so
+    every page below the root ends with a link to it.
+    """
+    parts = [p for p in url.strip("/").split("/") if p]
+    trail = []
+    for i in range(len(parts) - 1, -1, -1):
+        ancestor = "/" + "".join(f"{part}/" for part in parts[:i])
+        title = titles.get(ancestor)
+        if title:
+            trail.append({"url": ancestor, "title": title.split(":")[0].strip()})
+    return trail
+
+
 def build():
     config = yaml.safe_load((ROOT / "site.yaml").read_text())
     env = Environment(loader=FileSystemLoader(TEMPLATES), autoescape=False)
@@ -241,9 +267,18 @@ def build():
     if not pages:
         sys.exit("No Markdown files found in content/")
 
+    # First pass: each page's URL and title, so that any page can name its
+    # ancestors for the footer trail without re-reading the filesystem.
+    parsed, titles = [], {"/": config.get("title", "")}
     for md_file in pages:
         source = md_file.relative_to(ROOT).as_posix()
         meta, body = split_front_matter(md_file.read_text(), source)
+        _, url = output_path_for(md_file)
+        if meta.get("title"):
+            titles[url] = meta["title"]
+        parsed.append((md_file, source, meta, body))
+
+    for md_file, source, meta, body in parsed:
         body = expand_includes(body, source)
 
         md.reset()
@@ -256,6 +291,7 @@ def build():
             page=meta,
             content=html,
             current_url=url,
+            trail=trail_for(url, titles),
             build_year=date.today().year,
             css_version=asset_version("style.css"),
         ))

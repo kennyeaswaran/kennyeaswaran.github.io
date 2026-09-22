@@ -81,5 +81,3 @@ post with the sensor (you can load more money on it at the machine if needed),
 and wait on the platform heading towards downtown Los Angeles. Most people will
 ride all the way to the end, at 7th St, but some will be able to get off one
 stop earlier at Pico.
-
-[Back to FEW 2014](/few/2014/){: .button }

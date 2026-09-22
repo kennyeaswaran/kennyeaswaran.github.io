@@ -136,5 +136,3 @@ If you finish all this before the end of class, come back to the main room
 (under "Leave Meeting" select "Leave Breakout Room") to say hi to me if I
 haven't stopped by your group already. If it's less than halfway through the
 time, then jump into another random room and do some introductions as well.
-
-[Back to AI Literacy](/teaching/2026Su/socsci19/){: .button }

@@ -46,6 +46,24 @@ save while you have it running, and the git hooks in `.git/hooks`
 not tracked by git, so a fresh clone has to have them copied in again. A failed
 build only prints a line; it never blocks the git operation.
 
+**Working here as a Claude session: use `git --no-optional-locks`.** Plain
+`git status` and `git diff` refresh the index, which means creating
+`.git/index.lock` and then deleting it. A session working in this folder
+normally cannot delete files, so that last step fails silently (`warning: unable
+to unlink ... Operation not permitted`) and a zero-byte lock is left behind. The
+next `git commit` from a terminal then refuses to start: *Unable to create
+'.git/index.lock': File exists*. Prefix read-only git commands with
+`--no-optional-locks` — `git --no-optional-locks status --porcelain`,
+`git --no-optional-locks diff` — which gives the same output without touching
+the index. Do not run `git add`, `git commit`, or anything else that writes the
+index; Kenny commits by hand, and nothing here needs staging from a session. A
+stale lock is cleared with `rm -f .git/index.lock` from a normal terminal, safe
+whenever no git process is actually running.
+
+Building has the same shape of problem: `build.py` deletes `public/` before
+rebuilding, so it fails from a session without delete permission. Copy the tree
+to a scratch directory outside the folder and build there to check your work.
+
 Deployment is automatic: pushing to `main` triggers
 `.github/workflows/deploy.yml`, which builds and publishes. Nothing is deployed
 from a local machine.
@@ -81,6 +99,23 @@ left over from an earlier plan; it was removed once this was confirmed.)
 **Navigation** lives only in `site.yaml`. `templates/base.html` renders it on
 every page and marks the current one via `aria-current`. Never hard-code a nav
 menu into a page.
+
+**The footer trail** — the row of buttons leading back up the site — is
+generated, not written. `build.py`'s `trail_for()` walks a page's URL upwards,
+keeps each ancestor that is itself a page, and labels it with that page's title
+cut at the first colon (`Phil 285: Knowledge, Explanation, and the Cosmos` →
+`Phil 285`); `base.html` renders the result in the footer, ending with the home
+page. So `/teaching/2026Su/socsci19/module-3/` gets *Soc Sci 19 · Summer 2026 ·
+Teaching · Kenny Easwaran* with nothing in the Markdown.
+
+Until September 2026 each page ended with these by hand — fifty of them across
+eight phrasings of the same two or three destinations, and on a
+`collapsible: true` page they were swallowed into the last `<details>` section,
+so folding it away lost the way back. **Do not add "back" or "All X" buttons to
+a page**; adding the page is enough. A `{: .button }` link in a page is now only
+for something the trail cannot know about: a download (`Download the full CV
+(PDF)`, `Class notes`) or a sideways link (`Meeting 3 activity` on a module
+page).
 
 **Adding a page** means adding a Markdown file under `content/`. The output URL
 is derived from the path: `content/foo.md` → `/foo/`,
@@ -156,6 +191,8 @@ fonts) are the intended adjustment points. Three content classes matter:
 - `.bib` — bibliography lists with hanging indents (publications, media)
 - `.terms` — term-and-course lists on the Teaching page
 - `.contact` — the small contact block on the home page
+- `.up-trail` — the generated footer trail (see above). Rendered by the
+  template, never written into a page
 - `.wide-table` — a `<div>` wrapping a Markdown pipe table with more columns
   than the text measure holds comfortably (the course schedules). The table
   runs wider than the column on a roomy screen and scrolls sideways on a narrow

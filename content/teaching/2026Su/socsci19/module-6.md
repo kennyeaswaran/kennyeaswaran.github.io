@@ -77,4 +77,4 @@ start this one a bit early. Let me know if you need an extension.
 
 Modules [1](/teaching/2026Su/socsci19/module-1/) [2](/teaching/2026Su/socsci19/module-2/) [3](/teaching/2026Su/socsci19/module-3/) [4](/teaching/2026Su/socsci19/module-4/) [5](/teaching/2026Su/socsci19/module-5/) 6 [7](/teaching/2026Su/socsci19/module-7/) [8](/teaching/2026Su/socsci19/module-8/) [9](/teaching/2026Su/socsci19/module-9/) [10](/teaching/2026Su/socsci19/module-10/) · [Assigned fictions](/teaching/2026Su/socsci19/assigned-fictions/) · [Syllabus](/teaching/2026Su/socsci19/syllabus/)
 
-[Meeting 6 activity](/teaching/2026Su/socsci19/meeting-6/){: .button } [Back to AI Literacy](/teaching/2026Su/socsci19/){: .button }
+[Meeting 6 activity](/teaching/2026Su/socsci19/meeting-6/){: .button }

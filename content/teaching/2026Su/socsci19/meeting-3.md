@@ -112,5 +112,3 @@ to check out?
 
 Previous meetings: [1](/teaching/2026Su/socsci19/meeting-1/)
 [2](/teaching/2026Su/socsci19/meeting-2/)
-
-[Back to AI Literacy](/teaching/2026Su/socsci19/){: .button }

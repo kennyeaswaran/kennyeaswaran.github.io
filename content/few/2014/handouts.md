@@ -47,5 +47,3 @@ Jennifer Carr (no handout)
 Jason Konek and Ben Levinstein (no handout)
 
 comments by Michael Caie (handout)
-
-[Back to FEW 2014](/few/2014/){: .button }
