@@ -50,6 +50,26 @@ Deployment is automatic: pushing to `main` triggers
 `.github/workflows/deploy.yml`, which builds and publishes. Nothing is deployed
 from a local machine.
 
+**Not every page on the domain is built here.** Some interactive pages live in
+separate repositories of their own — a GitHub Pages *project* site inherits the
+user site's custom domain, so `github.com/kennyeaswaran/lps31` is served at
+`https://www.kennyeaswaran.org/lps31/`, alongside this site rather than inside
+it. Known so far:
+
+- `/lps31/` — LPS 31 study tools: the AI study guide, truth table trainer,
+  probability square
+- `/llm-timeline/`, `/shannon-guessing/`, `/ai-films-chart/`,
+  `/ai-writing-quiz/` — linked from the SocSci 19 pages
+
+Course pages link to these with ordinary root-relative URLs, which is correct
+for the live site. The consequence: **they resolve on the deployed site but not
+in `public/`**, so a local preview 404s on them and any link checker run over
+the build output reports them as broken. That is expected — do not "fix" it by
+rewriting the links, and do not copy these pages into `static/`. When a link to
+a root path that `content/` and `static/` do not explain turns up, assume it is
+one of these and check the live URL before touching it. Assume the list above is
+incomplete; new ones get added without this file being updated.
+
 **The custom domain is set in the repository's Settings → Pages, not in a file.**
 Because publishing goes through a GitHub Actions workflow rather than a branch,
 GitHub ignores any `CNAME` file in the built output — so don't add one to
@@ -136,6 +156,11 @@ fonts) are the intended adjustment points. Three content classes matter:
 - `.bib` — bibliography lists with hanging indents (publications, media)
 - `.terms` — term-and-course lists on the Teaching page
 - `.contact` — the small contact block on the home page
+- `.wide-table` — a `<div>` wrapping a Markdown pipe table with more columns
+  than the text measure holds comfortably (the course schedules). The table
+  runs wider than the column on a roomy screen and scrolls sideways on a narrow
+  one. It must be a wrapper: `attr_list` has nothing to attach to on a pipe
+  table
 - `.photo right` / `.photo left` — a single portrait floated beside a section
   of text; `main h2 { clear: both }` is what keeps consecutive sections from
   colliding, so each floated photo belongs to exactly one section

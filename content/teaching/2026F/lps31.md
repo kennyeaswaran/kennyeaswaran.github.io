@@ -45,6 +45,8 @@ Exams (all in EH 1200, the regular classroom):
 
 ## Schedule
 
+<div class="wide-table" markdown="1">
+
 | Dates | Reading | In-section | Homework | Exams |
 |---|---|---|---|---|
 | Sept. 24 | Ch. I | (none) | (none) | |
@@ -59,6 +61,8 @@ Exams (all in EH 1200, the regular classroom):
 | Nov. 24 (no class Thanksgiving) | Ch. VIII | Section 8 | HW8 | |
 | Dec. 1, 3 | Review | Section 9 | (none) | |
 | | | | | Thurs., Dec. 10, 1:30-3:30 — Final Exam |
+
+</div>
 
 ## Textbook and study materials
 

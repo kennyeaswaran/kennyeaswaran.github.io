@@ -15,6 +15,7 @@
   --font-ui: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 
   --measure: 44rem;          /* width of the text column */
+  --measure-inner: calc(var(--measure) - 3rem);  /* the same, minus .wrap's padding */
   --size-base: 1.0625rem;    /* body text size */
   --leading: 1.6;            /* line height */
 
@@ -441,6 +442,71 @@ main h2 { clear: both; }
   color: var(--ink-muted);
 }
 .contact li { margin-bottom: 0.15em; }
+
+/* --------------------------------------------------------------------------
+   Tables
+   -------------------------------------------------------------------------- */
+
+/* Markdown pipe tables arrive unstyled, so without this they inherit the
+   browser default: no padding, centred baselines, and columns sized purely by
+   content. Cells are top-aligned because a schedule row's cells are rarely the
+   same height. */
+main table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.25rem 0 1.75rem;
+  font-size: 0.9375rem;
+  line-height: 1.45;
+}
+
+main th,
+main td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.45rem 1rem 0.45rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+main th:last-child,
+main td:last-child { padding-right: 0; }
+
+main th {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-muted);
+}
+
+main tbody tr:last-child td { border-bottom: none; }
+
+/* A table with more columns than the 44rem text measure can hold without
+   wrapping every cell to two or three lines — the course schedules, in
+   practice. On a roomy screen the wrapper is allowed to run wider than the
+   text column, centred on it; below that it stays in the column and scrolls
+   sideways rather than crushing the columns further. The 56rem breakpoint is
+   where the viewport first has room to spare beside a 44rem column: measured
+   in Chromium, every row of the LPS 31 schedule fits on one line from 900px
+   up, and below that there is nothing left to give.
+
+   It has to be a wrapper <div class="wide-table" markdown="1"> around the
+   table: attr_list can attach `{: .class }` to a paragraph or a list item, but
+   there is nothing for it to attach to on a pipe table. */
+.wide-table {
+  margin: 1.25rem 0 1.75rem;
+  overflow-x: auto;
+}
+
+.wide-table table { margin: 0; min-width: 36rem; }
+
+@media (min-width: 56rem) {
+  .wide-table {
+    width: min(58rem, calc(100vw - 4rem));
+    margin-inline-start: calc(
+      (var(--measure-inner) - min(58rem, calc(100vw - 4rem))) / 2);
+  }
+}
 
 /* --------------------------------------------------------------------------
    Buttons / callouts

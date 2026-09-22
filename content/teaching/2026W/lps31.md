@@ -62,6 +62,8 @@ and the others have other features.)
 
 ## Schedule
 
+<div class="wide-table" markdown="1">
+
 | Dates | Reading | In-section | Homework | Exams |
 |---|---|---|---|---|
 | Jan. 6, 8 | Ch. I | (none) | (none) | |
@@ -75,6 +77,8 @@ and the others have other features.)
 | March 3, 5 | Ch. VIII | [Section 8](https://www.gradescope.com/courses/1203319/assignments/7346236) | [HW8](https://www.gradescope.com/courses/1203319/assignments/7347689) | |
 | March 10, 12 | Review | [Section 9](https://www.gradescope.com/courses/1203319/assignments/7347808) | (none) | |
 | | | | | Tues., March 17, 10:30-12:30 — [Final Exam](https://www.gradescope.com/courses/1203319/assignment_containers/341639) |
+
+</div>
 
 Sample finals: [1](/teaching/2026W/lps31/final-sample-1.pdf)
 ([accessible version](/teaching/2026W/lps31/final-sample-1-accessible.pdf)),
