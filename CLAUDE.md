@@ -88,6 +88,16 @@ a root path that `content/` and `static/` do not explain turns up, assume it is
 one of these and check the live URL before touching it. Assume the list above is
 incomplete; new ones get added without this file being updated.
 
+**Sitemap.** `build.py` writes `sitemap.xml` and `robots.txt` (pointing at the
+sitemap) into the site root. The sitemap lists every page built from
+`content/` (not the redirect stubs), plus any page on this domain that a built
+page links to but the build did not produce — i.e. the pages from the other
+repositories above, picked up automatically once something here links to them.
+Pages from those repositories that nothing here links to go in `site.yaml`'s
+`sitemap_extra`. Each build prints the outside pages it found; a mistyped link
+shows up there, because it would otherwise become a sitemap entry. The sitemap
+is submitted once, by hand, in Search Console → Sitemaps.
+
 **The custom domain is set in the repository's Settings → Pages, not in a file.**
 Because publishing goes through a GitHub Actions workflow rather than a branch,
 GitHub ignores any `CNAME` file in the built output — so don't add one to

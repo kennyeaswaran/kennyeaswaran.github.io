@@ -13,6 +13,7 @@ How it works, in four steps:
   3. Drop that HTML into templates/base.html (which holds the nav and footer,
      written once and shared by every page).
   4. Write the result to public/, and copy static/ across unchanged.
+  5. Write sitemap.xml and robots.txt for search engines.
 
 URL rules:
     content/index.md            ->  public/index.html              (served at /)
@@ -36,6 +37,8 @@ import shutil
 import sys
 from datetime import date
 from pathlib import Path
+from urllib.parse import urlparse
+from xml.sax.saxutils import escape as xml_escape
 
 try:
     import yaml
@@ -57,6 +60,10 @@ OUTPUT = ROOT / "public"
 # An HTML comment is used so that the raw .md file still previews cleanly in
 # any Markdown editor.
 INCLUDE_RE = re.compile(r"^[ \t]*<!--[ \t]*include:[ \t]*(\S+?)[ \t]*-->[ \t]*$", re.MULTILINE)
+
+# Every href in a rendered page, up to any #fragment or ?query. Used to find
+# links to pages on this domain that some other repository publishes.
+HREF_RE = re.compile(r'href="([^"#?]+)')
 
 # Used to split a rendered page into its top-level sections.
 H2_RE = re.compile(r"<h2[^>]*>(.*?)</h2>", re.DOTALL)
@@ -270,6 +277,7 @@ def build():
     # First pass: each page's URL and title, so that any page can name its
     # ancestors for the footer trail without re-reading the filesystem.
     parsed, titles = [], {"/": config.get("title", "")}
+    page_urls, linked = [], set()
     for md_file in pages:
         source = md_file.relative_to(ROOT).as_posix()
         meta, body = split_front_matter(md_file.read_text(), source)
@@ -285,6 +293,8 @@ def build():
         html = make_collapsible(md.convert(body), meta, source)
 
         out_file, url = output_path_for(md_file)
+        page_urls.append(url)
+        linked.update(filter(None, (own_path(h, config) for h in HREF_RE.findall(html))))
         out_file.parent.mkdir(parents=True, exist_ok=True)
         out_file.write_text(template.render(
             site=config,
@@ -299,6 +309,7 @@ def build():
 
     write_redirects(config, env)
     copy_static()
+    write_sitemap(config, page_urls, linked)
     print(f"\nBuilt {len(pages)} pages into {OUTPUT.relative_to(ROOT)}/")
 
 
@@ -313,6 +324,74 @@ def write_redirects(config, env):
         out_file.parent.mkdir(parents=True, exist_ok=True)
         out_file.write_text(template.render(target=new, site=config))
         print(f"  redirect {old:31s} -> {new}")
+
+
+def own_path(href, config):
+    """The root-relative path of `href` if it points at this site, else None.
+
+    Catches both `/lps31/` and `https://www.kennyeaswaran.org/lps31/` (with or
+    without the www., over http or https).
+    """
+    bare = urlparse(config["base_url"]).hostname.removeprefix("www.")
+    m = re.match(rf"https?://(?:www\.)?{re.escape(bare)}(?=/|$)", href)
+    if m:
+        href = href[m.end():] or "/"
+    if href.startswith("/") and not href.startswith("//"):
+        return href
+    return None
+
+
+def write_sitemap(config, page_urls, linked):
+    """Write sitemap.xml and robots.txt into the site root.
+
+    The sitemap lists, in order:
+
+      1. every page built from content/ (redirect stubs are left out: they
+         are not pages Google should index);
+      2. every page on this domain that a built page links to but that the
+         build did not produce — the interactive tools published from their
+         own repositories, such as /llm-timeline/ (see CLAUDE.md). Only paths
+         ending in / or .html count, so a missing PDF is not listed as a page;
+      3. anything in site.yaml's `sitemap_extra`, for pages from those other
+         repositories that no page here links to directly.
+
+    Runs after copy_static(), so a link is "not produced by this build" only if
+    nothing in public/ answers it — not a page, not a redirect, not a file.
+    The outside pages are printed on every build, so a mistyped link (which
+    would otherwise quietly become a sitemap entry) is easy to spot.
+
+    No <lastmod>: the only dates available are the free-text `updated:` fields,
+    and Google ignores lastmod unless it is consistently accurate.
+    """
+    base = config["base_url"].rstrip("/")
+
+    def built(path):
+        target = OUTPUT / path.lstrip("/")
+        return target.is_file() or (target / "index.html").is_file()
+
+    outside = sorted(p for p in linked
+                     if (p.endswith("/") or p.endswith(".html")) and not built(p))
+    urls = list(page_urls)
+    for path in outside + list(config.get("sitemap_extra") or []):
+        if path not in urls:
+            urls.append(path)
+
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+    lines += [f"  <url><loc>{xml_escape(base + u)}</loc></url>" for u in urls]
+    lines.append("</urlset>")
+    (OUTPUT / "sitemap.xml").write_text("\n".join(lines) + "\n")
+
+    # robots.txt must sit at the root of the host, which this repository owns,
+    # so it speaks for the whole domain, the other repositories' pages included.
+    (OUTPUT / "robots.txt").write_text(
+        f"User-agent: *\nDisallow:\n\nSitemap: {base}/sitemap.xml\n")
+
+    print(f"  sitemap.xml: {len(urls)} URLs, of which hosted elsewhere:")
+    for path in outside:
+        print(f"    {path}  (linked)")
+    for path in config.get("sitemap_extra") or []:
+        print(f"    {path}  (sitemap_extra)")
 
 
 def copy_static():

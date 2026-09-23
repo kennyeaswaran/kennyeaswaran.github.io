@@ -25,12 +25,21 @@ nav:
   - title: "CV"
     url: "/cv/"
 
+# Pages on this domain that are published from other repositories (see
+# CLAUDE.md) and that no page here links to. Pages that ARE linked from here
+# are added to sitemap.xml automatically; list only the rest.
+sitemap_extra:
+  - "/lps31/how-to-study-with-AI.html"
+  - "/lps31/truth-table-trainer.html"
+  - "/lps31/probability-square.html"
+
 # Old Google Sites paths that should redirect to their new homes, so existing
 # links and search-engine results keep working. Add to this list if you ever
 # rename a page.
 redirects:
   "/home": "/"
   "/research": "/publications/"
+  "/teaching/courses-taught-at-usc": "/teaching/"   # old Google Sites index page; 404 in Search Console, Sept 2026
   "/few-2014": "/few/2014/"
   "/few-2014/handouts": "/few/2014/handouts/"
   "/few-2014/poster-session": "/few/2014/poster-session/"
