@@ -55,13 +55,13 @@
 
 - [“Review of Rationality and Belief, by Ralph Wedgwood.”](/papers/review-wedgwood-rationality.pdf) *Mind*, (2025). [(journal)](https://doi.org/10.1093/mind/fzae076){: .alt }
 - [“Review of Infinity, Causation, and Paradox, by Alexander Pruss.”](/papers/review-pruss-infinity.pdf) *Mind*, (2019). [(journal)](https://doi.org/10.1093/mind/fzz053){: .alt }
-- [“Review of Probabilistic Knowledge, by Sarah Moss.”](https://ndpr.nd.edu/news/probabilistic-knowledge/) *Notre Dame Philosophical Reviews*, (2018).
+- [“Review of Probabilistic Knowledge, by Sarah Moss.”](https://ndpr.nd.edu/reviews/probabilistic-knowledge/) *Notre Dame Philosophical Reviews*, (2018).
 - [“Review of Reasons without Persons, by Brian Hedden.”](/papers/review-hedden-reasons.pdf) *The Journal of Philosophy* **114**:2, (2017), 105-110. [(journal)](https://www.pdcnet.org/jphil/content/jphil_2017_0114_0002_0105_0110){: .alt }
-- [“Review of Accuracy and the Laws of Credence, by Richard Pettigrew.”](http://ndpr.nd.edu/news/70705-accuracy-and-the-laws-of-credence/) *Notre Dame Philosophical Reviews*, (2016).
+- [“Review of Accuracy and the Laws of Credence, by Richard Pettigrew.”](https://ndpr.nd.edu/reviews/accuracy-and-the-laws-of-credence/) *Notre Dame Philosophical Reviews*, (2016).
 - [“Review of Quitting Certainties, by Michael Titelbaum.”](/papers/review-titelbaum-quitting.pdf) *The Philosophical Review* **125**:1, (2016), 143-148. [(journal)](http://philreview.dukejournals.org/content/125/1/143.citation){: .alt }
-- [“Review of From Zeno to Arbitrage, by Brian Skyrms.”](http://ndpr.nd.edu/news/40323-from-zeno-to-arbitrage-essays-on-quantity-coherence-and-induction/) *Notre Dame Philosophical Reviews*, (2013).
+- [“Review of From Zeno to Arbitrage, by Brian Skyrms.”](https://ndpr.nd.edu/reviews/from-zeno-to-arbitrage-essays-on-quantity-coherence-and-induction/) *Notre Dame Philosophical Reviews*, (2013).
 - [“Review of The Evolution of Logic, by W. D. Hart.”](/papers/review-hart-evolution-logic.pdf) *Bulletin of Symbolic Logic* **17**:4, (2011), 533-535. [(journal)](https://www.jstor.org/stable/41302101){: .alt }
-- [“Review of By Parallel Reasoning, by Paul Bartha.”](http://ndpr.nd.edu/review.cfm?id=23890) *Notre Dame Philosophical Reviews*, (2011).
-- [“Review of Representation, Evidence, and Justification: Themes from Suppes.”](http://ndpr.nd.edu/review.cfm?id=14965) *Notre Dame Philosophical Reviews*, (2009).
+- [“Review of By Parallel Reasoning, by Paul Bartha.”](https://ndpr.nd.edu/reviews/by-parallel-reasoning-the-construction-and-evaluation-of-analogical-arguments/) *Notre Dame Philosophical Reviews*, (2011).
+- [“Review of Representation, Evidence, and Justification: Themes from Suppes.”](https://ndpr.nd.edu/reviews/representation-evidence-and-justification-themes-from-suppes/) *Notre Dame Philosophical Reviews*, (2009).
 - [“Review of Tracking Reason: Proof, Consequence, and Truth, by Jody Azzouni.”](/papers/review-azzouni-tracking-reason.pdf) *The Philosophical Review* **117**:2, (2008), 296-299. [(journal)](http://philreview.dukejournals.org/cgi/pdf_extract/117/2/296){: .alt }
 - [“Review of Ambiguity and Logic, by Frederic Schick.”](/papers/review-schick-ambiguity.pdf) *Mind* **116**, (2007), 478-482. [(journal)](http://mind.oxfordjournals.org/cgi/pdf_extract/116/462/478){: .alt }
