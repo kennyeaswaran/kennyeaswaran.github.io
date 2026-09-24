@@ -146,6 +146,7 @@ def make_collapsible(html, meta, source):
     sections start open is then set either way round:
 
         expanded: ["Book"]        everything closed except these
+        expanded: []              everything closed
         collapsed: ["Book"]       everything open except these
 
     Headings are matched in full, case-insensitively — not as substrings, so
@@ -175,8 +176,14 @@ def make_collapsible(html, meta, source):
     def matches(name, patterns):
         return any(p.strip().lower() == name.lower() for p in patterns)
 
+    # The allow-list applies whenever the key is present, even if empty: the
+    # natural reading of `expanded: []` is "nothing expanded". (Until September
+    # 2026 an empty list was treated like a missing key, so that page opened
+    # every section — the opposite of what it said.)
+    allow_list = "expanded" in meta
+
     def starts_shut(name):
-        if expanded:                       # allow-list wins if present
+        if allow_list:                     # allow-list wins if present
             return not matches(name, expanded)
         return matches(name, closed)
 

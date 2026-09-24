@@ -15,7 +15,7 @@ Each week, six students will each present one of the exercises from that section
 
 At the beginning of the term, each student should pick one day from weeks 1-5, and one day from weeks 6-10, to do a presentation. We will meet to talk about which specific exercise you will pick as the dates get closer.
 
-[Class notes (PDF, version of 2 December 2025)](/teaching/2026F/lps105a/set-theory-notes.pdf){: .button }
+[Class notes (PDF, version of 23 September 2026)](/teaching/2026F/lps105a/set-theory-notes.pdf){: .button }
 
 
 ## Class schedule
@@ -24,18 +24,28 @@ At the beginning of the term, each student should pick one day from weeks 1-5, a
 
 - **Week 0** (9/24): Sets as meanings of words
 - **Week 1** (9/29, 10/1): Sets and numbers
+    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 - **Week 2** (10/6, 10/8): Well-orderings, countable vs uncountable infinities
+    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 - **Week 3** (10/13, 10/15): Many countable infinities
+    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 - **Week 4** (10/20, 10/22): The real numbers, and the power set of the natural numbers
+    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 - **Week 5** (10/27, 10/29): The Axiom of Choice, the paradoxes
+    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 
 #### Part II: Formal axiomatic set theory
 
 - **Week 6** (11/3, 11/5): The formal language, and the "small" axioms
+    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 - **Week 7** (11/10, 11/12): Power set, foundation, separation, and replacement
+    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 - **Week 8** (11/17, 11/19): Binary relations, well-orderings, and the axiom of infinity
+    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 - **Week 9** (11/24, Thanksgiving): Recursive and combinatorial definitions for arithmetic
+    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 - **Week 10** (12/1, 12/3): TBD
+    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 
 ## Goals and assignments
 
