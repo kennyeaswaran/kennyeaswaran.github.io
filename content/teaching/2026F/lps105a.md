@@ -24,28 +24,48 @@ At the beginning of the term, each student should pick one day from weeks 1-5, a
 
 - **Week 0** (9/24): Sets as meanings of words
 - **Week 1** (9/29, 10/1): Sets and numbers
-    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+    - Presenters:
+        - Tuesday: Li Xin (1.1), Neela (1.2), Jared (1.3)
+        - Thursday: Maria (1.4), Basil (1.5), Josh (1.6)
 - **Week 2** (10/6, 10/8): Well-orderings, countable vs uncountable infinities
-    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+    - Presenters:
+        - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Thursday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 - **Week 3** (10/13, 10/15): Many countable infinities
-    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+    - Presenters:
+        - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Thursday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 - **Week 4** (10/20, 10/22): The real numbers, and the power set of the natural numbers
-    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+    - Presenters:
+        - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Thursday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 - **Week 5** (10/27, 10/29): The Axiom of Choice, the paradoxes
-    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+    - Presenters:
+        - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Thursday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 
 #### Part II: Formal axiomatic set theory
 
 - **Week 6** (11/3, 11/5): The formal language, and the "small" axioms
-    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+    - Presenters:
+        - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Thursday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 - **Week 7** (11/10, 11/12): Power set, foundation, separation, and replacement
-    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+    - Presenters:
+        - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Thursday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 - **Week 8** (11/17, 11/19): Binary relations, well-orderings, and the axiom of infinity
-    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+    - Presenters:
+        - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Thursday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 - **Week 9** (11/24, Thanksgiving): Recursive and combinatorial definitions for arithmetic
-    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+    - Presenters:
+        - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Thursday: no class (Thanksgiving)
 - **Week 10** (12/1, 12/3): TBD
-    - Presenters: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+    - Presenters:
+        - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Thursday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 
 ## Goals and assignments
 
