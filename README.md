@@ -149,6 +149,20 @@ changed, and only after you say yes commits the three generated files (nothing
 else in the folder) and pushes. If `typst` is missing it keeps the existing PDF
 rather than publishing a stale one.
 
+**Signing in to GitHub from Terminal.** The script pushes with command-line
+git, which needs its own sign-in: GitHub doesn't accept your account password
+there, and a passkey can't be typed into a Terminal prompt. Until that's set
+up, the script commits and then tells you to push from GitHub Desktop. To set
+it up once, install the GitHub CLI (`brew install gh`, or the installer from
+cli.github.com), then run
+
+```
+gh auth login        # choose GitHub.com, HTTPS, "Login with a web browser"
+gh auth setup-git    # lets plain `git push` use that sign-in
+```
+
+The login happens in your browser, so the passkey works as usual.
+
 **What's actually happening.** The facts live in the CV project
 (`../CV and AP-10/data/*.yaml`) — one file per category, so a new editorship
 goes in `service.yaml`, a new student in `supervision.yaml`, and so on. Edit

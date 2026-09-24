@@ -20,6 +20,10 @@ cd "$(dirname "$0")" || exit 1
 # Finder-launched scripts don't always see Homebrew's tools (python3, typst).
 export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 
+# Never stop to ask for a GitHub username/password: GitHub doesn't accept
+# account passwords here anyway, so a prompt is a dead end. Fail with advice.
+export GIT_TERMINAL_PROMPT=0
+
 SYNCED=(generated/cv-body.md generated/publications-list.md static/easwaran-cv.pdf)
 bold=$'\e[1m'; red=$'\e[31m'; green=$'\e[32m'; yellow=$'\e[33m'; off=$'\e[0m'
 
@@ -115,7 +119,11 @@ if ! git commit --quiet -m "Update CV from CV project" -- "${SYNCED[@]}"; then
   finish 1
 fi
 if ! git push --quiet; then
-  echo "${red}Committed, but the push to GitHub failed (see above). Try 'git push' later.${off}"
+  echo
+  echo "${yellow}Committed here, but this Terminal isn't signed in to GitHub, so it couldn't push.${off}"
+  echo "To publish now: open GitHub Desktop and click \"Push origin\"."
+  echo "To let this script push by itself next time, sign in once from Terminal"
+  echo "(see \"Signing in to GitHub from Terminal\" in README.md)."
   finish 1
 fi
 
