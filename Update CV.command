@@ -81,7 +81,7 @@ fi
 pdf_note=""
 if grep -qi "PDF skipped" "$log"; then
   git checkout -- static/easwaran-cv.pdf
-  pdf_note="${yellow}Note: the PDF wasn't rebuilt (is typst installed?), so the CV PDF on the site is unchanged.${off}"
+  pdf_note="${yellow}Note: the PDF wasn't rebuilt, so the CV PDF on the site is unchanged. The reason is on the \"[PDF skipped: ...]\" line above; \"No module named 'typst'\" means the Python package is missing: python3 -m pip install typst${off}"
 fi
 rm -f "$log"
 

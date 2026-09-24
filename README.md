@@ -146,7 +146,7 @@ That's the whole routine. You never edit the CV page's contents by hand.
 **Or double-click `Update CV.command`** in Finder. It does the same thing with
 some guard rails: it pulls from GitHub first, runs the sync, shows you what
 changed, and only after you say yes commits the three generated files (nothing
-else in the folder) and pushes. If `typst` is missing it keeps the existing PDF
+else in the folder) and pushes. If the PDF can't be rebuilt it keeps the existing one
 rather than publishing a stale one.
 
 **Signing in to GitHub from Terminal.** The script pushes with command-line
@@ -187,7 +187,9 @@ is a plain list of sections with filters. To add a section back, uncomment or
 copy one; to narrow one, add a filter such as `current_only: true` or
 `lead_only: true`. No code changes needed — the profile is the control panel.
 
-Note that `./sync-cv.sh` needs `typst` installed to rebuild the PDF. If it
+Note that `./sync-cv.sh` needs the `typst` *Python package* to rebuild the PDF
+(`python3 -m pip install typst`; the Homebrew `typst` command-line tool is not
+what it uses). If it
 prints `PDF skipped`, the Markdown still updates correctly but
 `static/easwaran-cv.pdf` will be whatever was last built — so check that file
 isn't accidentally reverted before committing.
