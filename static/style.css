@@ -488,6 +488,12 @@ main th {
 
 main tbody tr:last-child td { border-bottom: none; }
 
+/* Grouped column headers (a <th colspan> over a second header row), as in the
+   LPS 31 weekly schedule. The :last-child rule above zeroes the right padding
+   on each row's final cell, which is right for the table's last column but
+   wrong for the second header row, whose last cell sits mid-table. */
+main thead tr + tr th:last-child { padding-right: 1rem; }
+
 /* A table with more columns than the 44rem text measure can hold without
    wrapping every cell to two or three lines — the course schedules, in
    practice. On a roomy screen the wrapper is allowed to run wider than the

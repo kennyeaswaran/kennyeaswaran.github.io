@@ -38,29 +38,31 @@ Sections 4, 7, and 10 have been cancelled.
 
 ## Weekly schedule
 
-The M/Tu, W, and Th columns give the section assignment done in section that
-week, by the day your section meets. Wednesday sections skip Veterans Day
-(Nov. 11) and Thursday sections skip Thanksgiving (Nov. 26), so from then on
-they do the same assignment as the Monday and Tuesday sections.
-{: .note }
+<!-- Raw HTML rather than a pipe table, because Markdown tables can't group
+     column headers: "Section assignments" spans the three day columns. One row
+     per line; edit the cells in place. -->
 
-<div class="wide-table" markdown="1">
-
-| Dates | Reading | M/Tu | W | Th | Homework | Exams |
-|---|---|---|---|---|---|---|
-| Sept. 24 | Ch. I | — | — | — | (none) | |
-| Sept. 29, Oct. 1 | Ch. I | — | 1 | 1 | (none) | |
-| Oct. 6, 8 | Ch. II | 1 | 2 | 2 | HW1 | |
-| Oct. 13, 15 | Ch. III.1, III.2 | 2 | 3 | 3 | HW2 | |
-| Oct. 20, 22 | Ch. VI.1, VI.2 | 3 | 4 | 4 | (none) | Tues., Oct. 20 — first midterm ([sample](/teaching/2026F/lps31/midterm1-sample.pdf)) |
-| Oct. 27, 29 | Ch. VI.3, VI.4 | 4 | 5 | 5 | HW4 | |
-| Nov. 3, 5 | Ch. VI.5, VI.6 | 5 | 6 | 6 | HW5 | |
-| Nov. 10, 12 | Ch. VI.7 | 6 | — | 7 | (none) | Thurs., Nov. 12 — second midterm ([sample](/teaching/2026F/lps31/midterm2-sample.pdf)) |
-| Nov. 17, 19 | Ch. VII | 7 | 7 | 8 | HW7 | |
-| Nov. 24 (no class Thanksgiving) | Ch. VIII | 8 | 8 | — | HW8 | |
-| Dec. 1, 3 | Review | 9 | 9 | 9 | (none) | |
-| | | | | | | Thurs., Dec. 10, 1:30-3:30 — Final Exam |
-
+<div class="wide-table">
+<table>
+<thead>
+<tr><th rowspan="2">Dates</th><th rowspan="2">Reading</th><th colspan="3">Section assignments</th><th rowspan="2">Homework</th><th rowspan="2">Exams</th></tr>
+<tr><th>M/Tu</th><th>W</th><th>Th</th></tr>
+</thead>
+<tbody>
+<tr><td>Sept. 24</td><td>Ch. I</td><td>—</td><td>—</td><td>—</td><td>(none)</td><td></td></tr>
+<tr><td>Sept. 29, Oct. 1</td><td>Ch. I</td><td>—</td><td>1</td><td>1</td><td>(none)</td><td></td></tr>
+<tr><td>Oct. 6, 8</td><td>Ch. II</td><td>1</td><td>2</td><td>2</td><td><a href="https://www.gradescope.com/courses/1406274/assignments/8688032">HW1</a></td><td></td></tr>
+<tr><td>Oct. 13, 15</td><td>Ch. III.1, III.2</td><td>2</td><td>3</td><td>3</td><td><a href="https://www.gradescope.com/courses/1406274/assignments/8688036">HW2</a></td><td></td></tr>
+<tr><td>Oct. 20, 22</td><td>Ch. VI.1, VI.2</td><td>3</td><td>4</td><td>4</td><td>(none)</td><td>Tues., Oct. 20 — first midterm (<a href="/teaching/2026F/lps31/midterm1-sample.pdf">sample</a>)</td></tr>
+<tr><td>Oct. 27, 29</td><td>Ch. VI.3, VI.4</td><td>4</td><td>5</td><td>5</td><td><a href="https://www.gradescope.com/courses/1406274/assignments/8688046">HW4</a></td><td></td></tr>
+<tr><td>Nov. 3, 5</td><td>Ch. VI.5, VI.6</td><td>5</td><td>6</td><td>6</td><td><a href="https://www.gradescope.com/courses/1406274/assignments/8688037">HW5</a></td><td></td></tr>
+<tr><td>Nov. 10, 12 (Wed. is Veterans Day)</td><td>Ch. VI.7</td><td>6</td><td>—</td><td>7</td><td>(none)</td><td>Thurs., Nov. 12 — second midterm (<a href="/teaching/2026F/lps31/midterm2-sample.pdf">sample</a>)</td></tr>
+<tr><td>Nov. 17, 19</td><td>Ch. VII</td><td>7</td><td>7</td><td>8</td><td><a href="https://www.gradescope.com/courses/1406274/assignments/8688045">HW7</a></td><td></td></tr>
+<tr><td>Nov. 24 (no class Thanksgiving)</td><td>Ch. VIII</td><td>8</td><td>8</td><td>—</td><td><a href="https://www.gradescope.com/courses/1406274/assignments/8688043">HW8</a></td><td></td></tr>
+<tr><td>Dec. 1, 3</td><td>Review</td><td>9</td><td>9</td><td>9</td><td>(none)</td><td></td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td>Thurs., Dec. 10, 1:30-3:30 — Final Exam</td></tr>
+</tbody>
+</table>
 </div>
 
 ## Textbook and study materials
@@ -97,6 +99,11 @@ Exams (all in EH 1200, the regular classroom):
 - Midterm 1: Tuesday, Oct. 20, 2-3:20
 - Midterm 2: Thursday, Nov. 12, 2-3:20
 - Final: Thursday, Dec. 10, 1:30-3:30 pm
+
+Exams are closed book, closed notes, no internet, no AI. You may bring a simple
+four-function calculator
+([$5-10 on Amazon](https://www.amazon.com/s?k=four-function+calculator)) and
+blank scratch paper.
 
 The final grade will be:
 
