@@ -143,6 +143,12 @@ git add -A && git commit -m "Update CV" && git push
 
 That's the whole routine. You never edit the CV page's contents by hand.
 
+**Or double-click `Update CV.command`** in Finder. It does the same thing with
+some guard rails: it pulls from GitHub first, runs the sync, shows you what
+changed, and only after you say yes commits the three generated files (nothing
+else in the folder) and pushes. If `typst` is missing it keeps the existing PDF
+rather than publishing a stale one.
+
 **What's actually happening.** The facts live in the CV project
 (`../CV and AP-10/data/*.yaml`) — one file per category, so a new editorship
 goes in `service.yaml`, a new student in `supervision.yaml`, and so on. Edit
