@@ -52,5 +52,32 @@
   </div>
 </footer>
 
+<script>
+/* Give every code block a Copy button. This is the site's only script, and it
+   is purely a convenience: without it the block is still there to select by
+   hand. navigator.clipboard needs a secure context, which both the live https
+   site and `build.py --serve` on localhost are. */
+if (navigator.clipboard) {
+  document.querySelectorAll("main pre > code").forEach(function (code) {
+    var pre = code.parentNode;
+    var box = document.createElement("div");
+    box.className = "code-block";
+    pre.parentNode.insertBefore(box, pre);
+    box.appendChild(pre);
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "copy";
+    btn.textContent = "Copy";
+    btn.addEventListener("click", function () {
+      navigator.clipboard.writeText(code.textContent).then(function () {
+        btn.textContent = "Copied";
+        setTimeout(function () { btn.textContent = "Copy"; }, 1500);
+      });
+    });
+    box.appendChild(btn);
+  });
+}
+</script>
+
 </body>
 </html>

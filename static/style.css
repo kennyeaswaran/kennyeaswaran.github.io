@@ -26,6 +26,7 @@
   --rule: #e0ded9;
   --accent: #7a2020;         /* deep red for links */
   --accent-hover: #a83232;
+  --code-bg: #f4f3f0;        /* code blocks */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -36,6 +37,7 @@
     --rule: #33323a;
     --accent: #e39a9a;
     --accent-hover: #f2bcbc;
+    --code-bg: #1f1f25;
   }
 }
 
@@ -262,6 +264,42 @@ code, pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 0.9em;
 }
+
+/* A block of code meant to be copied whole, such as the LaTeX homework
+   template on the LPS 105A page. Whitespace is kept exactly as written, since
+   in a template the spacing can be the point; lines too long for the box
+   scroll sideways rather than wrap, so that a wrapped line is never mistaken
+   for a real line break. base.html wraps each block in .code-block and adds a
+   Copy button to it. */
+main pre {
+  background: var(--code-bg);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  padding: 0.9rem 1rem;
+  margin: 1rem 0 1.5rem;
+  overflow-x: auto;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+main pre code { font-size: inherit; }
+
+.code-block { position: relative; }
+.code-block pre { padding-top: 2.4rem; }  /* room for the button */
+.code-block .copy {
+  position: absolute;
+  top: 0.45rem;
+  right: 0.45rem;
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  cursor: pointer;
+}
+.code-block .copy:hover,
+.code-block .copy:focus-visible { border-color: var(--accent); color: var(--accent); }
 
 /* --------------------------------------------------------------------------
    Lists

@@ -107,6 +107,37 @@ it includes files for every extension any mathematician, philosopher, linguist,
 computer scientist, or other has written, some of which might be relevant for
 some of your work in future.
 
+Here is a template you can use for your weekly write-ups. Paste it into a new
+Overleaf project, and change the title and author to the exercise number and
+your name. The two paragraphs show how LaTeX treats spaces and line breaks, and
+how to write mathematics.
+
+```latex
+\documentclass[letterpaper]{article}
+\usepackage{amsmath,amssymb}
+
+\title{Exercise 0.0}
+\author{Kenny Easwaran}
+
+\begin{document}
+\maketitle
+
+In \LaTeX{} you can just type sentences ordinarily,
+with a few commands for special symbols.
+Any number of spaces,    or a single return
+just produces a space in the output.
+But a blank line starts a new paragraph.
+
+Mathematical symbols go within dollar signs (\$, typed as \textbackslash\$
+if you want the actual symbol to appear), like this.
+Let $\mathbb{N}=\{0,1,2,\dots\}$ be the set of natural numbers,
+and $\mathbb{E}=\{0,2,4,\dots\}$ be the set of non-negative even integers.
+Then $\mathbb{E}\subseteq\mathbb{N}$
+because for every $x\in\mathbb{E}$, $x\in\mathbb{N}$.
+
+\end{document}
+```
+
 ## Resources on writing proofs
 
 #### Videos about proof by induction

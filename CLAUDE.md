@@ -201,6 +201,11 @@ fonts) are the intended adjustment points. Three content classes matter:
 - `.bib` — bibliography lists with hanging indents (publications, media)
 - `.terms` — term-and-course lists on the Teaching page
 - `.contact` — the small contact block on the home page
+- Code blocks — fenced with three backticks (`fenced_code` is enabled). Every
+  `<pre><code>` in a page gets a Copy button from the small script at the foot
+  of `base.html`, the site's only JavaScript; without it the block is still
+  selectable by hand. Whitespace inside a block is kept exactly, and long lines
+  scroll rather than wrap, so keep template lines under ~75 characters
 - `.up-trail` — the generated footer trail (see above). Rendered by the
   template, never written into a page
 - `.wide-table` — a `<div>` wrapping a Markdown pipe table with more columns

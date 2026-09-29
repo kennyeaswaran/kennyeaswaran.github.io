@@ -88,6 +88,7 @@ MARKDOWN_EXTENSIONS = [
     "attr_list",   # {: .class } annotations on elements
     "def_list",    # definition lists
     "footnotes",
+    "fenced_code", # ``` blocks, for copyable code (a LaTeX template, say)
     "md_in_html",  # lets you write Markdown inside a <div markdown="1">
     "sane_lists",
     "smarty",      # straight quotes -> curly quotes, -- -> en dash
