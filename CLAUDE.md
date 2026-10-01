@@ -206,6 +206,9 @@ fonts) are the intended adjustment points. Three content classes matter:
   of `base.html`, the site's only JavaScript; without it the block is still
   selectable by hand. Whitespace inside a block is kept exactly, and long lines
   scroll rather than wrap, so keep template lines under ~75 characters
+- `.office-hours` — a `<div>` wrapping the office-hours pipe table at the top
+  of a course page. Instructor's row first; the CSS puts the only horizontal
+  rule under it and a vertical rule after the name column, so keep that order
 - `.up-trail` — the generated footer trail (see above). Rendered by the
   template, never written into a page
 - `.wide-table` — a `<div>` wrapping a Markdown pipe table with more columns

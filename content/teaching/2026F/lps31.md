@@ -6,18 +6,20 @@ collapsible: true
 collapsed: ["Section info", "Weekly schedule", "Textbook and study materials", "Assignments and grading"]
 ---
 
-Professor: Kenny Easwaran (k.easwaran@uci.edu)
-
 Lecture: Tu/Th 2-3:20 pm, EH 1200
 
-Office Hours: Wednesdays, 11-12:30 in SST 759
-{: .note }
+Professor: Kenny Easwaran (k.easwaran@uci.edu)
 
-TAs: Orestis Dimou Belegratis, Ava Bruckner-Kockel, Chelsea Choi
+<div class="office-hours" markdown="1">
 
-No sections meet in week 0, and Monday and Tuesday sections don't meet in
-week 1.
-{: .note }
+| Office hours | Room | Day | Time |
+|---|---|---|---|
+| Kenny Easwaran | SST 759 | Wednesday | 11 am-12:30 pm |
+| Ava Bruckner-Kockel | SST 792 | Wednesday | 2-3 pm |
+| Chelsea Choi | SST 792 | Friday | 1-2 pm |
+| Orestis Dimou Belegratis | SST 786 | Thursday | 3:30-4:30 pm |
+
+</div>
 
 ## Section info
 

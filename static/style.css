@@ -532,6 +532,35 @@ main tbody tr:last-child td { border-bottom: none; }
    wrong for the second header row, whose last cell sits mid-table. */
 main thead tr + tr th:last-child { padding-right: 1rem; }
 
+/* The office-hours table at the top of a course page: the instructor's row,
+   a rule, then the TAs' rows, with a vertical rule after the name column.
+   Ordinary row rules are dropped so that the one under the instructor is the
+   only horizontal line in the body and reads as a divider. Sized to its
+   content rather than the full column, since it is four short fields. */
+.office-hours table { width: auto; }
+.office-hours td { border-bottom: none; }
+.office-hours tbody tr:first-child td { border-bottom: 1px solid var(--ink-muted); }
+.office-hours th:first-child,
+.office-hours td:first-child {
+  border-right: 1px solid var(--rule);
+  padding-right: 1.25rem;
+}
+.office-hours th:nth-child(2),
+.office-hours td:nth-child(2) { padding-left: 1.25rem; }
+.office-hours th,
+.office-hours td { padding-right: 1.25rem; }
+
+/* On a phone, keep room, day and time each on one line ("SST 759" broken
+   across two lines is hard to read) and let only the names wrap. */
+.office-hours { overflow-x: auto; }
+.office-hours td:not(:first-child) { white-space: nowrap; }
+@media (max-width: 34rem) {
+  .office-hours th,
+  .office-hours td { padding-right: 0.6rem; }
+  .office-hours th:nth-child(2),
+  .office-hours td:nth-child(2) { padding-left: 0.6rem; }
+}
+
 /* A table with more columns than the 44rem text measure can hold without
    wrapping every cell to two or three lines — the course schedules, in
    practice. On a roomy screen the wrapper is allowed to run wider than the
