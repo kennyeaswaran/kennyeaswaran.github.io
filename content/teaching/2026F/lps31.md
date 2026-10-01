@@ -19,6 +19,8 @@ Professor: Kenny Easwaran (k.easwaran@uci.edu)
 | Chelsea Choi | SST 792 | Friday | 1-2 pm |
 | Orestis Dimou Belegratis | SST 786 | Thursday | 3:30-4:30 pm |
 
+Also available at other times, possibly in-office or via Zoom, if you contact us in advance. (TA e-mails available [on Canvas](https://canvas.eee.uci.edu/courses/84400).)
+
 </div>
 
 ## Section info
@@ -69,7 +71,7 @@ Sections 4, 7, and 10 have been cancelled.
 
 ## Textbook and study materials
 
-Textbook: Brian Skyrms, *Choice and Chance*, 4th Edition
+Textbook: Brian Skyrms, *Choice and Chance*, 4th Edition (full text available [on Canvas](https://canvas.eee.uci.edu/courses/84400), both as .pdf, and as AI-readable .md)
 
 I have made an [AI study guide](https://www.kennyeaswaran.org/lps31/), along
 with some other study tools for this class. (I recommend trying it with several
