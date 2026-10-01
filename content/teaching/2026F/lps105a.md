@@ -29,20 +29,20 @@ At the beginning of the term, each student should pick one day from weeks 1-5, a
         - Thursday: Maria (1.4), Basil (1.5), Josh (1.6)
 - **Week 2** (10/6, 10/8): Well-orderings, countable vs uncountable infinities
     - Presenters:
-        - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
-        - Thursday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Tuesday: Michael F (2.1), Zoe (2.2), Edmund (2.3)
+        - Thursday: Walter, Katrina, \_\_\_\_\_\_
 - **Week 3** (10/13, 10/15): Many countable infinities
     - Presenters:
-        - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
-        - Thursday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Tuesday: Elisander, Emily, Melisa
+        - Thursday: Caitlin, Mabel, Ziye
 - **Week 4** (10/20, 10/22): The real numbers, and the power set of the natural numbers
     - Presenters:
-        - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
-        - Thursday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Tuesday: Stephanie, Dessire, Haleigh
+        - Thursday: Diana, Vanessa, Yubin
 - **Week 5** (10/27, 10/29): The Axiom of Choice, the paradoxes
     - Presenters:
-        - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
-        - Thursday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Tuesday: Roniya, Matthew, Michael G
+        - Thursday: Hovhannes, \_\_\_\_\_\_, \_\_\_\_\_\_
 
 #### Part II: Formal axiomatic set theory
 
