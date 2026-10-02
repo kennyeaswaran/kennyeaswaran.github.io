@@ -42,13 +42,13 @@ At the beginning of the term, each student should pick one day from weeks 1-5, a
 - **Week 5** (10/27, 10/29): The Axiom of Choice, the paradoxes
     - Presenters:
         - Tuesday: Roniya, Matthew, Michael G
-        - Thursday: Hovhannes, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Thursday: Hovhannes, Damon, \_\_\_\_\_\_
 
 #### Part II: Formal axiomatic set theory
 
 - **Week 6** (11/3, 11/5): The formal language, and the "small" axioms
     - Presenters:
-        - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Tuesday: Ziyuan (6.1), \_\_\_\_\_\_, \_\_\_\_\_\_
         - Thursday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
 - **Week 7** (11/10, 11/12): Power set, foundation, separation, and replacement
     - Presenters:
