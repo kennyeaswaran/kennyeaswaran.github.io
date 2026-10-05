@@ -185,6 +185,14 @@ students always land on the current version, and git holds every prior revision
 if one is ever needed. Put the date in the link *text* so readers can see how
 current it is.
 
+When a Claude session delivers a new version of such a file from its own
+workspace, give the staged copy a name unique to that version
+(`set-theory-notes-2026-10-04.pdf`), not the published filename. Reusing a
+staged name from an earlier delivery in the same session silently wrote the
+*previous* version back over the file in October 2026: the modification time
+changed, the contents didn't, and git saw nothing to commit. Afterwards, check
+that the size or hash in the folder matches the new file.
+
 **Course pages** live at `/teaching/<YYYY><term>/<course>/`, where term is
 `W`, `S`, `Su`, or `F`, and course is the department abbreviation plus the
 primary (undergraduate) number, lowercase and unpunctuated: `lps105a`,
