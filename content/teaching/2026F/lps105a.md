@@ -30,7 +30,7 @@ At the beginning of the term, each student should pick one day from weeks 1-5, a
 - **Week 2** (10/6, 10/8): Well-orderings, countable vs uncountable infinities
     - Presenters:
         - Tuesday: Michael F (2.1), Zoe (2.2), Edmund (2.3)
-        - Thursday: Walter, Katrina, \_\_\_\_\_\_
+        - Thursday: Walter (2.4), \_\_\_\_\_\_
 - **Week 3** (10/13, 10/15): Many countable infinities
     - Presenters:
         - Tuesday: Elisander, Emily, Melisa
