@@ -30,19 +30,20 @@ At the beginning of the term, each student should pick one day from weeks 1-5, a
 - **Week 2** (10/6, 10/8): Well-orderings, countable vs uncountable infinities
     - Presenters:
         - Tuesday: Michael F (2.1), Zoe (2.2), Edmund (2.3)
-        - Thursday: Walter (2.4), \_\_\_\_\_\_
+        - Thursday: Walter (2.4)
 - **Week 3** (10/13, 10/15): Many countable infinities
     - Presenters:
-        - Tuesday: Elisander, Emily, Melisa
-        - Thursday: Caitlin, Mabel, Ziye
+        - Tuesday: Melisa (3.1), Elisander (3.2)
+        - Thursday: Emily (3.3), Caitlin, Mabel, Ziye
 - **Week 4** (10/20, 10/22): The real numbers, and the power set of the natural numbers
     - Presenters:
-        - Tuesday: Stephanie, Dessire, Haleigh
+        - Tuesday: Haleigh, \_\_\_\_\_\_, \_\_\_\_\_\_
         - Thursday: Diana, Vanessa, Yubin
 - **Week 5** (10/27, 10/29): The Axiom of Choice, the paradoxes
     - Presenters:
         - Tuesday: Roniya, Matthew, Michael G
         - Thursday: Hovhannes, Damon, \_\_\_\_\_\_
+        - (Still needed for part I: Jonathan, Ziyuan)
 
 #### Part II: Formal axiomatic set theory
 
