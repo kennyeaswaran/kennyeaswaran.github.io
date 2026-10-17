@@ -117,5 +117,10 @@ The final grade will be:
 - Section assignments: 10%
 - Homework: 10%
 
-There is also 2.5% extra credit for optional participation in a study about the
+There is also 2% extra credit for optional participation in a study about the
 Anteater virtues.
+
+- You can sign up until Friday, October 30, and must complete it by 11:59 pm on December 4 to receive extra credit
+- If you are 18 years or older and have not previously enrolled in the Anteater Virtues Project on Canvas, then you can join the study at [this link.](https://uci.questionpro.com/cultivating-iv?course_id=31)
+- If you don't meet those requirements, or don't want to do the main version of the study, you can use [this alternate link.](https://uci.questionpro.com/alternative-iv?course_id=31)
+- A message was sent through Canvas with more details.
