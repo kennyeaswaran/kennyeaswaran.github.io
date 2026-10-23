@@ -38,8 +38,8 @@ At the beginning of the term, each student should pick one day from weeks 1-5, a
         - Thursday: Emily (3.3), Ziye (3.4)
 - **Week 4** (10/20, 10/22): The real numbers, and the power set of the natural numbers
     - Presenters:
-        - Tuesday: Haleigh, Ziyuan, \_\_\_\_\_\_
-        - Thursday: Mabel, Diana, Vanessa, Yubin
+        - Tuesday: Haleigh (4.1)
+        - Thursday: Ziyuan (4.2), Mabel (4.3), Diana (4.4), Vanessa (4.5), Yubin (4.6)
 - **Week 5** (10/27, 10/29): The Axiom of Choice, the paradoxes
     - Presenters:
         - Tuesday: Roniya, Matthew, Michael G
