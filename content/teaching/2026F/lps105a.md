@@ -15,8 +15,8 @@ Each week, six students will each present one of the exercises from that section
 
 At the beginning of the term, each student should pick one day from weeks 1-5, and one day from weeks 6-10, to do a presentation. We will meet to talk about which specific exercise you will pick as the dates get closer.
 
-[Class notes (PDF, version of 17 October 2026)](/teaching/2026F/lps105a/set-theory-notes.pdf){: .button }
-[Exercises only (PDF, version of 17 October 2026)](/teaching/2026F/lps105a/set-theory-exercises.pdf){: .button }
+[Class notes (PDF, version of 24 October 2026)](/teaching/2026F/lps105a/set-theory-notes.pdf){: .button }
+[Exercises only (PDF, version of 24 October 2026)](/teaching/2026F/lps105a/set-theory-exercises.pdf){: .button }
 
 
 ## Class schedule
