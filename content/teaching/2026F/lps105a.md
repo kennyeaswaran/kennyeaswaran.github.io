@@ -42,32 +42,32 @@ At the beginning of the term, each student should pick one day from weeks 1-5, a
         - Thursday: Ziyuan (4.2), Mabel (4.3), Diana (4.4), Vanessa (4.5), Yubin (4.6)
 - **Week 5** (10/27, 10/29): The Axiom of Choice, the paradoxes
     - Presenters:
-        - Tuesday: Roniya, Matthew, Michael G
-        - Thursday: Hovhannes, Damon, \_\_\_\_\_\_
+        - Tuesday: Michael G (5.1), Matthew (5.2), Roniya (5.3)
+        - Thursday: Hovhannes (5.4), Damon (5.5)
         - (Still needed for part I: Caitlyn)
 
 #### Part II: Formal axiomatic set theory
 
 - **Week 6** (11/3, 11/5): The formal language, and the "small" axioms
     - Presenters:
-        - Tuesday: Ziyuan (6.1), \_\_\_\_\_\_, \_\_\_\_\_\_
-        - Thursday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Tuesday: Zoe (6.1), Ziyuan, Basil
+        - Thursday: Jared, \_\_\_\_\_\_, \_\_\_\_\_\_
 - **Week 7** (11/10, 11/12): Power set, foundation, separation, and replacement
     - Presenters:
-        - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
-        - Thursday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Tuesday: Joshua, Li Xin, Melisa
+        - Thursday: Elisander, Walter, Matthew
 - **Week 8** (11/17, 11/19): Binary relations, well-orderings, and the axiom of infinity
     - Presenters:
         - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
-        - Thursday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Thursday: Emily, Vanessa, Maria
 - **Week 9** (11/24, Thanksgiving): Recursive and combinatorial definitions for arithmetic
     - Presenters:
-        - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Tuesday: Michael F, Edmund, Roniya
         - Thursday: no class (Thanksgiving)
 - **Week 10** (12/1, 12/3): TBD
     - Presenters:
-        - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
-        - Thursday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Tuesday: Michael G, Damon, Mabel
+        - Thursday: Hovhannes, \_\_\_\_\_\_, \_\_\_\_\_\_
 
 ## Goals and assignments
 
