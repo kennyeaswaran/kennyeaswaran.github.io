@@ -50,11 +50,11 @@ At the beginning of the term, each student should pick one day from weeks 1-5, a
 
 - **Week 6** (11/3, 11/5): The formal language, and the "small" axioms
     - Presenters:
-        - Tuesday: Zoe (6.1), Basil (6.2), Ziyuan
-        - Thursday: Jared, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Tuesday: Zoe (6.1), Basil (6.3), Ziyuan (6.5)
+        - Thursday: Jared (6.6)
 - **Week 7** (11/10, 11/12): Power set, foundation, separation, and replacement
     - Presenters:
-        - Tuesday: Joshua, Li Xin, Melisa
+        - Tuesday: Joshua, Li Xin (7.2), Melisa
         - Thursday: Elisander, Walter, Matthew
 - **Week 8** (11/17, 11/19): Binary relations, well-orderings, and the axiom of infinity
     - Presenters:
