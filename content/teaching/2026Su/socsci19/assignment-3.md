@@ -39,7 +39,7 @@ Now, we will try to do the same with a pure LLM with no chatbot. Go to
 [https://textsynth.com/completion.html](https://textsynth.com/completion.html)
 and try a few different versions.
 
-- For one of them, just give it a single sentence prompt, something like "[character] from [fiction] is a [type of AI] rather than [type of AI]. We can see this because", and then hit "Complete text" or "generate another".
+- For one of them, just give it a single sentence prompt, something like *(example prompt removed)*, and then hit "Complete text" or "generate another".
 - For a second, take several sentences of the output from either ChatGPT or Claude or Gemini, and see how this text-completer continues from several sentences.
 - For a third, take a few paragraphs of one of those outputs, and see how this continues.
 
@@ -66,14 +66,7 @@ presentation.
 
 ## Questions from previous assignment, for copying
 
-Consider the work of fiction [insert title here] [if it's Harry Potter, also
-mention that this is about the Sorting Hat]
-
-1. What year is this fiction from? Give a brief (3-4 sentence) summary of this fiction that will help someone who hasn't read/watched it understand the context of discussion of AI in this fiction.
-2. Does the "artificially intelligent" being in this fiction appear to be a general-purpose artificial intelligence (AGI) or a special-purpose one? If it is special-purpose, does it appear to identify/classify, recommend, generate, or more broadly "do"? It might not be totally clear from the story, or some of the characters may believe something false about it. Please include a few sentences explaining this if you think there's something to explain.
-3. Does the "artificially intelligent" being in this story appear to be agentic AI or tool AI? Does it have goals and interests of its own that it pursues with agency, or does it primarily react to the commands of others? Are there any changes in its level of agency through the story, or do any characters importantly mis-perceive it? Does the agency or lack thereof affect the story - would the story work just as well as a story if it had been the other way?
-4. Does the "artificially intelligent" being in this fiction appear to be embodied or disembodied? Does this embodiment or disembodiment affect anything that it does in the story - could it equally well have worked the other way?
-5. Does the "artificially intelligent" being in this fiction appear to be a symbolic system, that is intelligently programmed in order to follow specific instructions, or does it appear to be a neural net, that has been given some sort of training data and figured out what to do on its own? It may not be clear from the story what the source of its intelligence here, but you should write down something about what we might know, or the characters might believe.
+*(questions removed)*
 
 Assignments [1](/teaching/2026Su/socsci19/assignment-1/) [2](/teaching/2026Su/socsci19/assignment-2/) 3 [4](/teaching/2026Su/socsci19/assignment-4/) [5](/teaching/2026Su/socsci19/assignment-5/) [6](/teaching/2026Su/socsci19/assignment-6/) [7](/teaching/2026Su/socsci19/assignment-7/) [8](/teaching/2026Su/socsci19/assignment-8/) [9](/teaching/2026Su/socsci19/assignment-9/) · [Final project](/teaching/2026Su/socsci19/final-project/)
 
