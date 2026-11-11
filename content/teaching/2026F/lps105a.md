@@ -54,12 +54,12 @@ At the beginning of the term, each student should pick one day from weeks 1-5, a
         - Thursday: Jared (6.6)
 - **Week 7** (11/10, 11/12): Power set, foundation, separation, and replacement
     - Presenters:
-        - Tuesday: Joshua, Li Xin (7.2), Melisa
-        - Thursday: Elisander, Walter, Matthew
+        - Tuesday: Joshua (7.1), Li Xin (7.2), Melisa (7.3)
+        - Thursday: Walter (7.4), Elisander (7.5), Matthew
 - **Week 8** (11/17, 11/19): Binary relations, well-orderings, and the axiom of infinity
     - Presenters:
-        - Tuesday: \_\_\_\_\_\_, \_\_\_\_\_\_, \_\_\_\_\_\_
-        - Thursday: Emily, Vanessa, Maria
+        - Tuesday: Haleigh, Diana, Maria (8.2)
+        - Thursday: Emily, Vanessa, Yubin
 - **Week 9** (11/24, Thanksgiving): Recursive and combinatorial definitions for arithmetic
     - Presenters:
         - Tuesday: Michael F, Edmund, Roniya
@@ -68,6 +68,7 @@ At the beginning of the term, each student should pick one day from weeks 1-5, a
     - Presenters:
         - Tuesday: Michael G, Damon, Mabel
         - Thursday: Hovhannes, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - (Still needed for Part II: Caitlin, Neela, Ziye)
 
 ## Goals and assignments
 
