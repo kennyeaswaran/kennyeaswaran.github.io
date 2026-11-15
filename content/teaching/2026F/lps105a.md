@@ -55,7 +55,7 @@ At the beginning of the term, each student should pick one day from weeks 1-5, a
 - **Week 7** (11/10, 11/12): Power set, foundation, separation, and replacement
     - Presenters:
         - Tuesday: Joshua (7.1), Li Xin (7.2), Melisa (7.3)
-        - Thursday: Walter (7.4), Elisander (7.5), Matthew
+        - Thursday: Walter (7.4), Elisander (7.5), Matthew (7.6)
 - **Week 8** (11/17, 11/19): Binary relations, well-orderings, and the axiom of infinity
     - Presenters:
         - Tuesday: Haleigh, Diana, Maria (8.2)
