@@ -23,7 +23,7 @@ At the beginning of the term, each student should pick one day from weeks 1-5, a
 
 #### Part I: Informal set theory
 
-- **Week 0** (9/24): Sets as meanings of words
+- **Week 0** (9/24): Sets as the meanings of words
 - **Week 1** (9/29, 10/1): Sets and numbers
     - Presenters:
         - Tuesday: Li Xin (1.1), Neela (1.2), Jared (1.3)
@@ -32,11 +32,11 @@ At the beginning of the term, each student should pick one day from weeks 1-5, a
     - Presenters:
         - Tuesday: Michael F (2.1), Zoe (2.2), Edmund (2.3)
         - Thursday: Walter (2.4)
-- **Week 3** (10/13, 10/15): Many countable infinities
+- **Week 3** (10/13, 10/15): Many countably infinite sets
     - Presenters:
         - Tuesday: Melisa (3.1), Elisander (3.2)
         - Thursday: Emily (3.3), Ziye (3.4)
-- **Week 4** (10/20, 10/22): The real numbers, and the power set of the natural numbers
+- **Week 4** (10/20, 10/22): Comparing the real numbers and the power set of the natural numbers
     - Presenters:
         - Tuesday: Haleigh (4.1)
         - Thursday: Ziyuan (4.2), Mabel (4.3), Diana (4.4), Vanessa (4.5), Yubin (4.6)
@@ -48,26 +48,26 @@ At the beginning of the term, each student should pick one day from weeks 1-5, a
 
 #### Part II: Formal axiomatic set theory
 
-- **Week 6** (11/3, 11/5): The formal language, and the "small" axioms
+- **Week 6** (11/3, 11/5): The formal language, and the "small" axioms: Extensionality, Pairing, Union, and Empty Set
     - Presenters:
         - Tuesday: Zoe (6.1), Basil (6.3), Ziyuan (6.5)
         - Thursday: Jared (6.6)
-- **Week 7** (11/10, 11/12): Power set, foundation, separation, and replacement
+- **Week 7** (11/10, 11/12): The "medium" axioms: Power set, (Foundation), and Separation
     - Presenters:
         - Tuesday: Joshua (7.1), Li Xin (7.2), Melisa (7.3)
         - Thursday: Walter (7.4), Elisander (7.5), Matthew (7.6)
-- **Week 8** (11/17, 11/19): Binary relations, well-orderings, and the axiom of infinity
+- **Week 8** (11/17, 11/19): Infinity, and operations on natural numbers
     - Presenters:
-        - Tuesday: Haleigh, Diana, Maria (8.2)
+        - Tuesday: Haleigh, Maria (8.2)
         - Thursday: Emily, Vanessa, Yubin
-- **Week 9** (11/24, Thanksgiving): Recursive and combinatorial definitions for arithmetic
+- **Week 9** (11/24, Thanksgiving): Well-orderings, ordinals, Replacement, and the Well-Ordering Theorem
     - Presenters:
         - Tuesday: Michael F, Edmund, Roniya
         - Thursday: no class (Thanksgiving)
 - **Week 10** (12/1, 12/3): TBD
     - Presenters:
         - Tuesday: Michael G, Damon, Mabel
-        - Thursday: Hovhannes, \_\_\_\_\_\_, \_\_\_\_\_\_
+        - Thursday: Hovhannes, Diana, \_\_\_\_\_\_
         - (Still needed for Part II: Caitlin, Neela, Ziye)
 
 ## Goals and assignments
