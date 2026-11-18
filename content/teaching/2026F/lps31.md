@@ -64,7 +64,7 @@ Sections 4, 7, and 10 have been cancelled.
 <tr><td>Nov. 17, 19</td><td>Ch. VII</td><td>7</td><td>7</td><td>8</td><td><a href="https://www.gradescope.com/courses/1406274/assignments/8688045">HW7</a></td><td></td></tr>
 <tr><td>Nov. 24 (no class Thanksgiving)</td><td>Ch. VIII</td><td>8</td><td>8</td><td>—</td><td><a href="https://www.gradescope.com/courses/1406274/assignments/8688043">HW8</a></td><td></td></tr>
 <tr><td>Dec. 1, 3</td><td>Review</td><td>9</td><td>9</td><td>9</td><td>(none)</td><td></td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td>Thurs., Dec. 10, 1:30-3:30 — Final Exam</td></tr>
+<tr><td></td><td></td><td></td><td></td><td></td><td></td><td>Thurs., Dec. 10, 1:30-3:30 — Final Exam<br>(samples: <a href="/teaching/2026F/lps31/final-sample-1.pdf">1</a>, <a href="/teaching/2026F/lps31/final-sample-2.pdf">2</a>, <a href="/teaching/2026F/lps31/final-sample-3.pdf">3</a>)</td></tr>
 </tbody>
 </table>
 </div>
