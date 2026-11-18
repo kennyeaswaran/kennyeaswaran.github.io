@@ -79,8 +79,7 @@ different AI systems, which all have different personalities, either by creating
 accounts with them, or in the more data-secure way through UCI's private
 [ZotGPT](https://zotgpt.uci.edu/).)
 
-Sample finals: [1](/teaching/2026F/lps31/final-sample-1.pdf)
-([accessible version](/teaching/2026F/lps31/final-sample-1-accessible.pdf)),
+Sample finals: [1](/teaching/2026F/lps31/final-sample-1.pdf),
 [2](/teaching/2026F/lps31/final-sample-2.pdf),
 [3](/teaching/2026F/lps31/final-sample-3.pdf)
 

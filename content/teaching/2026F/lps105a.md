@@ -58,11 +58,11 @@ At the beginning of the term, each student should pick one day from weeks 1-5, a
         - Thursday: Walter (7.4), Elisander (7.5), Matthew (7.6)
 - **Week 8** (11/17, 11/19): Infinity, and operations on natural numbers
     - Presenters:
-        - Tuesday: Haleigh, Maria (8.2)
-        - Thursday: Emily, Vanessa, Yubin
+        - Tuesday: Maria (8.2)
+        - Thursday: Vanessa (8.3), Emily (8.4), Yubin (8.5), Haleigh
 - **Week 9** (11/24, Thanksgiving): Well-orderings, ordinals, Replacement, and the Well-Ordering Theorem
     - Presenters:
-        - Tuesday: Michael F, Edmund, Roniya
+        - Tuesday: Michael F, Edmund, Roniya (9.4)
         - Thursday: no class (Thanksgiving)
 - **Week 10** (12/1, 12/3): TBD
     - Presenters:
