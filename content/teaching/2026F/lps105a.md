@@ -62,7 +62,7 @@ At the beginning of the term, each student should pick one day from weeks 1-5, a
         - Thursday: Vanessa (8.3), Emily (8.4), Yubin (8.5), Haleigh
 - **Week 9** (11/24, Thanksgiving): Well-orderings, ordinals, Replacement, and the Well-Ordering Theorem
     - Presenters:
-        - Tuesday: Michael F, Edmund, Roniya (9.4)
+        - Tuesday: Edmund (9.1), Michael F (9.2), Roniya (9.4)
         - Thursday: no class (Thanksgiving)
 - **Week 10** (12/1, 12/3): TBD
     - Presenters:
