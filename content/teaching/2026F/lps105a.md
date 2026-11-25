@@ -15,8 +15,8 @@ Each week, six students will each present one of the exercises from that section
 
 At the beginning of the term, each student should pick one day from weeks 1-5, and one day from weeks 6-10, to do a presentation. We will meet to talk about which specific exercise you will pick as the dates get closer.
 
-[Class notes (PDF, version of 15 November 2026)](/teaching/2026F/lps105a/set-theory-notes.pdf){: .button }
-[Exercises only (PDF, version of 15 November 2026)](/teaching/2026F/lps105a/set-theory-exercises.pdf){: .button }
+[Class notes (PDF, version of 24 November 2026)](/teaching/2026F/lps105a/set-theory-notes.pdf){: .button }
+[Exercises only (PDF, version of 24 November 2026)](/teaching/2026F/lps105a/set-theory-exercises.pdf){: .button }
 
 
 ## Class schedule
@@ -60,14 +60,14 @@ At the beginning of the term, each student should pick one day from weeks 1-5, a
     - Presenters:
         - Tuesday: Maria (8.2)
         - Thursday: Vanessa (8.3), Emily (8.4), Yubin (8.5), Haleigh
-- **Week 9** (11/24, Thanksgiving): Well-orderings, ordinals, Replacement, and the Well-Ordering Theorem
+- **Week 9** (11/24, Thanksgiving): Well-orderings, ordinals, and Replacement
     - Presenters:
         - Tuesday: Edmund (9.1), Michael F (9.2), Roniya (9.4)
         - Thursday: no class (Thanksgiving)
-- **Week 10** (12/1, 12/3): TBD
+- **Week 10** (12/1, 12/3): The Well-Ordering Theorem, cardinals, the Continuum Hypothesis and further topics
     - Presenters:
-        - Tuesday: Michael G, Damon, Mabel
-        - Thursday: Hovhannes, Diana, \_\_\_\_\_\_
+        - Tuesday: Mabel (9.5), Damon (9.6)
+        - Thursday: Hovhannes, Diana, Michael G, Neela (10.1)
         - (Still needed for Part II: Caitlin, Neela, Ziye)
 
 ## Goals and assignments

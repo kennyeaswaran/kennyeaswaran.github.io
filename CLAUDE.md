@@ -191,7 +191,10 @@ workspace, give the staged copy a name unique to that version
 staged name from an earlier delivery in the same session silently wrote the
 *previous* version back over the file in October 2026: the modification time
 changed, the contents didn't, and git saw nothing to commit. Afterwards, check
-that the size or hash in the folder matches the new file.
+that the size or hash in the folder matches the new file. The commit tool also
+refuses (since November 2026) to overwrite a file the session hasn't read:
+stage the current published copy first, then commit with the `mtimeMs` that
+staging returns as `expectedMtimeMs`.
 
 **Course pages** live at `/teaching/<YYYY><term>/<course>/`, where term is
 `W`, `S`, `Su`, or `F`, and course is the department abbreviation plus the
